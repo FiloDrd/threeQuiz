@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreeQuiz - Ripasso Errori</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        :root {
+            --primary-color: #007bff;
+            --primary-hover-color: #0056b3;
+            --secondary-color: #6c757d;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            --warning-color: #ffc107; /* Per il pulsante di ripasso */
+            --warning-hover-color: #e0a800;
+            --light-bg-color: #f8f9fa;
+            --dark-text-color: #343a40;
+            --light-text-color: #f8f9fa;
+            --border-color: #dee2e6;
+            --card-bg-color: #ffffff;
+            --shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--light-bg-color);
+            color: var(--dark-text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: var(--card-bg-color);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            width: 100%;
+            max-width: 850px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-weight: 600;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: var(--primary-hover-color);
+            margin-top: 25px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        #file-input-container, #mode-selection-area, #topic-selection-area-practice, #quiz-area, #results-area {
+            margin-top: 25px;
+        }
+
+        #file-input-container label {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            font-size: 1.1em;
+        }
+        input[type="file"] {
+            display: block;
+            margin: 0 auto 20px auto;
+            padding: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: #f1f3f5;
+        }
+
+        #mode-selection-area button {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            margin: 10px;
+            min-width: 220px;
+        }
+
+        #topic-selection-area-practice label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+        #topic-select-practice {
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            margin-right: 10px;
+            min-width: 250px;
+            font-size: 1em;
+        }
+
+        #question-topic {
+            font-size: 0.95em;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+            font-weight: 400;
+        }
+        #question-text {
+            font-size: 1.35em;
+            margin-bottom: 30px;
+            min-height: 70px;
+            color: var(--dark-text-color);
+            font-weight: 400;
+        }
+        .options button {
+            display: block;
+            width: 100%;
+            padding: 14px 18px;
+            margin: 12px 0;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background-color: var(--card-bg-color);
+            color: var(--dark-text-color);
+            cursor: pointer;
+            font-size: 1.05em;
+            text-align: left;
+            transition: background-color 0.2s ease-in-out, transform 0.1s ease, box-shadow 0.2s;
+        }
+        .options button:hover:not(:disabled) {
+            background-color: #eef2f7;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+        .options button.correct {
+            background-color: #d1e7dd;
+            color: #0f5132;
+            border-color: #badbcc;
+            font-weight: 600;
+        }
+        .options button.incorrect {
+            background-color: #f8d7da;
+            color: #842029;
+            border-color: #f5c2c7;
+        }
+        .options button.selected:not(.correct):not(.incorrect) {
+             background-color: #cfe2ff;
+             border-color: #b6d4fe;
+        }
+        button:disabled {
+            cursor: not-allowed;
+            opacity: 0.65;
+        }
+
+        .control-buttons button, #start-practice-topic-quiz-btn, .mode-btn, #review-errors-btn {
+            padding: 12px 28px;
+            background-color: var(--primary-color);
+            color: var(--light-text-color);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.05em;
+            margin: 10px 8px;
+            transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+            font-weight: 600;
+        }
+        .control-buttons button:hover:not(:disabled), 
+        #start-practice-topic-quiz-btn:hover:not(:disabled), 
+        .mode-btn:hover:not(:disabled),
+        #review-errors-btn:hover:not(:disabled) {
+            background-color: var(--primary-hover-color);
+            transform: translateY(-1px);
+        }
+        #prev-btn {
+            background-color: var(--secondary-color);
+        }
+        #quit-quiz-btn {
+            background-color: var(--danger-color);
+        }
+        #prev-btn:hover:not(:disabled) {
+            background-color: #545b62;
+        }
+        #review-errors-btn {
+            background-color: var(--warning-color);
+            color: var(--dark-text-color);
+        }
+        #review-errors-btn:hover:not(:disabled) {
+            background-color: var(--warning-hover-color);
+        }
+
+
+        #feedback {
+            margin-top: 22px;
+            font-weight: 600;
+            min-height: 30px;
+            font-size: 1.15em;
+        }
+        #score-display {
+            font-size: 1.25em;
+            margin-bottom: 18px;
+            font-weight: 600;
+        }
+        #incorrect-questions-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-top: 22px;
+        }
+        #incorrect-questions-list li {
+            background-color: #fff3cd;
+            padding: 12px;
+            border: 1px solid #ffeeba;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            font-size: 0.98em;
+        }
+        #incorrect-questions-list li strong {
+            color: var(--primary-hover-color);
+        }
+
+        #progress-bar-container {
+            width: 100%;
+            background-color: #e9ecef;
+            border-radius: 25px;
+            margin-bottom: 30px;
+            height: 28px;
+            overflow: hidden;
+        }
+        #progress-bar {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, var(--success-color) 0%, #4aa051 100%);
+            border-radius: 25px;
+            text-align: center;
+            line-height: 28px;
+            color: white;
+            font-weight: 600;
+            transition: width 0.4s ease-in-out;
+            font-size: 0.95em;
+        }
+
+        .btn-secondary { 
+            background-color: var(--secondary-color);
+        }
+        .btn-secondary:hover:not(:disabled) {
+            background-color: #545b62;
+        }
+
+    </style>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questionTextElement = document.getElementById('question-text');
+            const questionTopicElement = document.getElementById('question-topic');
+            const optionsContainer = document.getElementById('options-container');
+            const feedbackElement = document.getElementById('feedback');
+            const fileFeedbackElement = document.getElementById('file-feedback');
+            const nextButton = document.getElementById('next-btn');
+            const prevButton = document.getElementById('prev-btn');
+            const quitQuizButton = document.getElementById('quit-quiz-btn');
+
+            
+            const quizArea = document.getElementById('quiz-area');
+            const resultsArea = document.getElementById('results-area');
+            const resultsTitle = document.getElementById('results-title');
+            const scoreDisplay = document.getElementById('score-display');
+            const incorrectQuestionsListElement = document.getElementById('incorrect-questions-list'); // Rinominato per chiarezza
+            
+            const jsonFileInput = document.getElementById('json-file');
+            const fileInputContainer = document.getElementById('file-input-container');
+            
+            const modeSelectionArea = document.getElementById('mode-selection-area');
+            const examModeButton = document.getElementById('exam-mode-btn');
+            const practiceModeButton = document.getElementById('practice-mode-btn');
+            const numInputField = document.getElementById('num-input-field')           
+            const numInputContainer = document.getElementById('num-input-container'); // Aggiungi riferimento al contenitore
+            
+            const topicSelectionAreaPractice = document.getElementById('topic-selection-area-practice');
+            const topicSelectPractice = document.getElementById('topic-select-practice');
+            const startPracticeTopicQuizButton = document.getElementById('start-practice-topic-quiz-btn');
+            const backToModeSelectButton = document.getElementById('back-to-mode-select-btn');
+            
+            const restartButton = document.getElementById('restart-btn');
+            const reviewErrorsButton = document.getElementById('review-errors-btn'); // NUOVO ELEMENTO
+
+            const progressBar = document.getElementById('progress-bar');
+
+            let allQuestions = [];
+            let currentQuizQuestions = []; // Domande del quiz corrente (esame, pratica, o ripasso)
+            let originalIncorrectQuestionsForReview = []; // Salva gli oggetti domanda originali sbagliati
+            let currentQuestionIndex = 0;
+            let userAnswers = {}; 
+            let EXAM_MODE_QUESTION_COUNT = 30;
+            const MAX_VOTO = 33;
+            let isReviewMode = false; // Flag per la modalità ripasso
+
+            if (jsonFileInput) jsonFileInput.addEventListener('change', handleFileLoad);
+            if (examModeButton) examModeButton.addEventListener('click', startExamMode);
+            if (practiceModeButton) practiceModeButton.addEventListener('click', showPracticeTopicSelection);
+            if (startPracticeTopicQuizButton) startPracticeTopicQuizButton.addEventListener('click', startPracticeMode);
+            if (numInputContainer) numInputContainer.style.display='none'
+            if (numInputField) numInputField.addEventListener('input', handleNumInputChange)
+            if (backToModeSelectButton) {
+                backToModeSelectButton.addEventListener('click', () => {
+                    topicSelectionAreaPractice.style.display = 'none';
+                    modeSelectionArea.style.display = 'block';
+                });
+            }
+            if (nextButton) nextButton.addEventListener('click', navigateNext);
+            if (prevButton) prevButton.addEventListener('click', navigatePrev);
+            if (quitQuizButton) {
+                quitQuizButton.addEventListener('click', () => {
+                    if (confirm("Sei sicuro di voler uscire dal quiz? I progressi non salvati andranno persi.")) {
+                        resetAndShowModeSelection(false); // Non è un riavvio completo, torna alla selezione modalità
+                    }
+                });
+            }
+            if (restartButton) restartButton.addEventListener('click', () => {
+
+                resetAndShowModeSelection(false); // Non è un riavvio completo, torna alla selezione modalità
+    
+            });
+            if (reviewErrorsButton) reviewErrorsButton.addEventListener('click', startErrorReviewMode); // NUOVO EVENT LISTENER
+
+            function resetAndGoToStart() {
+                isReviewMode = false;
+                // ... (resto della funzione come prima)
+                quizArea.style.display = 'none';
+                resultsArea.style.display = 'none';
+                modeSelectionArea.style.display = 'none';
+                topicSelectionAreaPractice.style.display = 'none';
+                fileInputContainer.style.display = 'block';
+                numInputContainer.style.display='none';
+                if(jsonFileInput) jsonFileInput.value = ''; 
+                if(fileFeedbackElement) fileFeedbackElement.textContent = '';
+                allQuestions = []; // Resetta anche allQuestions
+                currentQuizQuestions = [];
+                originalIncorrectQuestionsForReview = [];
+                userAnswers = {};
+                currentQuestionIndex = 0;
+                if(progressBar) {
+                    progressBar.style.width = '0%';
+                    progressBar.textContent = '0%';
+                }
+            }
+            
+            function resetAndShowModeSelection(isFullReset = true) { // Aggiunto parametro per distinguere
+                isReviewMode = false;
+                if(quizArea) quizArea.style.display = 'none';
+                if(resultsArea) resultsArea.style.display = 'none';
+                if(topicSelectionAreaPractice) topicSelectionAreaPractice.style.display = 'none';
+                if(modeSelectionArea) modeSelectionArea.style.display = 'block';
+                if(numInputContainer) numInputContainer.style.display='block'
+                currentQuizQuestions = [];
+                originalIncorrectQuestionsForReview = [];
+                userAnswers = {};
+                currentQuestionIndex = 0;
+                if(progressBar) {
+                    progressBar.style.width = '0%';
+                    progressBar.textContent = '0%';
+                }
+                 if(isFullReset && jsonFileInput) { // Se è un reset completo, pulisci anche il file input
+                    jsonFileInput.value = '';
+                    if(fileFeedbackElement) fileFeedbackElement.textContent = '';
+                    allQuestions = [];
+                }
+            }
+
+            function handleFileLoad(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        try {
+                            allQuestions = JSON.parse(e.target.result);
+                            // Aggiungiamo un ID univoco a ogni domanda se non presente, utile per il ripasso
+                            allQuestions.forEach((q, index) => {
+                                if (!q.id) { // Se l'ID non è già nel JSON
+                                    q.id = `q-${index}-${Date.now()}`; // Crea un ID semplice
+                                }
+                            });
+
+                            if (Array.isArray(allQuestions) && allQuestions.length > 0) {
+                                if(numInputContainer) numInputContainer.style.display = 'block'; // Mostra il contenitore dell'input
+                                if(modeSelectionArea) modeSelectionArea.style.display = 'block';
+                                if(fileInputContainer) fileInputContainer.style.display = 'none';
+                                if(fileFeedbackElement) fileFeedbackElement.textContent = `Caricate ${allQuestions.length} domande. Scegli una modalità.`;
+                                populatePracticeTopicSelector();
+                            } else {
+                                if(fileFeedbackElement) fileFeedbackElement.textContent = 'File JSON non valido o vuoto.';
+                            }
+                        } catch (error) {
+                            if(fileFeedbackElement) fileFeedbackElement.textContent = 'Errore nel parsing del file JSON.';
+                            console.error("Errore JSON:", error);
+                        }
+                    };
+                    reader.readAsText(file);
+                }
+            }
+
+            function handleNumInputChange(event){
+                console.log(event.target.value)
+                EXAM_MODE_QUESTION_COUNT = event.target.value
+                let whitespace = event.target.value ? ' ' : ''
+                
+                examModeButton.innerText = 'Modalità Esame ('+ EXAM_MODE_QUESTION_COUNT + whitespace + 'Domande Casuali)'
+            }
+
+            function populatePracticeTopicSelector() {
+                const topics = [...new Set(allQuestions.map(q => q.topic))].sort();
+                if(topicSelectPractice) {
+                    topicSelectPractice.innerHTML = '';
+                    topics.forEach(topic => {
+                        const option = document.createElement('option');
+                        option.value = topic;
+                        option.textContent = topic;
+                        topicSelectPractice.appendChild(option);
+                    });
+                }
+            }
+
+            function shuffleArray(array) {
+                let currentIndex = array.length, randomIndex;
+                while (currentIndex != 0) {
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex--;
+                    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+                }
+                return array;
+            }
+            
+            function getExamQuestions() {
+                 if (allQuestions.length === 0) return [];
+            
+                let availableQuestions = [...allQuestions];
+                shuffleArray(availableQuestions); 
+
+                if (availableQuestions.length <= EXAM_MODE_QUESTION_COUNT) {
+                    return availableQuestions; 
+                }
+                
+                const questionsByTopic = {};
+                allQuestions.forEach(q => {
+                    if (!questionsByTopic[q.topic]) {
+                        questionsByTopic[q.topic] = [];
+                    }
+                    questionsByTopic[q.topic].push(q);
+                });
+
+                const topics = Object.keys(questionsByTopic);
+                let examQuestions = [];
+                // Assicura almeno una domanda per topic se possibile e se i topic sono meno di EXAM_MODE_QUESTION_COUNT
+                let baseQuestionsPerTopic = topics.length <= EXAM_MODE_QUESTION_COUNT ? 1 : 0; 
+                let countFilledByBase = 0;
+
+                if (baseQuestionsPerTopic > 0) {
+                    topics.forEach(topic => {
+                        if (questionsByTopic[topic].length > 0) {
+                            shuffleArray(questionsByTopic[topic]);
+                            examQuestions.push(questionsByTopic[topic][0]);
+                            countFilledByBase++;
+                        }
+                    });
+                }
+                
+                let remainingNeeded = EXAM_MODE_QUESTION_COUNT - examQuestions.length;
+                if (remainingNeeded > 0) {
+                    let fillPool = [];
+                    // Crea un pool di domande non ancora selezionate
+                     allQuestions.forEach(q => {
+                        if (!examQuestions.find(eq => eq.id === q.id)) {
+                            fillPool.push(q);
+                        }
+                    });
+                    shuffleArray(fillPool);
+                    examQuestions.push(...fillPool.slice(0, remainingNeeded));
+                }
+                
+                shuffleArray(examQuestions); 
+                return examQuestions.slice(0, EXAM_MODE_QUESTION_COUNT);
+            }
+
+            function startExamMode() {
+                isReviewMode = false;
+                currentQuizQuestions = getExamQuestions();
+                if (currentQuizQuestions.length === 0) {
+                    if(fileFeedbackElement) fileFeedbackElement.textContent = 'Non ci sono abbastanza domande per la modalità esame o file non caricato.';
+                    return;
+                }
+                commonQuizStartSetup("Modalità Esame");
+            }
+
+            function showPracticeTopicSelection() {
+                isReviewMode = false;
+                if(modeSelectionArea) modeSelectionArea.style.display = 'none';
+                if(topicSelectionAreaPractice) topicSelectionAreaPractice.style.display = 'block';
+            }
+
+            function startPracticeMode() {
+                isReviewMode = false;
+                const selectedTopic = topicSelectPractice.value;
+                currentQuizQuestions = allQuestions.filter(q => q.topic === selectedTopic);
+                if (currentQuizQuestions.length === 0) {
+                    alert('Nessuna domanda trovata per questo argomento.');
+                    return;
+                }
+                shuffleArray(currentQuizQuestions); 
+                commonQuizStartSetup(`Pratica: ${selectedTopic}`);
+            }
+
+            // NUOVA FUNZIONE PER MODALITÀ RIPASSO ERRORI
+            function startErrorReviewMode() {
+                if (originalIncorrectQuestionsForReview.length === 0) {
+                    alert("Non ci sono errori da ripassare!");
+                    return;
+                }
+                isReviewMode = true;
+                currentQuizQuestions = [...originalIncorrectQuestionsForReview]; // Usa le domande sbagliate salvate
+                shuffleArray(currentQuizQuestions); // Mescola le domande sbagliate per il ripasso
+                commonQuizStartSetup("Ripasso Errori");
+            }
+
+            function commonQuizStartSetup(quizTitle) {
+                currentQuestionIndex = 0;
+                userAnswers = {}; // Resetta le risposte per il nuovo quiz/ripasso
+                if(modeSelectionArea) modeSelectionArea.style.display = 'none';
+                if(topicSelectionAreaPractice) topicSelectionAreaPractice.style.display = 'none';
+                if(resultsArea) resultsArea.style.display = 'none'; // Nascondi risultati precedenti
+                if(quizArea) quizArea.style.display = 'block';
+                if(feedbackElement) feedbackElement.textContent = '';
+                if(resultsTitle) resultsTitle.textContent = quizTitle; // Sarà usato quando si mostrano i risultati di QUESTO quiz
+                loadQuestion();
+                updateNavigationButtons();
+                updateProgressBar();
+            }
+            
+            function loadQuestion() {
+                const questionData = currentQuizQuestions[currentQuestionIndex];
+                if(!questionData) { // Sicurezza: se non ci sono domande (es. ripasso errori completato)
+                    showResults(); // Potrebbe mostrare un messaggio "Nessuna domanda" se currentQuizQuestions è vuoto
+                    return;
+                }
+
+                if(questionTopicElement) questionTopicElement.textContent = `Argomento: ${questionData.topic} (Domanda ${currentQuestionIndex + 1} di ${currentQuizQuestions.length})`;
+                if(questionTextElement) questionTextElement.textContent = questionData.question;
+                if(optionsContainer) optionsContainer.innerHTML = '';
+                if(feedbackElement) feedbackElement.textContent = '';
+
+                let displayedOptions;
+                let correctAnswerIndexInDisplayed;
+                let userSelectedIndexInDisplayed = -1; // Default per domande non ancora risposte
+
+                // Controlla se la domanda corrente (identificata da questionData.id se presente, o dall'indice)
+                // ha una risposta salvata in userAnswers per la sessione corrente (quiz o ripasso)
+                const currentQuestionKey = questionData.id || currentQuestionIndex.toString();
+
+
+                if (userAnswers[currentQuestionKey] && userAnswers[currentQuestionKey].displayedOptions) {
+                    const answerData = userAnswers[currentQuestionKey];
+                    displayedOptions = answerData.displayedOptions;
+                    correctAnswerIndexInDisplayed = answerData.correctAnswerIndexInDisplayed;
+                    userSelectedIndexInDisplayed = answerData.userSelectedIndexInDisplayed;
+                } else {
+                    const originalOptions = [...questionData.options]; 
+                    const originalCorrectAnswerText = originalOptions[questionData.answer];
+                    
+                    displayedOptions = shuffleArray(originalOptions); 
+                    correctAnswerIndexInDisplayed = displayedOptions.indexOf(originalCorrectAnswerText);
+                }
+
+                displayedOptions.forEach((optionText, indexInDisplayed) => {
+                    const button = document.createElement('button');
+                    button.textContent = optionText;
+                    
+                    if (userAnswers[currentQuestionKey]) { // Se è stata data una risposta a questa domanda IN QUESTA SESSIONE
+                        button.disabled = true;
+                        if (indexInDisplayed === correctAnswerIndexInDisplayed) {
+                            button.classList.add('correct');
+                        } else if (indexInDisplayed === userSelectedIndexInDisplayed) {
+                            button.classList.add('incorrect');
+                        }
+                        if (indexInDisplayed === userSelectedIndexInDisplayed) {
+                             button.classList.add('selected');
+                        }
+                    } else {
+                        button.addEventListener('click', () => selectAnswer(indexInDisplayed, correctAnswerIndexInDisplayed, displayedOptions, currentQuestionKey));
+                    }
+                    if(optionsContainer) optionsContainer.appendChild(button);
+                });
+                updateNavigationButtons();
+            }
+
+            function selectAnswer(selectedIndexInDisplayed, correctAnswerIndexInDisplayedFromLoad, currentDisplayedOptions, questionKey) {
+                if (userAnswers[questionKey]) return; 
+
+                userAnswers[questionKey] = {
+                    userSelectedIndexInDisplayed: selectedIndexInDisplayed,
+                    displayedOptions: currentDisplayedOptions, 
+                    correctAnswerIndexInDisplayed: correctAnswerIndexInDisplayedFromLoad,
+                    isCorrect: selectedIndexInDisplayed === correctAnswerIndexInDisplayedFromLoad // Salva se era corretta
+                };
+                
+                const buttons = optionsContainer.getElementsByTagName('button');
+                let isCorrect = selectedIndexInDisplayed === correctAnswerIndexInDisplayedFromLoad;
+
+                if (isCorrect) {
+                    if(feedbackElement) {
+                        feedbackElement.textContent = 'Corretto!';
+                        feedbackElement.style.color = 'var(--success-color)';
+                    }
+                } else {
+                    if(feedbackElement) {
+                        feedbackElement.textContent = `Sbagliato! La risposta corretta era: ${currentDisplayedOptions[correctAnswerIndexInDisplayedFromLoad]}`;
+                        feedbackElement.style.color = 'var(--danger-color)';
+                    }
+                    if(buttons[selectedIndexInDisplayed]) buttons[selectedIndexInDisplayed].classList.add('incorrect');
+                }
+                if(buttons[correctAnswerIndexInDisplayedFromLoad]) buttons[correctAnswerIndexInDisplayedFromLoad].classList.add('correct');
+
+                for (let button of buttons) {
+                    button.disabled = true;
+                }
+                updateNavigationButtons();
+                updateProgressBar();
+            }
+
+            function navigateNext() {
+                 if (currentQuestionIndex < currentQuizQuestions.length - 1) {
+                    currentQuestionIndex++;
+                    loadQuestion();
+                } else {
+                    const currentQuestionKey = currentQuizQuestions[currentQuestionIndex].id || currentQuestionIndex.toString();
+                    if (userAnswers[currentQuestionKey] || currentQuizQuestions.length === 0) {
+                        showResults();
+                    }
+                }
+            }
+
+            function navigatePrev() {
+                 if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    loadQuestion();
+                }
+            }
+
+            function updateNavigationButtons() {
+                if(prevButton) prevButton.style.display = currentQuestionIndex > 0 ? 'inline-block' : 'none';
+                
+                const isLastQuestion = currentQuestionIndex === currentQuizQuestions.length - 1;
+                // Usa questionKey per controllare se la domanda corrente è stata risposta
+                const currentQuestionKey = currentQuizQuestions.length > 0 ? (currentQuizQuestions[currentQuestionIndex].id || currentQuestionIndex.toString()) : null;
+                const answeredCurrent = currentQuestionKey ? userAnswers.hasOwnProperty(currentQuestionKey) : false;
+
+                if(nextButton) {
+                    if (isLastQuestion) {
+                        nextButton.textContent = answeredCurrent ? (isReviewMode ? 'Fine Ripasso' : 'Mostra Risultati') : 'Successiva';
+                        nextButton.style.display = answeredCurrent ? 'inline-block' : 'none'; 
+                    } else {
+                        nextButton.textContent = 'Successiva';
+                        nextButton.style.display = 'inline-block'; 
+                    }
+                }
+            }
+            
+            function updateProgressBar() {
+                const answeredCount = Object.keys(userAnswers).length;
+                const totalQuestionsInQuiz = currentQuizQuestions.length;
+                const progress = totalQuestionsInQuiz > 0 ? (answeredCount / totalQuestionsInQuiz) * 100 : 0;
+                if(progressBar) {
+                    progressBar.style.width = `${progress}%`;
+                    progressBar.textContent = totalQuestionsInQuiz > 0 ? `${Math.round(progress)}% (${answeredCount}/${totalQuestionsInQuiz})` : '0%';
+                }
+            }
+
+            function showResults() {
+                if(quizArea) quizArea.style.display = 'none';
+                if(resultsArea) resultsArea.style.display = 'block';
+                
+                let score = 0;
+                let tempIncorrectQuestionsForReview = []; // Array temporaneo per le domande di questo quiz
+
+                for (let i = 0; i < currentQuizQuestions.length; i++) {
+                    const questionData = currentQuizQuestions[i]; 
+                    const questionKey = questionData.id || i.toString();
+                    
+                    if (!userAnswers[questionKey] && currentQuizQuestions.length > 0) { 
+                        if (!isReviewMode) { // Salva per il ripasso solo se non siamo già in modalità ripasso
+                           tempIncorrectQuestionsForReview.push(questionData); // Salva l'oggetto domanda originale
+                        }
+                        if(incorrectQuestionsListElement) { // Aggiungi alla lista visuale degli errori
+                            const li = document.createElement('li');
+                            li.innerHTML = `<strong>Domanda (${questionData.topic}):</strong> ${questionData.question}<br>
+                                            <em>Tua risposta:</em> <i>Non risposto</i><br>
+                                            <em>Risposta corretta:</em> ${questionData.options[questionData.answer]}`;
+                            incorrectQuestionsListElement.appendChild(li);
+                        }
+                        continue; 
+                    }
+
+                    const userAnswerData = userAnswers[questionKey];
+                    const userSelectedOptionText = userAnswerData.displayedOptions[userAnswerData.userSelectedIndexInDisplayed];
+                    const correctOptionTextInDisplayed = userAnswerData.displayedOptions[userAnswerData.correctAnswerIndexInDisplayed];
+
+                    if (userAnswerData.isCorrect) { // Usa il flag salvato
+                        score++;
+                    } else {
+                        if (!isReviewMode) {
+                           tempIncorrectQuestionsForReview.push(questionData);
+                        }
+                         if(incorrectQuestionsListElement) {
+                            const li = document.createElement('li');
+                            li.innerHTML = `<strong>Domanda (${questionData.topic}):</strong> ${questionData.question}<br>
+                                            <em>Tua risposta:</em> ${userSelectedOptionText}<br>
+                                            <em>Risposta corretta:</em> ${correctOptionTextInDisplayed}`;
+                            incorrectQuestionsListElement.appendChild(li);
+                        }
+                    }
+                }
+                
+                // Aggiorna l'array globale degli errori solo se non siamo in modalità ripasso
+                if (!isReviewMode) {
+                    originalIncorrectQuestionsForReview = [...tempIncorrectQuestionsForReview];
+                }
+                var fattore_voto = MAX_VOTO / currentQuizQuestions.length;
+                if(scoreDisplay) scoreDisplay.textContent = `Punteggio ${isReviewMode ? 'Ripasso' : 'Finale'}: ${score} su ${currentQuizQuestions.length}. ${!isReviewMode ? `Voto Ricevuto: ${score*fattore_voto}` : ''} `;
+                
+                if(incorrectQuestionsListElement && incorrectQuestionsListElement.children.length === 0) { // Se la lista è ancora vuota
+                    if (currentQuizQuestions.length > 0) {
+                        incorrectQuestionsListElement.innerHTML = '<li>Nessuna domanda sbagliata! Complimenti!</li>';
+                    } else {
+                         incorrectQuestionsListElement.innerHTML = '<li>Nessuna domanda presente in questo quiz.</li>';
+                    }
+                }
+
+                // Mostra il pulsante "Ripassa Errori" solo se ci sono errori e non siamo già in modalità ripasso
+                if (reviewErrorsButton) {
+                    if (originalIncorrectQuestionsForReview.length > 0 && !isReviewMode) {
+                        reviewErrorsButton.style.display = 'inline-block';
+                    } else {
+                        reviewErrorsButton.style.display = 'none';
+                    }
+                }
+                if (isReviewMode && resultsTitle) { // Aggiorna titolo se in modalità ripasso
+                    resultsTitle.textContent = "Risultati Ripasso Errori";
+                }
+
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>ThreeQuiz</h1>
+
+        <div id="file-input-container">
+            <label for="json-file">Carica il file JSON delle domande:</label>
+            <input type="file" id="json-file" accept=".json">
+            <p id="file-feedback" style="min-height: 20px; margin-top: 10px; color: var(--secondary-color);"></p>
+        </div>
+
+        <div id="num-input-container" style="display: none;">
+            <label for="num-input-field">Inserisci il numero delle domande per ogni quiz</label>
+            <input type="number" id="num-input-field" min="1" value="30">
+            
+        </div>
+
+
+        <div id="mode-selection-area" style="display: none;">
+            <h2>Scegli la Modalità del Quiz</h2>
+            <button id="exam-mode-btn" class="mode-btn">Modalità Esame (30 Domande Casuali)</button>
+            <button id="practice-mode-btn" class="mode-btn">Modalità Pratica per Argomento</button>
+        </div>
+
+        <div id="topic-selection-area-practice" style="display: none;">
+            <h2>Seleziona un Argomento per la Pratica</h2>
+            <select id="topic-select-practice">
+            </select>
+            <button id="start-practice-topic-quiz-btn">Inizia Pratica</button>
+            <button id="back-to-mode-select-btn" class="btn-secondary">Indietro</button>
+        </div>
+
+        <div id="quiz-area" style="display: none;">
+            <div id="progress-bar-container">
+                <div id="progress-bar">0%</div>
+            </div>
+            <p id="question-topic"></p>
+            <p id="question-text"></p>
+            <div class="options" id="options-container"></div>
+            <p id="feedback"></p>
+            <div class="control-buttons">
+                <button id="prev-btn" style="display: none;">Precedente</button>
+                <button id="next-btn" style="display: none;">Successiva / Fine</button>
+                <button id="quit-quiz-btn" style="margin-top: 20px;">Esci dal Quiz</button>
+            </div>
+        </div>
+
+        <div id="results-area" style="display: none;">
+            <h2 id="results-title">Risultati del Quiz</h2>
+            <p id="score-display"></p>
+            <h3>Domande Sbagliate:</h3>
+            <ul id="incorrect-questions-list"></ul>
+            <button id="review-errors-btn" style="display: none;">Ripassa Errori</button> <!-- NUOVO PULSANTE -->
+            <button id="restart-btn" class="control-buttons">Nuovo Quiz</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

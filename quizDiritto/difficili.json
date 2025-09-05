@@ -1,0 +1,254 @@
+[
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Una legge ordinaria entra in vigore dopo la 'vacatio legis'. Questo periodo, se non diversamente specificato, serve a:",
+    "options": [
+      "Permettere alla Corte Costituzionale di verificarne la legittimità prima dell'applicazione.",
+      "Consentire ai cittadini e agli operatori del diritto di prendere conoscenza della nuova normativa prima che produca effetti.",
+      "Dare tempo al Governo di emanare i regolamenti attuativi indispensabili per la sua operatività."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'interpretazione analogica ('analogia legis') si applica quando una controversia non ha una precisa disposizione di legge. Il presupposto fondamentale per la sua applicazione è:",
+    "options": [
+      "L'assoluta identità tra il caso non regolato e un caso simile espressamente disciplinato.",
+      "L'esistenza di una 'eadem ratio' (medesima ragione giustificatrice) tra il caso non regolato e quello disciplinato da una norma per un caso simile.",
+      "La mancanza di qualsiasi principio generale dell'ordinamento applicabile al caso."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La differenza principale tra un Decreto Legge e un Decreto Legislativo risiede nel fatto che:",
+    "options": [
+      "Il Decreto Legge è emanato dal Parlamento su delega del Governo, mentre il Decreto Legislativo è un atto autonomo del Governo.",
+      "Il Decreto Legge è adottato dal Governo in casi di necessità e urgenza e deve essere convertito in legge, mentre il Decreto Legislativo è emanato dal Governo su legge delega del Parlamento.",
+      "Il Decreto Legge non necessita di pubblicazione in Gazzetta Ufficiale, a differenza del Decreto Legislativo."
+    ],
+    "answer": 1
+  },
+
+  {
+    "topic": "Diritto d'autore",
+    "question": "La tutela del diritto d'autore su un software (programma per elaboratore) si estende specificamente a:",
+    "options": [
+      "L'algoritmo matematico che il software implementa, se sufficientemente innovativo.",
+      "La sua 'forma espressiva' originale, includendo codice sorgente, codice oggetto e materiale preparatorio, ma non le idee e i principi alla base.",
+      "L'interfaccia grafica utente (GUI) solo se registrata come disegno o modello industriale."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'principio di esaurimento' del diritto di distribuzione di una copia di un'opera protetta (es. un libro o un CD software) implica che, dopo la prima vendita autorizzata dal titolare dei diritti all'interno dello Spazio Economico Europeo (SEE):",
+    "options": [
+      "Il titolare perde il diritto di controllare ulteriori noleggi o prestiti di quella specifica copia all'interno del SEE.",
+      "Il titolare perde il diritto di controllare ulteriori atti di rivendita di quella specifica copia all'interno del SEE.",
+      "Il titolare perde il diritto di creare nuove copie o opere derivate da quella specifica copia venduta."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La 'copia privata' di fonogrammi e videogrammi per uso personale e senza fini di lucro è generalmente consentita, ma su tale attività:",
+    "options": [
+      "Non grava alcun tipo di prelievo o compenso, essendo un'eccezione piena.",
+      "Grava un compenso (prelievo SIAE) corrisposto al momento dell'acquisto di apparecchi e supporti idonei alla registrazione.",
+      "È consentita solo se l'opera originale è già di dominio pubblico."
+    ],
+    "answer": 1
+  },
+
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "In un contratto di appalto per lo sviluppo di software 'su misura', se non diversamente pattuito, la proprietà intellettuale del software sviluppato:",
+    "options": [
+      "Rimane sempre in capo all'appaltatore (sviluppatore), che concede al committente una licenza d'uso perpetua.",
+      "Si trasferisce al committente con l'accettazione dell'opera, salvo che l'appaltatore si riservi specifici diritti morali.",
+      "Viene ripartita al 50% tra committente e appaltatore, salvo diversi accordi."
+    ],
+    "answer": 1 
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La differenza fondamentale tra un contratto di licenza d'uso software 'proprietario' e una licenza 'open source' (come la GPL) risiede principalmente:",
+    "options": [
+      "Nel costo della licenza, essendo le open source sempre gratuite e le proprietarie sempre a pagamento.",
+      "Nella disponibilità del codice sorgente e nelle libertà concesse all'utente di modificare e ridistribuire il software e le sue derivazioni.",
+      "Nel supporto tecnico, garantito solo per le licenze proprietarie."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le 'clausole vessatorie' in un contratto concluso tra un professionista e un consumatore, ai sensi del Codice del Consumo, sono nulle se:",
+    "options": [
+      "Il consumatore non le ha lette attentamente prima della firma.",
+      "Nonostante una specifica trattativa individuale, determinano un significativo squilibrio a danno del consumatore per alcune tipologie di clausole (lista nera).",
+      "Sono scritte con un carattere tipografico inferiore a 10 punti."
+    ],
+    "answer": 1  
+  },
+
+  {
+    "topic": "Proprietà industriale",
+    "question": "Un marchio può decadere per 'volgarizzazione' quando:",
+    "options": [
+      "Il marchio viene utilizzato in modo offensivo o contrario al buon costume.",
+      "Il marchio, a seguito dell'attività o inattività del titolare, è divenuto nel commercio la denominazione generica del prodotto o servizio per cui era registrato.",
+      "Il marchio non viene rinnovato alla scadenza dei 10 anni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il requisito dell''attività inventiva' (o 'non ovvietà') per la brevettabilità di un'invenzione implica che l'invenzione:",
+    "options": [
+      "Debba rappresentare una scoperta scientifica fondamentale e completamente nuova.",
+      "Non deve risultare in modo evidente dallo stato della tecnica per una persona del mestiere dotata di normali conoscenze nel settore.",
+      "Debba avere un'immediata e vasta applicazione industriale e commerciale."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Le 'rivendicazioni' (claims) in una domanda di brevetto servono a:",
+    "options": [
+      "Descrivere dettagliatamente il funzionamento dell'invenzione e i suoi vantaggi.",
+      "Definire specificamente l'ambito della protezione richiesta per l'invenzione, delimitando ciò che i terzi non possono fare senza consenso.",
+      "Elencare le precedenti invenzioni simili esistenti nello stato della tecnica."
+    ],
+    "answer": 1
+  },
+
+
+  {
+    "topic": "Privacy",
+    "question": "Il principio di 'minimizzazione dei dati' nel GDPR (art. 5) impone che i dati personali raccolti debbano essere:",
+    "options": [
+      "Il più possibile dettagliati per consentire una profilazione accurata dell'interessato.",
+      "Adeguati, pertinenti e limitati a quanto strettamente necessario rispetto alle finalità dichiarate per le quali sono trattati.",
+      "Conservati in forma criptata per un periodo massimo di 5 anni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Una 'decisione basata unicamente sul trattamento automatizzato, compresa la profilazione', che produce effetti giuridici o incide significativamente sull'interessato, è permessa dal GDPR:",
+    "options": [
+      "Sempre, purché l'algoritmo utilizzato sia trasparente e non discriminatorio.",
+      "Solo se necessaria per la conclusione o esecuzione di un contratto, autorizzata dal diritto dell'Unione/Stato membro o basata sul consenso esplicito dell'interessato, con adeguate garanzie.",
+      "Mai, in quanto viola il diritto dell'interessato a un intervento umano."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'diritto di limitazione del trattamento' (art. 18 GDPR) consente all'interessato di ottenere che i suoi dati, pur conservati, non siano ulteriormente trattati (salvo specifiche eccezioni) quando:",
+    "options": [
+      "L'interessato desidera semplicemente che i suoi dati non vengano più usati per marketing diretto.",
+      "L'interessato contesta l'esattezza dei dati (per il periodo necessario alla verifica), il trattamento è illecito ma si oppone alla cancellazione, o i dati sono necessari per l'accertamento di un diritto in giudizio.",
+      "Il titolare ha subito un data breach e deve sospendere temporaneamente tutti i trattamenti."
+    ],
+    "answer": 1
+  },
+
+
+  {
+    "topic": "Commercio elettronico",
+    "question": "La responsabilità del prestatore di servizi di 'hosting' per contenuti illeciti caricati da terzi è esclusa se il prestatore, una volta venuto a conoscenza dell'illiceità:",
+    "options": [
+      "Informa l'utente che ha caricato il contenuto, lasciando a lui la decisione sulla rimozione.",
+      "Agisce immediatamente per rimuovere le informazioni o per disabilitarne l'accesso, e non era effettivamente a conoscenza dell'illiceità prima della segnalazione.",
+      "Applica un filtro automatico che blocca solo i contenuti palesemente illegali."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Nel caso di contratti conclusi con strumenti elettronici (D.Lgs. 70/2003), l'ordine e la ricevuta si considerano pervenuti quando:",
+    "options": [
+      "Il server del prestatore registra l'invio dell'ordine da parte del destinatario.",
+      "Le parti cui sono indirizzati hanno la possibilità di accedervi (es. arrivo nella casella di posta elettronica designata).",
+      "Il destinatario apre e legge effettivamente il messaggio di conferma."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il diritto di recesso del consumatore nei contratti a distanza è escluso, tra gli altri, per la fornitura di 'contenuto digitale mediante un supporto non materiale' (es. download di un software o film) se:",
+    "options": [
+      "Il download è iniziato immediatamente dopo il pagamento, senza alcun consenso specifico.",
+      "L'esecuzione è iniziata con l'accordo espresso del consumatore e con la sua accettazione del fatto che in tal caso avrebbe perso il diritto di recesso.",
+      "Il prezzo del contenuto digitale è inferiore a 50 euro."
+    ],
+    "answer": 1
+  },
+
+
+
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "L'efficacia probatoria di 'scrittura privata' è attribuita a un documento informatico sottoscritto con Firma Elettronica Avanzata (FEA) se:",
+    "options": [
+      "La FEA è basata su un certificato qualificato, rendendola equivalente a una FEQ.",
+      "Il giudice, valutate le caratteristiche di sicurezza, integrità e riconducibilità, la ritiene idonea caso per caso.",
+      "Il documento informatico è semplicemente conservato a norma."
+    ],
+    "answer": 1 
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Una 'Firma Elettronica Qualificata' (FEQ) basata su un certificato qualificato rilasciato in uno Stato membro dell'UE è riconosciuta come tale:",
+    "options": [
+      "Solo nello Stato membro di emissione e previa traduzione giurata del certificato.",
+      "In tutti gli altri Stati membri dell'UE senza ulteriori formalità.",
+      "Solo se il prestatore di servizi fiduciari ha una sede anche negli altri Stati membri."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La 'validazione temporale elettronica qualificata' (marca temporale qualificata) fornisce una presunzione legale relativa:",
+    "options": [
+      "All'identità del soggetto che ha apposto la marca al documento.",
+      "Alla data e ora certe di esistenza del documento a cui è associata e all'integrità del documento da quel momento.",
+      "Alla conformità del contenuto del documento alla legge."
+    ],
+    "answer": 1
+  },
+
+
+  {
+    "topic": "Reati informatici",
+    "question": "Nel reato di accesso abusivo a sistema informatico, l'aggravante relativa al 'danneggiamento del sistema' si configura anche se il danneggiamento è:",
+    "options": [
+      "Un effetto collaterale non voluto ma prevedibile dell'accesso abusivo.",
+      "Minimo e facilmente riparabile dal proprietario del sistema.",
+      "Causato da un virus contratto durante l'accesso, non direttamente dall'agente."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La detenzione di 'software specificamente progettato o adattato per commettere reati informatici' (es. keylogger, trojan per frodi) è punibile:",
+    "options": [
+      "Solo se il software viene effettivamente utilizzato per commettere un reato.",
+      "Di per sé, se si dimostra il fine di commettere specifici reati informatici previsti dalla norma (es. art. 615-quinquies c.p.).",
+      "Solo se il software è stato acquistato illegalmente."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La differenza tra 'danneggiamento di sistemi informatici' (art. 635-quater c.p.) e 'interruzione illecita di comunicazioni informatiche' (art. 617-quater c.p.) sta nel fatto che:",
+    "options": [
+      "Il primo riguarda l'hardware, il secondo il software.",
+      "Il primo mira a rendere inservibile il sistema o a ostacolarne gravemente il funzionamento, il secondo a impedire o interrompere il flusso delle comunicazioni.",
+      "Il primo è sempre doloso, il secondo può essere anche colposo."
+    ],
+    "answer": 1
+  }
+]

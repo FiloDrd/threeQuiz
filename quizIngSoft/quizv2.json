@@ -1,0 +1,1652 @@
+[
+  {
+    "topic": "Compilazione .NET e CLR",
+    "question": "Qual è il primo passo nel processo di compilazione di codice scritto in un linguaggio .NET?",
+    "options": [
+      "Il codice viene compilato direttamente in codice macchina dal compilatore JIT.",
+      "Il codice di alto livello viene precompilato nel linguaggio intermedio comune (IL) e salvato in un file assembly.",
+      "Il codice viene interpretato riga per riga dal Common Language Runtime (CLR)."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Compilazione .NET e CLR",
+    "question": "Cosa fa il compilatore JIT (Just-In-Time) nel framework .NET?",
+    "options": [
+      "Converte l'intero codice IL in codice nativo prima che l'applicazione venga avviata per massimizzare le performance iniziali.",
+      "Verifica la sicurezza del codice IL analizzando i metadati prima di passarlo al CLR per l'esecuzione.",
+      "Converte parti del codice IL in codice macchina nativo 'al bisogno', durante l'esecuzione del programma."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Compilazione .NET e CLR",
+    "question": "Oltre al codice IL, cosa contiene un file assembly in .NET?",
+    "options": [
+      "Esclusivamente il codice sorgente originale per scopi di debug e profilazione delle performance.",
+      "Metadati che descrivono il codice e le risorse, e un manifest che elenca i file e le dipendenze dell'assembly.",
+      "Un log di tutte le esecuzioni precedenti del programma e le relative eccezioni generate dal CLR."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Compilazione .NET e CLR",
+    "question": "Qual è uno dei principali vantaggi del Common Language Runtime (CLR)?",
+    "options": [
+      "Consente l'integrazione di applicazioni scritte in diversi linguaggi di alto livello tramite un linguaggio intermedio comune.",
+      "Garantisce che il codice venga eseguito sempre più velocemente rispetto al codice C++ nativo grazie al JIT compiler.",
+      "Elimina la necessità di un sistema operativo per eseguire le applicazioni, fornendo un ambiente di esecuzione virtualizzato."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Compilazione .NET e CLR",
+    "question": "Come viene gestita la memoria degli oggetti in .NET dal CLR?",
+    "options": [
+      "Attraverso la deallocazione manuale della memoria da parte dello sviluppatore usando puntatori espliciti.",
+      "Attraverso un garbage collector che gestisce il ciclo di vita degli oggetti e libera la memoria non più utilizzata.",
+      "Attraverso la tecnica del Reference Counting, che dealloca un oggetto quando il suo contatore di riferimenti arriva a zero."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Compilazione .NET e CLR",
+    "question": "Cosa rappresenta il Common Type System (CTS) nel framework .NET?",
+    "options": [
+      "Un insieme di regole che definiscono come i tipi vengono dichiarati, usati e gestiti nel runtime, garantendo l'interoperabilità tra linguaggi.",
+      "Una libreria di classi base per operazioni comuni come la gestione di stringhe e collezioni, ma non definisce i tipi primitivi.",
+      "Il sistema che traduce i tipi di dato specifici di un linguaggio (es. `int` di C#) direttamente in tipi macchina a tempo di compilazione."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Principio Aperto/Chiuso (OCP)",
+    "question": "Cosa afferma il Principio Aperto/Chiuso (Open/Closed Principle)?",
+    "options": [
+      "Un modulo software dovrebbe essere aperto sia alle estensioni che alle modifiche per massimizzare la sua flessibilità.",
+      "Un modulo software dovrebbe essere chiuso sia alle estensioni che alle modifiche per garantirne la stabilità a lungo termine.",
+      "Un modulo software dovrebbe essere aperto all'estensione, ma chiuso alla modifica del suo codice sorgente esistente."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Principio Aperto/Chiuso (OCP)",
+    "question": "Quale meccanismo di programmazione è fondamentale per applicare correttamente l'OCP?",
+    "options": [
+      "L'uso di meccanismi di astrazione, come interfacce o classi astratte, per disaccoppiare i client dalle implementazioni concrete.",
+      "L'uso estensivo di strutture di controllo come if/else o switch, che permettono di aggiungere facilmente nuovi rami di logica.",
+      "La dichiarazione di tutte le classi come 'final' o 'sealed' per impedire modifiche tramite ereditarietà."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Principio Aperto/Chiuso (OCP)",
+    "question": "In una classe 'CalcolatoreArea' che calcola l'area di diverse forme, come si rispetta l'OCP?",
+    "options": [
+      "Modificando il metodo 'calcola' con un nuovo 'if' ogni volta che si aggiunge una nuova forma geometrica.",
+      "Facendo in modo che il metodo 'calcola' accetti un array di oggetti che implementano un'interfaccia 'Shape' con un metodo 'getArea()'.",
+      "Creando una sottoclasse di 'CalcolatoreArea' per ogni nuova forma, sovrascrivendo un metodo base per il calcolo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principio Aperto/Chiuso (OCP)",
+    "question": "Quale dei seguenti scenari rappresenta una violazione dell'Open/Closed Principle?",
+    "options": [
+      "Aggiungere una nuova classe 'Triangolo' che implementa l'interfaccia 'Forma' senza modificare altre classi.",
+      "Aggiungere una clausola 'else if' a un metodo esistente per gestire un nuovo tipo di dato passato come parametro.",
+      "Creare una classe astratta 'Veicolo' e successivamente derivare le classi concrete 'Auto' e 'Moto' da essa."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principio Aperto/Chiuso (OCP)",
+    "question": "Qual è il principale vantaggio derivante dall'applicazione del Principio Aperto/Chiuso?",
+    "options": [
+      "Ridurre la quantità di codice totale scritto per l'intero progetto, rendendo le classi più compatte.",
+      "Aumentare la riutilizzabilità e la manutenibilità del software, riducendo il rischio di introdurre bug nel codice esistente e testato.",
+      "Migliorare le prestazioni del programma in fase di esecuzione grazie al minor numero di chiamate a metodi virtuali."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Strategy e Adapter",
+    "question": "Qual è lo scopo principale del Pattern Strategy?",
+    "options": [
+      "Aggiungere dinamicamente funzionalità a un oggetto esistente wrappandolo con nuovi oggetti.",
+      "Rendere compatibili due interfacce che altrimenti non potrebbero collaborare a causa delle loro firme diverse.",
+      "Definire una famiglia di algoritmi, incapsularli e renderli intercambiabili a runtime."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Strategy e Adapter",
+    "question": "Nel Pattern Adapter, qual è il ruolo della classe 'Adapter'?",
+    "options": [
+      "Contenere la logica di business principale che deve essere adattata e modificata per il client.",
+      "Agire da intermediario per convertire l'interfaccia di una classe (Adaptee) in un'altra interfaccia attesa dal client (Target).",
+      "Definire l'interfaccia astratta che sia il client che l'Adaptee devono implementare per poter comunicare."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Strategy e Adapter",
+    "question": "Quando è più appropriato usare il pattern Strategy invece di una semplice gerarchia di sottoclassi?",
+    "options": [
+      "Quando il comportamento di un oggetto non cambia mai dopo la sua creazione, quindi si sceglie una sottoclasse specifica.",
+      "Quando si hanno molteplici algoritmi o comportamenti per un'azione e si vuole poterli scambiare dinamicamente a runtime.",
+      "Quando si vuole nascondere un insieme complesso di sottosistemi dietro un'unica interfaccia semplificata."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Strategy e Adapter",
+    "question": "In quale categoria di pattern rientra l'Adapter?",
+    "options": [
+      "Creazionale",
+      "Comportamentale",
+      "Strutturale"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Strategy e Adapter",
+    "question": "Un'applicazione deve supportare diversi algoritmi di ordinamento (es. BubbleSort, QuickSort) selezionabili a runtime. Quale pattern è più indicato?",
+    "options": [
+      "Adapter, per adattare ogni algoritmo a un'interfaccia di ordinamento comune.",
+      "Strategy, per incapsulare ogni algoritmo in una classe separata e renderli intercambiabili.",
+      "Decorator, per aggiungere opzioni di ordinamento (es. 'ordina al contrario') a un algoritmo base."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Strategy e Adapter",
+    "question": "Devi integrare una libreria esterna con un'interfaccia 'SpecificRequest()' nel tuo sistema che si aspetta un'interfaccia 'Request()'. Quale pattern è la soluzione ideale?",
+    "options": [
+      "Adapter, per creare un wrapper che traduca le chiamate da 'Request()' a 'SpecificRequest()'.",
+      "Facade, per fornire un'interfaccia semplificata all'intera libreria esterna.",
+      "Strategy, per permettere di cambiare dinamicamente la libreria esterna da utilizzare."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Capacità di sopravvivenza del sistema",
+    "question": "Cosa si intende per 'capacità di sopravvivenza' di un sistema?",
+    "options": [
+      "La capacità del sistema di funzionare senza mai incontrare errori o eccezioni per un lungo periodo di tempo.",
+      "La proprietà di un sistema di poter continuare a fornire i suoi servizi, anche se degradati, mentre è sotto attacco o in stato di recupero.",
+      "La capacità del sistema di essere installato e configurato su diverse piattaforme hardware e software senza modifiche."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Capacità di sopravvivenza del sistema",
+    "question": "Quale strategia di sopravvivenza si concentra sull'evitare problemi interni e respingere attacchi?",
+    "options": [
+      "Identificazione, che si occupa di riconoscere un attacco in corso.",
+      "Ripristino, che si occupa di recuperare lo stato del sistema dopo un attacco.",
+      "Resistenza, che si focalizza su come prevenire e respingere le minacce."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Capacità di sopravvivenza del sistema",
+    "question": "La 'tolleranza del sistema durante gli attacchi e il ripristino in seguito' fa parte di quale strategia di sopravvivenza?",
+    "options": [
+      "Resistenza, che mira a prevenire l'attacco in primo luogo.",
+      "Identificazione, che si limita a rilevare l'attacco e a valutarne il danno.",
+      "Ripristino, che include la capacità di funzionare durante l'attacco e di recuperare dopo."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Capacità di sopravvivenza del sistema",
+    "question": "Qual è uno dei primi passi nell'analisi di sopravvivenza di un sistema?",
+    "options": [
+      "Identificare i servizi critici, ovvero quelli che devono rimanere operativi anche in condizioni avverse.",
+      "Scrivere immediatamente il codice per il ripristino automatico del database.",
+      "Eseguire test di carico sulla rete per determinare la massima capacità del sistema."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Capacità di sopravvivenza del sistema",
+    "question": "La fase di 'Simulare gli attacchi' nell'analisi di sopravvivenza serve principalmente a:",
+    "options": [
+      "Testare la velocità di risposta del sistema sotto carico per ottimizzare le performance.",
+      "Identificare i 'misuse case' e i possibili vettori di attacco per comprendere le vulnerabilità.",
+      "Valutare l'usabilità dell'interfaccia utente in condizioni di stress per migliorare l'esperienza."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Requisiti della sicurezza",
+    "question": "Quale categoria di requisiti di sicurezza garantisce che le informazioni non subiscano alterazioni non autorizzate?",
+    "options": [
+      "Autenticazione, che verifica l'identità di un utente.",
+      "Integrità, che assicura che i dati siano corretti e non modificati.",
+      "Autorizzazione, che definisce cosa un utente può fare."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Requisiti della sicurezza",
+    "question": "La domanda 'Chi sei?' a quale requisito di sicurezza si riferisce?",
+    "options": [
+      "Identificazione, ovvero dichiarare la propria identità.",
+      "Autenticazione, ovvero provare la propria identità.",
+      "Autorizzazione, ovvero verificare i permessi associati all'identità."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Requisiti della sicurezza",
+    "question": "Il requisito di 'non ripudiabilità' assicura che:",
+    "options": [
+      "Un utente non possa accedere a risorse per cui non è autorizzato, perché il sistema 'ripudia' la richiesta.",
+      "Un utente non possa negare di aver effettuato un'operazione, fornendo una prova dell'azione.",
+      "Il sistema sia protetto da minacce esterne come i virus, ripudiando il codice malevolo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Requisiti della sicurezza",
+    "question": "Cosa si intende per 'requisiti di autorizzazione'?",
+    "options": [
+      "Dimostrare di essere chi si dice di essere, tramite password o biometria.",
+      "Garantire che il sistema sia immune da worm e virus attraverso software antivirus.",
+      "Gestire i diritti e i permessi dell'utente all'interno del sistema (cosa può fare?) dopo che è stato identificato e autenticato."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Requisiti della sicurezza",
+    "question": "La pratica di 'Validare tutti gli input' è una regola pratica per proteggere il sistema principalmente da:",
+    "options": [
+      "Attacchi di ingegneria sociale, che manipolano gli utenti a rivelare informazioni.",
+      "Vulnerabilità come SQL injection o buffer overflow, che sfruttano dati di input malformati.",
+      "Mancata disponibilità del servizio (Denial of Service) causata da un eccesso di traffico di rete legittimo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Requisiti della sicurezza",
+    "question": "Dividere i beni del sistema usando architetture a layer o client-server è un esempio di quale regola pratica di sicurezza?",
+    "options": [
+      "Pianificare il ripristino, preparando strategie di backup e recupero dati.",
+      "Validare tutti gli input, controllando i dati che entrano nel sistema.",
+      "Compartimentare i beni, limitando il raggio d'azione di un eventuale attacco."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Single Responsibility Principle (SRP)",
+    "question": "Cosa stabilisce il Single Responsibility Principle (SRP)?",
+    "options": [
+      "Una classe dovrebbe essere responsabile di più funzionalità correlate per massimizzare la coesione del codice.",
+      "Ogni metodo pubblico all'interno di una classe dovrebbe avere una sola ed unica responsabilità.",
+      "Una classe dovrebbe avere una, e una sola, ragione per cambiare, legata a un singolo attore o requisito."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Single Responsibility Principle (SRP)",
+    "question": "Qual è il principale svantaggio di una classe che viola il SRP avendo più responsabilità?",
+    "options": [
+      "Diventa difficile da istanziare a causa del costruttore troppo complesso.",
+      "Le diverse responsabilità diventano accoppiate, e una modifica a una può richiedere inaspettatamente modifiche e test sull'altra.",
+      "Le prestazioni della classe diminuiscono drasticamente a causa della dimensione eccessiva del codice."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Single Responsibility Principle (SRP)",
+    "question": "Una classe 'GestoreUtenti' che si occupa sia della logica di business (es. 'cambiaPassword') che della persistenza su database (es. 'salvaSuDB') viola quale principio?",
+    "options": [
+      "Open/Closed Principle (OCP), perché non è aperta a estensioni.",
+      "Single Responsibility Principle (SRP), perché ha due ragioni per cambiare (logica di business e tecnologia di persistenza).",
+      "Liskov Substitution Principle (LSP), perché non è sostituibile con una sua eventuale superclasse."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Single Responsibility Principle (SRP)",
+    "question": "Applicare il SRP a una classe con molteplici responsabilità porta tipicamente a:",
+    "options": [
+      "Sviluppare classi più piccole, focalizzate, indipendenti e quindi più semplici da testare e riutilizzare.",
+      "Creare una singola classe molto grande ma ben organizzata in region o moduli interni.",
+      "Eliminare la necessità di utilizzare interfacce, poiché ogni classe fa una sola cosa."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Single Responsibility Principle (SRP)",
+    "question": "Il concetto di 'ragione per cambiare' nel SRP è strettamente legato a:",
+    "options": [
+      "Un cambiamento nei requisiti hardware o nella piattaforma di esecuzione.",
+      "Un cambiamento nei requisiti di business o funzionali, spesso riconducibile a un attore o stakeholder specifico.",
+      "Un cambiamento nella versione del linguaggio di programmazione o del framework utilizzato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Copy-Modify-Merge",
+    "question": "Qual è la caratteristica principale del modello di versionamento Copy-Modify-Merge?",
+    "options": [
+      "Gli utenti devono bloccare un file (lock) prima di poterlo modificare, garantendo che solo una persona alla volta ci lavori.",
+      "Ogni utente lavora su una propria copia locale del file e le modifiche vengono unite (merge) in un secondo momento sul repository centrale.",
+      "Le modifiche vengono salvate automaticamente e in tempo reale sul repository centrale, sovrascrivendo la versione precedente."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Copy-Modify-Merge",
+    "question": "Qual è uno dei principali vantaggi del modello Copy-Modify-Merge?",
+    "options": [
+      "Elimina completamente la possibilità di conflitti durante il merge, poiché il sistema li risolve in automatico.",
+      "Permette un alto livello di lavoro parallelo, dato che gli sviluppatori non si bloccano a vicenda.",
+      "Richiede che gli sviluppatori siano costantemente connessi a internet per poter lavorare sui propri file locali."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Copy-Modify-Merge",
+    "question": "Cosa succede nel modello Copy-Modify-Merge se due sviluppatori modificano le stesse righe di codice parallelamente?",
+    "options": [
+      "Il sistema sceglie automaticamente la modifica dello sviluppatore con i permessi più alti.",
+      "Viene generato un conflitto di merge che deve essere ispezionato e risolto manualmente dallo sviluppatore.",
+      "Il sistema impedisce al secondo sviluppatore di effettuare il commit delle sue modifiche finché il primo non ha terminato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Copy-Modify-Merge",
+    "question": "Un 'conflitto semantico' nel modello Copy-Modify-Merge si verifica quando:",
+    "options": [
+      "Il VCS non riesce a unire testualmente due modifiche perché sono sulla stessa identica riga di codice.",
+      "Il merge testuale ha successo, ma le modifiche combinate, pur essendo sintatticamente corrette, introducono un bug a livello logico.",
+      "Due sviluppatori tentano di fare il merge nello stesso istante, causando un race condition nel server del VCS."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Copy-Modify-Merge",
+    "question": "Quale modello di versionamento si contrappone al Copy-Modify-Merge per la gestione della concorrenza?",
+    "options": [
+      "Il modello basato su Check-in/Check-out, che è un altro nome per lo stesso approccio.",
+      "Il modello Lock-Modify-Unlock, che adotta un approccio pessimistico bloccando i file.",
+      "Il modello Push-Pull-Request, che è specifico solo per sistemi decentralizzati come Git e non gestisce la concorrenza."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Tipi valore vs Tipi riferimento in .NET",
+    "question": "Qual è la differenza fondamentale tra tipi valore e tipi riferimento in .NET riguardo alla memorizzazione dei dati?",
+    "options": [
+      "I tipi valore contengono un riferimento (puntatore) ai dati, mentre i tipi riferimento contengono direttamente i dati.",
+      "Entrambi contengono direttamente i dati, ma i tipi valore sono allocati sull'heap e i tipi riferimento sullo stack.",
+      "I tipi valore contengono direttamente i dati, mentre i tipi riferimento contengono un riferimento (indirizzo) ai dati."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Tipi valore vs Tipi riferimento in .NET",
+    "question": "Dove vengono allocati tipicamente i tipi valore e i tipi riferimento in .NET?",
+    "options": [
+      "Tipi valore (es. struct, int) sullo stack; tipi riferimento (es. class) sull'heap gestito (managed heap).",
+      "Entrambi vengono sempre allocati sullo stack per garantire un accesso più rapido.",
+      "Tipi valore sull'heap per permettere al garbage collector di gestirli, e tipi riferimento sullo stack."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Tipi valore vs Tipi riferimento in .NET",
+    "question": "Cosa succede quando si assegna una variabile di tipo riferimento a un'altra (es. `MyClass b = a;`)?",
+    "options": [
+      "Viene creato un nuovo oggetto, copia esatta del primo, e `b` punterà a questo nuovo oggetto.",
+      "Viene copiato il riferimento (l'indirizzo di memoria), quindi entrambe le variabili puntano allo stesso oggetto sull'heap.",
+      "L'operazione non è permessa per i tipi riferimento, è necessario usare un metodo `Clone()` esplicito."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Tipi valore vs Tipi riferimento in .NET",
+    "question": "Il processo di convertire un tipo valore in un tipo riferimento in .NET è chiamato:",
+    "options": [
+      "Casting, che è una conversione generica di tipo.",
+      "Unboxing, che è il processo inverso.",
+      "Boxing, che comporta la creazione di un oggetto wrapper sull'heap."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Tipi valore vs Tipi riferimento in .NET",
+    "question": "Quale tipo di variabile in .NET può assumere il valore `null` per indicare l'assenza di un oggetto?",
+    "options": [
+      "Solo i tipi valore, come `int` o `struct`.",
+      "Solo i tipi riferimento, come le istanze di classi.",
+      "Sia i tipi valore che i tipi riferimento possono essere `null` di default."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principi Architettura Package",
+    "question": "Quale principio stabilisce che 'classi che cambiano insieme per le stesse ragioni devono stare nello stesso package'?",
+    "options": [
+      "REP (Reuse/Release Equivalency Principle)",
+      "CCP (Common Closure Principle)",
+      "CRP (Common Reuse Principle)"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principi Architettura Package",
+    "question": "Il principio CRP (Common Reuse Principle) afferma che:",
+    "options": [
+      "Le dipendenze tra i package del sistema non devono mai formare dei cicli.",
+      "Un componente può essere riutilizzato solo se viene gestito da un sistema di rilascio con un numero di versione.",
+      "Le classi che tendono ad essere riutilizzate insieme dagli stessi client dovrebbero appartenere allo stesso package."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Principi Architettura Package",
+    "question": "L'ADP (Acyclic Dependencies Principle) vieta i cicli di dipendenza tra package perché:",
+    "options": [
+      "Rendono la compilazione del progetto più lenta, anche se non causano altri problemi.",
+      "Creano un 'effetto domino' dove una modifica in un package può richiedere la ricompilazione e il re-test di tutti i package nel ciclo.",
+      "Impediscono l'uso di classi astratte o interfacce tra i package coinvolti."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principi Architettura Package",
+    "question": "Secondo il SDP (Stable Dependencies Principle), in quale direzione dovrebbero andare le dipendenze?",
+    "options": [
+      "Da package più stabili (difficili da cambiare) verso package meno stabili (facili da cambiare).",
+      "Da package meno stabili (volatili) verso package più stabili (difficili da cambiare).",
+      "La stabilità dei package non influenza la direzione delle dipendenze, che dovrebbe essere basata solo sulla logica funzionale."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principi Architettura Package",
+    "question": "Il SAP (Stable Abstractions Principle) collega stabilità e astrazione affermando che:",
+    "options": [
+      "I package stabili, da cui molti altri dipendono, dovrebbero essere anche astratti per permettere estensioni senza modifiche.",
+      "I package astratti dovrebbero sempre dipendere da package concreti per avere un'implementazione di riferimento.",
+      "La stabilità di un package è inversamente proporzionale al suo livello di astrazione, quindi i package concreti sono i più stabili."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern Decorator",
+    "question": "Qual è l'intento principale del pattern Decorator?",
+    "options": [
+      "Fornire un'interfaccia unificata a un insieme di interfacce diverse presenti in un sottosistema complesso.",
+      "Aggiungere dinamicamente responsabilità addizionali a un oggetto senza alterarne la classe, 'avvolgendolo' in un altro oggetto.",
+      "Separare la costruzione di un oggetto complesso dalla sua rappresentazione finale, permettendo diverse rappresentazioni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Decorator",
+    "question": "In quale categoria di pattern rientra il Decorator?",
+    "options": [
+      "Creazionale",
+      "Comportamentale",
+      "Strutturale"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Decorator",
+    "question": "Nel pattern Decorator, come sono collegati il Decorator e il Component?",
+    "options": [
+      "Il Decorator eredita direttamente dal Component per riutilizzarne il codice, ma non lo contiene.",
+      "Il Decorator ha una relazione di composizione ('has-a') con un Component e implementa la stessa interfaccia del Component.",
+      "Il Component contiene un riferimento a una lista di Decorator da applicare in sequenza."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Decorator",
+    "question": "Il pattern Decorator è un'alternativa flessibile a quale pratica di programmazione per estendere la funzionalità?",
+    "options": [
+      "L'ereditarietà statica (creazione di sottoclassi), specialmente quando si hanno molte combinazioni di funzionalità da aggiungere.",
+      "La composizione di oggetti, che il Decorator non utilizza.",
+      "L'uso di interfacce, che definiscono il contratto ma non permettono di aggiungere comportamento."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern Decorator",
+    "question": "In un sistema di streaming video, 'VideoPlayer' è il Component. Quale sarebbe un uso corretto del Decorator?",
+    "options": [
+      "Creare le sottoclassi 'HDPlayer' e '4KPlayer' che ereditano da 'VideoPlayer'.",
+      "Creare i Decorator 'SottotitoliDecorator' e 'AudioMultiLinguaDecorator' che avvolgono un'istanza di 'VideoPlayer'.",
+      "Aggiungere i metodi 'attivaSottotitoli()' e 'cambiaAudio()' direttamente nella classe 'VideoPlayer'."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello a Cascata e Iterativo",
+    "question": "Qual è la caratteristica principale del modello a cascata (waterfall)?",
+    "options": [
+      "Lo sviluppo procede attraverso cicli ripetuti (iterazioni), migliorando il prodotto a ogni ciclo.",
+      "Le fasi di sviluppo sono strettamente sequenziali e ogni fase deve essere completata e validata prima di passare alla successiva.",
+      "L'analisi dei requisiti e lo sviluppo avvengono in parallelo fin dall'inizio del progetto per accelerare i tempi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello a Cascata e Iterativo",
+    "question": "Qual è la più grande criticità o limite del modello a cascata?",
+    "options": [
+      "La sua eccessiva flessibilità, che rende difficile la gestione e la pianificazione del progetto.",
+      "La sua rigidità e la difficoltà di gestire cambiamenti nei requisiti una volta che una fase è conclusa, portando a costi elevati.",
+      "La necessità di avere un team di sviluppo molto numeroso per gestire tutte le fasi in parallelo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello a Cascata e Iterativo",
+    "question": "Il prodotto di ogni fase del modello a cascata, che diventa l'input della fase successiva, è chiamato:",
+    "options": [
+      "Prototipo, che è una versione funzionante ma incompleta del sistema.",
+      "Semilavorato, un documento o artefatto formale che rappresenta l'output di una fase.",
+      "Release Candidate, una versione del software quasi pronta per il rilascio finale."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello a Cascata e Iterativo",
+    "question": "Qual è l'idea di base del modello di sviluppo iterativo?",
+    "options": [
+      "Completare tutta l'analisi e la progettazione in una singola fase iniziale prima di scrivere qualsiasi riga di codice.",
+      "Sviluppare il sistema attraverso cicli ripetuti, rilasciando una versione migliorata e più completa del software a ogni iterazione.",
+      "Consegnare il prodotto software completo in un'unica soluzione alla fine del progetto, dopo una lunga fase di test."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello a Cascata e Iterativo",
+    "question": "L'immutabilità dell'analisi e del progetto sono due assunzioni rigide su cui si basa quale modello?",
+    "options": [
+      "Il modello iterativo, che permette di rivedere l'analisi a ogni ciclo.",
+      "Il modello a spirale, che si basa sulla gestione del rischio e sulla prototipazione.",
+      "Il modello a cascata, che presuppone che i requisiti possano essere definiti completamente all'inizio."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Ereditarietà Multipla e Problema del Diamante",
+    "question": "Cosa si intende per 'problema del diamante' nell'ereditarietà multipla?",
+    "options": [
+      "L'ambiguità che sorge quando una classe eredita da due superclassi che a loro volta derivano da una stessa classe base comune.",
+      "La difficoltà di creare una gerarchia di classi complessa e molto profonda, che assume una forma a diamante nel diagramma UML.",
+      "Un problema di prestazioni che si verifica quando una classe eredita da più di quattro superclassi, a causa del vtable lookup."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Ereditarietà Multipla e Problema del Diamante",
+    "question": "Se la classe D eredita da B e C, ed entrambe B e C ereditano da A e sovrascrivono un metodo 'm()' di A, quale problema si pone per D?",
+    "options": [
+      "D non può accedere al metodo 'm()' originale di A, perché è stato sovrascritto due volte.",
+      "Il compilatore non sa quale versione del metodo 'm()' (quella di B o quella di C) D debba ereditare.",
+      "Le prestazioni di D diminuiscono del 50% a causa della doppia ereditarietà del metodo 'm()'."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Ereditarietà Multipla e Problema del Diamante",
+    "question": "Quale delle seguenti NON è una strategia per simulare o gestire l'ereditarietà multipla in linguaggi che non la supportano nativamente tra classi?",
+    "options": [
+      "Utilizzare la composizione per includere un'istanza di una classe e la delega per esporne i metodi.",
+      "Implementare più interfacce, che definiscono il contratto ma non l'implementazione.",
+      "Utilizzare l'ereditarietà diretta da più classi concrete, che è il modo standard per risolvere il problema."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Ereditarietà Multipla e Problema del Diamante",
+    "question": "La strategia di 'Composizione e delega' per risolvere il problema del diamante prevede di:",
+    "options": [
+      "Ereditare dalla superclasse più significativa e contenere istanze delle altre, delegando a esse le chiamate ai metodi necessari.",
+      "Creare interfacce per tutte le superclassi e implementarle tutte nella classe derivata, duplicando il codice se necessario.",
+      "Appiattire la gerarchia, copiando e incollando attributi e operazioni dalle superclassi nelle classi specializzate."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Bad Design Smells",
+    "question": "Quale 'bad design' descrive la tendenza del software a essere difficile da cambiare, dove una singola modifica ne causa una serie a cascata in moduli dipendenti?",
+    "options": [
+      "Fragilità",
+      "Immobilità",
+      "Rigidità"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Bad Design Smells",
+    "question": "La 'fragilità' di un software si manifesta quando:",
+    "options": [
+      "I cambiamenti in una parte del sistema causano rotture impreviste in altre parti apparentemente non correlate.",
+      "È impossibile riutilizzare componenti del software in altri progetti a causa del forte accoppiamento.",
+      "I tempi di compilazione e di test diventano eccessivamente lunghi, rendendo lo sviluppo lento."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Bad Design Smells",
+    "question": "L''immobilità' è l'incapacità di:",
+    "options": [
+      "Modificare il design del software dopo che la fase di analisi è stata completata e approvata.",
+      "Riutilizzare parti del software in altri contesti perché sono troppo accoppiate con il resto del sistema originale.",
+      "Far funzionare il software su diversi sistemi operativi a causa di dipendenze specifiche dalla piattaforma."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Bad Design Smells",
+    "question": "La 'viscosità del design' si verifica quando:",
+    "options": [
+      "Il codice è scritto in modo oscuro e difficile da leggere e comprendere.",
+      "È più facile e veloce implementare una modifica usando un 'hack' che non rispetta il design, piuttosto che seguirlo correttamente.",
+      "Il software risponde lentamente alle interazioni dell'utente a causa di un'implementazione inefficiente."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Bad Design Smells",
+    "question": "Un ambiente di sviluppo con tempi di compilazione molto lunghi e un sistema di version control complesso contribuisce a quale tipo di viscosità?",
+    "options": [
+      "Viscosità del design, legata alla struttura del codice.",
+      "Viscosità dell'ambiente, legata agli strumenti di sviluppo.",
+      "Viscosità del codice, legata alla leggibilità del codice stesso."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principio di Sostituibilità di Liskov (LSP)",
+    "question": "Cosa afferma, in sostanza, il Principio di Sostituibilità di Liskov (LSP)?",
+    "options": [
+      "Una sottoclasse deve implementare esattamente tutti i metodi pubblici della sua superclasse, senza aggiungerne di nuovi.",
+      "Gli oggetti di una classe derivata devono potersi sostituire agli oggetti della classe base senza alterare la correttezza del programma.",
+      "Le classi derivate non possono accedere ai membri privati della classe base, ma solo a quelli protetti e pubblici."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principio di Sostituibilità di Liskov (LSP)",
+    "question": "Secondo il 'Design by Contract' applicato a LSP, una sottoclasse che ridefinisce un metodo deve avere:",
+    "options": [
+      "Pre-condizioni più stringenti e post-condizioni meno stringenti rispetto alla superclasse.",
+      "Pre-condizioni identiche o meno stringenti e post-condizioni identiche o più stringenti rispetto alla superclasse.",
+      "Sia pre-condizioni che post-condizioni più deboli rispetto alla superclasse, per garantire maggiore flessibilità."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Principio di Sostituibilità di Liskov (LSP)",
+    "question": "L'esempio classico di violazione del LSP è una classe 'Quadrato' che eredita da 'Rettangolo'. Perché viola il principio?",
+    "options": [
+      "Perché un quadrato non è un tipo di rettangolo dal punto di vista matematico.",
+      "Perché la classe 'Quadrato' non può implementare il metodo 'calcolaArea()' in modo efficiente.",
+      "Perché 'Quadrato' introduce un vincolo (altezza = larghezza) che modifica il comportamento atteso della superclasse (es. `setLarghezza` modifica anche l'altezza)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Principio di Sostituibilità di Liskov (LSP)",
+    "question": "Il Principio di Liskov è una guida fondamentale per l'uso corretto di quale meccanismo della programmazione a oggetti?",
+    "options": [
+      "Ereditarietà, per garantire che le gerarchie di classi siano semanticamente corrette.",
+      "Composizione, per decidere quali oggetti devono essere contenuti in altri.",
+      "Incapsulamento, per definire la visibilità dei membri di una classe."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Principio di Sostituibilità di Liskov (LSP)",
+    "question": "Un metodo che accetta un `Rettangolo` si aspetta di poter impostare larghezza e altezza in modo indipendente. Se gli viene passato un `Quadrato`, questo assunto viene violato. Questo è un esempio di violazione di quale principio?",
+    "options": [
+      "Open/Closed Principle",
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Composite",
+    "question": "Qual è lo scopo principale del pattern Composite?",
+    "options": [
+      "Garantire che una classe abbia una sola istanza e fornire un punto di accesso globale.",
+      "Permettere di trattare oggetti singoli e composizioni di oggetti in modo uniforme, rappresentando gerarchie parte-tutto.",
+      "Fornire un segnaposto per un altro oggetto per controllarne l'accesso o aggiungervi funzionalità."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Composite",
+    "question": "Nel pattern Composite, quali sono i due tipi principali di oggetti nella struttura?",
+    "options": [
+      "Client e Server, che rappresentano chi fa la richiesta e chi la esegue.",
+      "Leaf (foglia, un oggetto primitivo) e Composite (contenitore, un oggetto che può avere figli).",
+      "Subject e Observer, che gestiscono la notifica di eventi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Composite",
+    "question": "L'obiettivo di 'trasparenza' nel pattern Composite si raggiunge quando:",
+    "options": [
+      "Il client deve usare interfacce diverse per trattare le foglie e i compositi, essendo consapevole della loro natura.",
+      "Il client può trattare oggetti singoli (Leaf) e composizioni (Composite) in modo uniforme attraverso una singola interfaccia (Component).",
+      "Tutti i metodi della gerarchia, inclusi quelli per la gestione dei figli, sono resi pubblici in tutte le classi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Composite",
+    "question": "In quale categoria di pattern rientra il Composite?",
+    "options": [
+      "Comportamentale, perché definisce come gli oggetti interagiscono.",
+      "Creazionale, perché si occupa della creazione di strutture complesse.",
+      "Strutturale, perché si occupa di come classi e oggetti sono composti per formare strutture più grandi."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Composite",
+    "question": "In un sistema che modella un'interfaccia grafica con Pannelli (che possono contenere altri componenti) e Bottoni (che non possono), il 'Bottone' rappresenterebbe quale ruolo nel pattern Composite?",
+    "options": [
+      "Composite, perché è un componente complesso.",
+      "Leaf, perché è un oggetto primitivo nella gerarchia e non può avere figli.",
+      "Component, che è solo il nome dell'interfaccia comune."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Visitor",
+    "question": "Qual è il principale vantaggio del pattern Visitor?",
+    "options": [
+      "Permette di definire una nuova operazione da effettuare su una struttura di oggetti senza modificare le classi di quegli oggetti.",
+      "Semplifica la creazione di gerarchie di classi complesse, riducendo il numero di classi necessarie.",
+      "Migliora l'incapsulamento degli oggetti all'interno della struttura, nascondendo i loro dettagli interni."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern Visitor",
+    "question": "Il pattern Visitor è particolarmente utile quando la gerarchia di classi degli 'Element' è:",
+    "options": [
+      "Molto volatile e cambia frequentemente, con nuove classi aggiunte ogni giorno.",
+      "Molto stabile e non viene modificata spesso, mentre le operazioni da eseguire su di essa cambiano di frequente.",
+      "Composta da un numero molto piccolo di classi, rendendo il pattern semplice da implementare."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Visitor",
+    "question": "Nel pattern Visitor, come funziona il meccanismo del 'double dispatch'?",
+    "options": [
+      "Il Visitor chiama due volte il metodo 'Visit' sull'Element per garantire la consistenza dello stato.",
+      "Il Client chiama `Accept(Visitor)` sull'Element; l'Element a sua volta chiama `Visit(this)` sul Visitor, permettendo al Visitor di sapere quale tipo di Element sta visitando.",
+      "L'operazione viene eseguita sia sul client che sul server per la validazione, in un doppio passaggio di rete."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Visitor",
+    "question": "Qual è il principale svantaggio del pattern Visitor?",
+    "options": [
+      "Rende molto difficile aggiungere nuove operazioni (nuovi Visitor) alla struttura.",
+      "Aumenta l'accoppiamento tra le classi della struttura, perché ogni Element deve conoscere tutti gli altri.",
+      "Rende difficile aggiungere una nuova classe 'ConcreteElement', perché richiede di modificare tutti i 'Visitor' esistenti per aggiungere un nuovo metodo `Visit`."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Visitor",
+    "question": "In quale categoria di pattern rientra il Visitor?",
+    "options": [
+      "Strutturale",
+      "Comportamentale",
+      "Creazionale"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Polimorfismo (Cardelli-Wegner)",
+    "question": "Secondo la classificazione di Cardelli-Wegner, il polimorfismo si divide in due macro-categorie principali:",
+    "options": [
+      "Statico (risolto a tempo di compilazione) e Dinamico (risolto a runtime).",
+      "Universale (funziona su un numero infinito di tipi) e Ad-hoc (funziona su un numero finito e specifico di tipi).",
+      "Parametrico (basato su tipi generici) e di Inclusione (basato sull'ereditarietà)."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Polimorfismo (Cardelli-Wegner)",
+    "question": "Il polimorfismo 'per inclusione', tipico della programmazione a oggetti e basato sull'overriding e late binding, è un tipo di polimorfismo:",
+    "options": [
+      "Ad-hoc, perché funziona solo per le classi definite esplicitamente nella gerarchia.",
+      "Universale, perché un codice scritto per una superclasse funziona universalmente per tutti i suoi sottotipi.",
+      "Per coercizione, perché il sottotipo viene convertito implicitamente nel tipo della superclasse."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Polimorfismo (Cardelli-Wegner)",
+    "question": "L'uso di classi generiche (es. `List<T>`) è un esempio di quale tipo di polimorfismo?",
+    "options": [
+      "Overloading, perché il compilatore genera versioni diverse della lista per ogni tipo.",
+      "Polimorfismo per inclusione, perché `List<String>` eredita da `List<Object>`.",
+      "Polimorfismo parametrico, perché la logica della lista è scritta in modo generico rispetto al tipo `T`."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Polimorfismo (Cardelli-Wegner)",
+    "question": "L'overloading di metodi (metodi con lo stesso nome ma firme diverse) rientra in quale categoria di polimorfismo?",
+    "options": [
+      "Universale, perché il metodo può essere chiamato con un numero illimitato di tipi.",
+      "Ad-hoc, perché il compilatore seleziona un'implementazione specifica da un insieme finito in base ai tipi degli argomenti.",
+      "Parametrico, perché i parametri del metodo possono essere di tipi diversi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Polimorfismo (Cardelli-Wegner)",
+    "question": "La conversione implicita di un tipo di dato in un altro (es. da `int` a `double`) è un esempio di polimorfismo ad-hoc chiamato:",
+    "options": [
+      "Coercizione",
+      "Overloading",
+      "Inclusione"
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Passaggio dei Parametri in C#",
+    "question": "Qual è la modalità di default per il passaggio dei parametri in C# (senza keyword esplicite)?",
+    "options": [
+      "Per riferimento (pass-by-reference), dove viene sempre passato l'indirizzo della variabile originale.",
+      "Per valore (pass-by-value), dove viene passata una copia del valore (per i tipi valore) o una copia del riferimento (per i tipi riferimento).",
+      "Per uscita (pass-by-output), dove il metodo è obbligato a inizializzare il parametro."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Passaggio dei Parametri in C#",
+    "question": "Cosa significa passare un argomento 'per riferimento' usando la keyword `ref`?",
+    "options": [
+      "Viene passata una copia del valore, e le modifiche fatte all'interno del metodo non sono visibili al chiamante.",
+      "Viene passato un riferimento alla variabile stessa, e qualsiasi modifica (anche la riassegnazione a un nuovo oggetto) è visibile al chiamante.",
+      "Il metodo è obbligato a inizializzare il parametro prima di terminare, e il chiamante non deve inizializzarlo prima."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Passaggio dei Parametri in C#",
+    "question": "Qual è la differenza principale tra `ref` e `out` in C#?",
+    "options": [
+      "Non ci sono differenze, `out` è solo un alias per `ref` per migliorare la leggibilità.",
+      "`ref` richiede che la variabile sia inizializzata prima della chiamata, `out` no; `out` obbliga il metodo ad assegnare un valore alla variabile.",
+      "`ref` può essere usato solo con tipi riferimento, mentre `out` può essere usato solo con tipi valore."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Passaggio dei Parametri in C#",
+    "question": "Se passo un oggetto (tipo riferimento) per valore (default) a un metodo, quale modifica sarà visibile all'esterno?",
+    "options": [
+      "La modifica dello stato interno dell'oggetto (es. cambiare una sua proprietà), perché il riferimento punta allo stesso oggetto.",
+      "La riassegnazione del parametro a una nuova istanza dell'oggetto (`param = new Oggetto();`), perché si modifica la variabile del chiamante.",
+      "Nessuna modifica sarà visibile all'esterno, perché viene passata una copia completa dell'oggetto (deep copy)."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern Observer",
+    "question": "Quale problema risolve il pattern Observer?",
+    "options": [
+      "Definisce una relazione uno-a-molti tra oggetti dove, se lo stato di un oggetto (Subject) cambia, i suoi dipendenti (Observer) vengono notificati.",
+      "Garantisce che una classe abbia una sola istanza e fornisce un punto di accesso globale ad essa per tutti gli altri oggetti.",
+      "Incapsula una richiesta come un oggetto, permettendo di parametrizzare i client con richieste diverse e supportare operazioni annullabili."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern Observer",
+    "question": "Nel pattern Observer, l'oggetto che viene 'osservato' è comunemente chiamato:",
+    "options": [
+      "Observer o Listener",
+      "Subject o Observable",
+      "Context o State"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Observer",
+    "question": "Per disaccoppiare il Subject dagli Observer, il Subject mantiene una collezione di:",
+    "options": [
+      "Riferimenti diretti a classi Observer concrete, creando un forte accoppiamento.",
+      "Riferimenti a un'interfaccia o classe astratta Observer, permettendo al Subject di ignorare i tipi concreti degli observer.",
+      "Nomi di classi Observer da istanziare tramite reflection solo al momento della notifica."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Observer",
+    "question": "In quale categoria di pattern rientra l'Observer?",
+    "options": [
+      "Strutturale",
+      "Creazionale",
+      "Comportamentale"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Observer",
+    "question": "In un sistema di aste online, un 'Prodotto' (Subject) notifica diversi 'Offerenti' (Observer) quando arriva una nuova offerta. Questa è un'applicazione di quale pattern?",
+    "options": [
+      "Strategy, per cambiare l'algoritmo di offerta.",
+      "Observer, per notificare i cambiamenti di stato (nuova offerta).",
+      "Decorator, per aggiungere funzionalità a un'offerta."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Lock-Modify-Unlock",
+    "question": "Qual è il funzionamento base del modello di versionamento Lock-Modify-Unlock (LMU)?",
+    "options": [
+      "Permette a più utenti di modificare lo stesso file contemporaneamente, gestendo i conflitti al momento del merge.",
+      "Un utente deve acquisire un 'lock' esclusivo su un file prima di modificarlo, impedendo ad altri di lavorarci fino al rilascio.",
+      "Crea una copia locale del file per ogni utente, che viene sincronizzata automaticamente con il server ogni pochi minuti."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Lock-Modify-Unlock",
+    "question": "Qual è uno dei principali svantaggi del modello Lock-Modify-Unlock?",
+    "options": [
+      "Aumenta il rischio di conflitti semantici perché il codice non viene integrato frequentemente.",
+      "Può creare colli di bottiglia e rallentare il team se un utente dimentica di rilasciare un lock.",
+      "Richiede una grande quantità di spazio su disco nel repository centrale per memorizzare lo stato dei lock."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Lock-Modify-Unlock",
+    "question": "Il modello LMU è tipico dei sistemi di controllo versione:",
+    "options": [
+      "Distribuiti (come Git), che promuovono il lavoro offline e il merge.",
+      "Centralizzati (come il vecchio SVN o VSS), dove il server può gestire centralmente lo stato dei lock.",
+      "Basati su cloud (come GitHub), che usano esclusivamente il modello Pull Request."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Modello Lock-Modify-Unlock",
+    "question": "In quale scenario il modello LMU impedisce il lavoro parallelo anche se non ci sarebbero conflitti testuali?",
+    "options": [
+      "Quando due utenti vogliono modificare file completamente diversi all'interno dello stesso progetto.",
+      "Quando due utenti vogliono modificare parti diverse e non sovrapposte dello stesso file binario o di testo.",
+      "Questo scenario non si verifica mai, il lock a livello di file è sempre necessario per prevenire conflitti."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Regole di sicurezza nella progettazione",
+    "question": "La regola 'Fallire in modo certo' (Fail-safe) implica che:",
+    "options": [
+      "Il sistema non dovrebbe mai fallire, garantendo un uptime del 100%.",
+      "I sistemi critici per la sicurezza, in caso di fallimento, dovrebbero terminare in uno stato controllato e sicuro (es. chiudendo le connessioni).",
+      "In caso di fallimento, il sistema dovrebbe riavviarsi automaticamente tentando di ripristinare lo stato precedente."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Regole di sicurezza nella progettazione",
+    "question": "Cosa significa 'Evitare un singolo punto di fallimento' (single point of failure) in termini di sicurezza?",
+    "options": [
+      "Progettare il sistema in modo che il fallimento o la compromissione di un singolo componente non comprometta la sicurezza dell'intero sistema.",
+      "Avere un solo amministratore di sistema per centralizzare la gestione della sicurezza ed evitare confusioni.",
+      "Utilizzare un unico, robusto algoritmo di crittografia per tutto il sistema per garantirne la coerenza."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Regole di sicurezza nella progettazione",
+    "question": "L'uso di ridondanza e diversità (es. mantenere più versioni del software basate su tecnologie diverse) serve a:",
+    "options": [
+      "Semplificare il deployment e la manutenzione del sistema.",
+      "Ridurre i rischi, poiché una vulnerabilità in una tecnologia potrebbe non affliggere le altre.",
+      "Migliorare le prestazioni del sistema distribuendo il carico su più versioni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Regole di sicurezza nella progettazione",
+    "question": "La regola di 'minimizzare i privilegi di default' (Principle of Least Privilege) suggerisce di:",
+    "options": [
+      "Concedere a ogni utente e componente solo i permessi strettamente necessari per svolgere le proprie funzioni.",
+      "Dare a tutti gli utenti privilegi di amministratore di default per semplificare la configurazione.",
+      "Minimizzare il numero totale di utenti che possono accedere al sistema."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "RUP - Rational Unified Process",
+    "question": "Quali sono le quattro fasi principali del ciclo di vita dinamico del RUP?",
+    "options": [
+      "Analisi, Progettazione, Implementazione, Test.",
+      "Avvio (Inception), Elaborazione (Elaboration), Costruzione (Construction), Transizione (Transition).",
+      "Requisiti, Sviluppo, Rilascio, Manutenzione."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "RUP - Rational Unified Process",
+    "question": "In quale fase del RUP viene definita e validata l'architettura di base del sistema e mitigati i rischi tecnici più importanti?",
+    "options": [
+      "Avvio (Inception), che si concentra sulla fattibilità e l'ambito del progetto.",
+      "Costruzione (Construction), dove la maggior parte del codice viene scritto.",
+      "Elaborazione (Elaboration), il cui scopo è creare un'architettura eseguibile stabile."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "RUP - Rational Unified Process",
+    "question": "Il RUP è un processo di sviluppo che può essere descritto come:",
+    "options": [
+      "Iterativo e incrementale, guidato dai casi d'uso e centrato sull'architettura.",
+      "Strettamente sequenziale e basato sul modello a cascata, con fasi che non si sovrappongono.",
+      "Agile e non prescrittivo, basato su sprint di breve durata e feedback continuo del cliente."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "RUP - Rational Unified Process",
+    "question": "I 'workflow' o 'discipline' (es. Requisiti, Analisi e Progetto, Test) fanno parte di quale prospettiva del RUP?",
+    "options": [
+      "Prospettiva Dinamica, che descrive le fasi nel tempo.",
+      "Prospettiva Statica, che descrive le attività logiche svolte.",
+      "Prospettiva Pratica, che descrive le best practice."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "RUP - Rational Unified Process",
+    "question": "La fase di 'Costruzione' (Construction) del RUP si concentra principalmente su:",
+    "options": [
+      "La valutazione della fattibilità economica e la definizione del business case.",
+      "Lo sviluppo incrementale delle funzionalità del prodotto, scrivendo e testando la maggior parte del codice.",
+      "Il deployment del sistema presso gli utenti finali e la raccolta di feedback tramite beta-testing."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "White box e Black box testing",
+    "question": "Qual è la caratteristica distintiva del 'black box testing'?",
+    "options": [
+      "Il tester ha piena conoscenza della struttura interna, della logica e del codice del software.",
+      "Il test si concentra sulla verifica delle funzionalità del sistema dall'esterno, senza conoscere il suo funzionamento interno.",
+      "Il test viene eseguito esclusivamente su codice sorgente non ancora compilato per trovare errori di sintassi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "White box e Black box testing",
+    "question": "Il 'white box testing' è mirato ad analizzare:",
+    "options": [
+      "La struttura interna, i percorsi logici, i rami e le condizioni del codice del software.",
+      "L'usabilità e la completezza dell'interfaccia utente.",
+      "La conformità del sistema ai requisiti utente e alle specifiche funzionali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "White box e Black box testing",
+    "question": "Un test che verifica se tutti i `case` di un'istruzione `switch` sono stati eseguiti almeno una volta è un esempio di:",
+    "options": [
+      "Black box testing, perché si concentra sull'input/output.",
+      "White box testing, perché richiede la conoscenza della struttura del codice.",
+      "Test di usabilità, perché verifica come l'utente interagisce con le opzioni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "White box e Black box testing",
+    "question": "Scrivere test molto specifici che sfruttano la conoscenza del codice per violare la sicurezza del sistema è un approccio di:",
+    "options": [
+      "Black box security testing (penetration testing).",
+      "White box security testing (analisi statica e dinamica del codice).",
+      "User acceptance security testing."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Singleton",
+    "question": "Qual è l'obiettivo del pattern Singleton?",
+    "options": [
+      "Creare oggetti complessi passo dopo passo, separando costruzione e rappresentazione.",
+      "Permettere la creazione di un numero illimitato di istanze di una classe tramite una factory.",
+      "Garantire che una classe abbia una sola istanza e fornire un punto di accesso globale a tale istanza."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern Singleton",
+    "question": "Come si implementa tipicamente il pattern Singleton?",
+    "options": [
+      "Rendendo il costruttore pubblico e fornendo un metodo statico per creare sempre nuove istanze.",
+      "Rendendo il costruttore privato e fornendo un metodo statico (es. `GetInstance()`) che crea l'istanza se non esiste e la restituisce.",
+      "Utilizzando una classe astratta che non può essere istanziata direttamente, forzando l'uso di sottoclassi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Singleton",
+    "question": "Nonostante la sua utilità, quale è una critica comune mossa al pattern Singleton in termini di design del software?",
+    "options": [
+      "È computazionalmente molto costoso da istanziare, rallentando significativamente l'avvio dell'applicazione.",
+      "Può introdurre un accoppiamento stretto e uno stato globale, rendendo il codice più difficile da testare unitariamente.",
+      "Non può essere implementato in modo sicuro in un ambiente multi-threaded, portando sempre a race conditions."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Singleton",
+    "question": "Perché una classe statica con solo membri statici non è sempre una buona alternativa al pattern Singleton?",
+    "options": [
+      "Perché una classe statica non può avere metodi, ma solo campi statici.",
+      "Perché il pattern Singleton, essendo un oggetto, permette l'ereditarietà e l'implementazione di interfacce, cose che una classe statica non può fare.",
+      "Perché una classe statica è molto meno performante di un'istanza Singleton a causa dell'overhead del class loader."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern MVC",
+    "question": "Nel pattern MVC, quale componente è responsabile della logica di business e della gestione dei dati?",
+    "options": [
+      "La View, che contiene la logica per presentare i dati e gestirne le modifiche.",
+      "Il Controller, che orchestra tutta la logica di business e manipola direttamente i dati.",
+      "Il Model, che incapsula i dati e le regole di business associate ad essi."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern MVC",
+    "question": "La 'View' nel pattern MVC ha il compito di:",
+    "options": [
+      "Elaborare gli input dell'utente e decidere quale azione di business invocare.",
+      "Mostrare all'utente una rappresentazione visuale dei dati forniti dal modello.",
+      "Eseguire query sul database per recuperare i dati da visualizzare."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern MVC",
+    "question": "Qual è il flusso tipico di un'interazione utente in MVC?",
+    "options": [
+      "L'utente interagisce con la View, che aggiorna direttamente il Model e poi si ri-disegna.",
+      "L'utente interagisce con il Controller, che manipola la View, la quale a sua volta legge i dati dal Model.",
+      "L'utente interagisce con la View, l'input viene gestito dal Controller, che aggiorna il Model, il quale notifica la View del cambiamento."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Pattern MVC",
+    "question": "In una tipica implementazione di MVC, il Model è spesso un `Observable` e la View un `Observer`. Cosa significa?",
+    "options": [
+      "La View notifica il Model ogni volta che l'utente compie un'azione, e il Model decide come rispondere.",
+      "Il Model notifica la View (e altri observer registrati) quando il suo stato cambia, permettendo alla View di aggiornarsi senza essere direttamente chiamata dal Controller.",
+      "Il Controller osserva sia il Model che la View e fa da mediatore per ogni singola comunicazione tra i due."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Dependency Inversion Principle (DIP)",
+    "question": "Il Dependency Inversion Principle (DIP) afferma che:",
+    "options": [
+      "I moduli di basso livello dovrebbero dipendere direttamente da quelli di alto livello per una chiara gerarchia.",
+      "Sia i moduli di alto livello (policy) che quelli di basso livello (dettagli) dovrebbero dipendere da astrazioni.",
+      "Le astrazioni dovrebbero dipendere dai dettagli concreti per sapere come essere implementate."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Dependency Inversion Principle (DIP)",
+    "question": "Quale affermazione descrive meglio lo scopo del Dependency Inversion Principle (DIP)?",
+    "options": [
+      "Disaccoppiare i moduli di alto livello dai dettagli di implementazione di quelli di basso livello, facendo dipendere entrambi da astrazioni.",
+      "Forzare i moduli di alto livello a dipendere da implementazioni stabili di basso livello per garantire coerenza e performance.",
+      "Invertire la gerarchia di ereditarietà del programma, in modo che le classi base dipendano dalle sottoclassi."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Dependency Inversion Principle (DIP)",
+    "question": "Applicare il DIP porta a un design in cui i componenti sono:",
+    "options": [
+      "Fortemente accoppiati per massimizzare le prestazioni attraverso chiamate dirette.",
+      "Fortemente disaccoppiati, favorendo la testabilità (usando mock), la manutenibilità e il riuso.",
+      "Organizzati in una stretta gerarchia di ereditarietà per massimizzare il riuso del codice."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Dependency Inversion Principle (DIP)",
+    "question": "Una classe 'ReportGenerator' (alto livello) che crea direttamente un'istanza di 'MySqlDatabase' (basso livello) viola quale principio?",
+    "options": [
+      "Single Responsibility Principle, perché il generatore non dovrebbe conoscere il database.",
+      "Dependency Inversion Principle, perché il modulo di alto livello dipende da un dettaglio concreto di basso livello.",
+      "Open/Closed Principle, perché non è possibile cambiare il tipo di report generato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern MVP",
+    "question": "Nel pattern MVP (Model-View-Presenter), quale componente media la comunicazione tra Model e View?",
+    "options": [
+      "Il Controller, che è una versione più semplice del Presenter.",
+      "Il Presenter, che agisce da intermediario e contiene la logica di presentazione.",
+      "La View stessa, che comunica direttamente con il Model."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern MVP",
+    "question": "Qual è una differenza chiave tra MVC e MVP riguardo alla View?",
+    "options": [
+      "In MVP, la View è più 'intelligente' e contiene la logica di business per essere indipendente dal Presenter.",
+      "In MVP, la View è tipicamente passiva ('stupida') e espone solo proprietà e eventi, delegando tutta la logica al Presenter.",
+      "In MVP non esiste un Model, i dati sono gestiti direttamente dal Presenter e passati alla View."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern MVP",
+    "question": "Un vantaggio spesso citato del pattern MVP rispetto a MVC è:",
+    "options": [
+      "Una maggiore testabilità della logica di presentazione, poiché il Presenter non ha dipendenze da framework UI specifici e può essere testato unitariamente.",
+      "Una minore quantità di codice da scrivere, dato che il Presenter unisce i ruoli di Controller e Model.",
+      "Migliori prestazioni, perché la comunicazione tra View e Presenter è più diretta."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Interface Segregation Principle (ISP)",
+    "question": "Cosa afferma l'Interface Segregation Principle (ISP)?",
+    "options": [
+      "È meglio avere una singola interfaccia generale ('fat interface') che raggruppi tutte le operazioni possibili su un oggetto.",
+      "I client non dovrebbero essere forzati a dipendere da metodi di un'interfaccia che non usano.",
+      "Le interfacce non dovrebbero contenere più di un metodo per massimizzare la loro coesione."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Interface Segregation Principle (ISP)",
+    "question": "Le interfacce troppo generali, chiamate 'fat interfaces', violano l'ISP e creano quale problema?",
+    "options": [
+      "Un accoppiamento indiretto tra i client, dove una modifica richiesta da un client (es. aggiungere un metodo) costringe tutti gli altri a cambiare.",
+      "Un calo di prestazioni dovuto all'overhead del v-table lookup per le interfacce di grandi dimensioni.",
+      "L'impossibilità di implementare l'interfaccia in più di una classe all'interno dello stesso package."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Interface Segregation Principle (ISP)",
+    "question": "Una classe 'StampanteMultifunzione' implementa un'interfaccia `IMacchinaUfficio` con metodi `stampa`, `scansiona` e `inviaFax`. Se un client ha bisogno solo di stampare, quale principio viene violato?",
+    "options": [
+      "Single Responsibility Principle, perché il client fa troppe cose.",
+      "Interface Segregation Principle, perché il client è costretto a dipendere da metodi (`scansiona`, `inviaFax`) che non usa.",
+      "Liskov Substitution Principle, perché la stampante non è sostituibile."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern State",
+    "question": "Quando è utile applicare il pattern State?",
+    "options": [
+      "Quando un oggetto deve alterare il suo comportamento al cambiare del suo stato interno, apparendo come se avesse cambiato classe.",
+      "Quando si vuole creare una struttura ad albero di oggetti e trattare i nodi e le foglie in modo uniforme.",
+      "Quando si deve garantire che esista una sola istanza di una classe per gestire uno stato globale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern State",
+    "question": "Il pattern State è spesso un'alternativa a quale pratica di codifica?",
+    "options": [
+      "L'uso di ereditarietà multipla per combinare diversi comportamenti.",
+      "L'uso di grandi costrutti condizionali (if/else o switch) basati su una variabile di stato all'interno di una classe.",
+      "L'uso di chiamate a procedure remote per delegare il comportamento a un servizio esterno."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern State",
+    "question": "Qual è la differenza principale tra il pattern State e il pattern Strategy?",
+    "options": [
+      "Lo Strategy gestisce algoritmi intercambiabili scelti dal client, mentre lo State gestisce il cambiamento di comportamento guidato dallo stato interno del contesto.",
+      "Non ci sono differenze strutturali, sono due nomi per lo stesso pattern.",
+      "Lo State usa l'ereditarietà per definire gli stati, mentre lo Strategy usa la composizione."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern State",
+    "question": "In quale categoria di pattern rientra lo State?",
+    "options": [
+      "Creazionale",
+      "Strutturale",
+      "Comportamentale"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Interfaccia vs Classe Astratta",
+    "question": "Quale delle seguenti affermazioni è vera per una classe astratta ma non per un'interfaccia (in versioni classiche di C#/Java)?",
+    "options": [
+      "Può definire la firma dei metodi che le classi derivate devono implementare.",
+      "Può contenere attributi membro (campi) e costruttori per inizializzare uno stato comune.",
+      "Una classe può implementarne/estenderne più di una per ottenere ereditarietà multipla di comportamento."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Interfaccia vs Classe Astratta",
+    "question": "Quando è preferibile usare un'interfaccia rispetto a una classe astratta?",
+    "options": [
+      "Quando si vuole fornire un'implementazione di base comune a tutte le sottoclassi, lasciando solo alcuni metodi da definire.",
+      "Quando si vuole definire un contratto di comportamento che può essere implementato da classi non correlate gerarchicamente.",
+      "Quando si ha la necessità di mantenere uno stato (variabili membro) che deve essere condiviso tra le sottoclassi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Interfaccia vs Classe Astratta",
+    "question": "Riguardo all'ereditarietà, qual è una differenza fondamentale tra classi astratte e interfacce in linguaggi come C# e Java?",
+    "options": [
+      "Una classe può ereditare da più classi astratte, ma implementare solo un'interfaccia.",
+      "Una classe può ereditare da una sola classe (astratta o concreta), ma può implementare più interfacce.",
+      "Non ci sono differenze fondamentali, entrambe supportano l'ereditarietà multipla di implementazione."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Interfaccia vs Classe Astratta",
+    "question": "Se si aggiunge un nuovo metodo a una classe astratta con un'implementazione di default, cosa succede alle sottoclassi esistenti?",
+    "options": [
+      "Tutte le sottoclassi esistenti smettono di compilare e devono essere modificate per implementare il nuovo metodo.",
+      "Non succede nulla, le sottoclassi ereditano semplicemente il nuovo metodo con la sua implementazione di default.",
+      "Le sottoclassi devono obbligatoriamente fare l'override del nuovo metodo, anche se ha un'implementazione di default."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Tecnologia COM",
+    "question": "Qual è la funzione principale della tecnologia COM (Component Object Model)?",
+    "options": [
+      "È un linguaggio di programmazione orientato ai componenti sviluppato da Microsoft.",
+      "È uno standard binario per creare componenti software interoperabili, indipendenti dal linguaggio.",
+      "È un framework per la gestione di comunicazioni di rete a basso livello tramite socket."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Tecnologia COM",
+    "question": "Come gestisce COM il ciclo di vita degli oggetti per assicurarsi che rimangano 'vivi' finché ci sono client che li usano?",
+    "options": [
+      "Utilizzando un Garbage Collector centralizzato fornito dal sistema operativo.",
+      "Tramite la tecnica del reference counting, dove ogni client deve esplicitamente incrementare/decrementare un contatore.",
+      "Richiedendo la deallocazione manuale da parte del client che ha creato l'oggetto, una volta terminato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Tecnologia COM",
+    "question": "Una limitazione del deployment dei componenti COM è che:",
+    "options": [
+      "Possono esistere più versioni dello stesso componente contemporaneamente nel sistema, portando a conflitti.",
+      "La loro posizione è salvata nel registro di Windows, quindi tipicamente può esistere solo una specifica versione di un componente.",
+      "I componenti COM non possono essere utilizzati da linguaggi .NET a causa di incompatibilità binarie."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Flyweight",
+    "question": "Qual è l'obiettivo principale del pattern Flyweight?",
+    "options": [
+      "Creare una copia esatta di un oggetto esistente, inclusivo del suo stato interno.",
+      "Ridurre l'uso della memoria condividendo un gran numero di oggetti a granularità fine che hanno uno stato in comune.",
+      "Fornire un'interfaccia semplificata per un sistema complesso composto da molti oggetti."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Flyweight",
+    "question": "Nel pattern Flyweight, lo stato di un oggetto è diviso in due parti. Quali sono?",
+    "options": [
+      "Pubblico (accessibile da tutti) e Privato (accessibile solo dalla classe).",
+      "Intrinseco (immutabile e condivisibile) ed Estrinseco (dipendente dal contesto e passato dal client).",
+      "Primario (essenziale per il funzionamento) e Secondario (opzionale)."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Flyweight",
+    "question": "In un editor di testo, ogni carattere ('A', 'B', 'C') ha font e dimensione (stato intrinseco), ma una posizione diversa sulla pagina (stato estrinseco). Questo scenario è ideale per quale pattern?",
+    "options": [
+      "Prototype, per creare nuovi caratteri clonandone uno esistente.",
+      "Flyweight, per avere una sola istanza per ogni tipo di carattere (es. una per 'A' in Arial 12) e condividere la memoria.",
+      "Composite, per rappresentare la struttura del documento come righe e paragrafi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Flyweight",
+    "question": "Lo stato estrinseco (non condiviso) di un oggetto Flyweight è:",
+    "options": [
+      "Memorizzato all'interno dell'oggetto Flyweight stesso, ma in campi `transient`.",
+      "Memorizzato dal client e passato come parametro ai metodi del Flyweight quando viene invocata un'operazione.",
+      "Scartato e non utilizzato, perché il Flyweight può funzionare solo con lo stato intrinseco."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Garbage Collector in C#",
+    "question": "Qual è la funzione del Garbage Collector (GC) in C#?",
+    "options": [
+      "Rilasciare automaticamente le risorse di memoria occupate da oggetti che non sono più raggiungibili dal codice.",
+      "Ordinare gli oggetti in memoria per velocizzare l'accesso sequenziale (compattazione), ma non li dealloca.",
+      "Prevenire errori di compilazione legati alla memoria, analizzando il codice staticamente."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Garbage Collector in C#",
+    "question": "Il GC di .NET previene problemi come i 'dangling pointer'. Cosa sono?",
+    "options": [
+      "Oggetti che puntano a se stessi in un ciclo, che il GC non riesce a deallocare.",
+      "Puntatori ad aree di memoria che sono state deallocate e potrebbero essere state riassegnate ad altri oggetti.",
+      "Oggetti che non sono più raggiungibili dal codice dell'applicazione e che occupano memoria inutilmente (memory leak)."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Garbage Collector in C#",
+    "question": "La strategia usata dal GC di .NET per identificare gli oggetti da eliminare è il 'tracing'. Come funziona?",
+    "options": [
+      "Conta i riferimenti a ogni oggetto (reference counting) e lo elimina quando il conteggio va a zero.",
+      "Stabilisce quali oggetti sono raggiungibili (vivi) partendo da un insieme di 'radici' (root) e considera il resto 'garbage'.",
+      "Elimina gli oggetti in base al loro tempo di vita, eliminando per primi quelli creati da più tempo (FIFO)."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Garbage Collector in C#",
+    "question": "Cosa si intende quando si dice che il rilascio della memoria da parte del GC è 'non deterministico'?",
+    "options": [
+      "Non si può prevedere il momento esatto in cui la garbage collection verrà eseguita e la memoria verrà liberata.",
+      "Il GC potrebbe decidere casualmente di non rilasciare mai la memoria di alcuni oggetti, causando memory leak.",
+      "L'algoritmo del GC sceglie in modo casuale quali oggetti eliminare durante ogni ciclo di pulizia."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Delegati ed Eventi in C#",
+    "question": "Cosa è un 'delegato' in C#?",
+    "options": [
+      "Un tipo speciale di classe che non può essere istanziata e contiene solo metodi statici.",
+      "Un oggetto type-safe che incapsula un riferimento a uno o più metodi con una specifica firma, simile a un puntatore a funzione.",
+      "Una variabile che può contenere un riferimento a un'altra classe, usata per la dependency injection."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Delegati ed Eventi in C#",
+    "question": "In C#, un 'evento' (event) è essenzialmente:",
+    "options": [
+      "Un wrapper sicuro attorno a un delegato che espone solo operazioni di sottoscrizione (+=) e de-sottoscrizione (-=) ai client esterni.",
+      "Un tipo di dato primitivo, come `int` o `bool`, per gestire le interazioni dell'interfaccia utente.",
+      "Un sinonimo di 'metodo' o 'funzione', usato nel contesto della programmazione funzionale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Delegati ed Eventi in C#",
+    "question": "L'uso di delegati ed eventi è fondamentale per implementare quale pattern comportamentale?",
+    "options": [
+      "Singleton, per gestire l'accesso all'unica istanza.",
+      "Adapter, per convertire la firma di un metodo.",
+      "Observer, dove il Subject espone un evento a cui gli Observer si sottoscrivono."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Delegati ed Eventi in C#",
+    "question": "Qual è il vantaggio di usare un 'event' invece di un campo delegato pubblico?",
+    "options": [
+      "L'evento è più performante nell'invocazione perché viene compilato in modo speciale dal JIT.",
+      "L'evento impedisce ai sottoscrittori esterni di invocare direttamente il delegato o di cancellare la lista degli altri sottoscrittori.",
+      "Un evento può fare riferimento a più metodi, mentre un delegato pubblico può puntare solo a un metodo alla volta."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Metaprogrammazione e Riflessione",
+    "question": "Cosa si intende per 'riflessione' (reflection) in C#?",
+    "options": [
+      "La capacità di un programma di creare una copia esatta di se stesso in memoria per scopi di backup.",
+      "La capacità di un programma di ispezionare i propri metadati (tipi, metodi, proprietà) a runtime e di manipolarli dinamicamente.",
+      "Il processo di ottimizzazione del codice IL eseguito dal compilatore JIT per adattarlo all'architettura specifica."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Metaprogrammazione e Riflessione",
+    "question": "Quale classe in .NET è la chiave per la riflessione, rappresentando la definizione di un tipo a runtime?",
+    "options": [
+      "System.Object, che è la classe base di tutti i tipi.",
+      "System.Reflection.Assembly, che rappresenta un'unità di deployment.",
+      "System.Type, che fornisce l'accesso ai metadati di un tipo."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Metaprogrammazione e Riflessione",
+    "question": "Qual è un potenziale svantaggio dell'uso estensivo della riflessione?",
+    "options": [
+      "Il codice che usa la riflessione tende ad essere più lento rispetto al codice con binding statico, a causa dell'overhead dell'ispezione a runtime.",
+      "È impossibile usare la riflessione per invocare metodi privati, limitandone l'utilità per i test.",
+      "La riflessione funziona solo su componenti .NET e non può ispezionare librerie COM o native."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Tipologie di Requisiti",
+    "question": "Quale tipologia di requisiti descrive i servizi che il sistema deve fornire e come deve reagire a particolari input?",
+    "options": [
+      "Requisiti non funzionali, che definiscono le qualità del sistema.",
+      "Requisiti funzionali, che specificano il comportamento del sistema.",
+      "Requisiti del dominio, che derivano dal contesto applicativo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Tipologie di Requisiti",
+    "question": "Requisiti come prestazioni, sicurezza, o usabilità, che descrivono le qualità del sistema, sono classificati come:",
+    "options": [
+      "Requisiti funzionali, perché influenzano il funzionamento del software.",
+      "Requisiti del dominio, perché dipendono dal settore di applicazione.",
+      "Requisiti non funzionali, perché definiscono 'come' il sistema dovrebbe essere, non 'cosa' dovrebbe fare."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Tipologie di Requisiti",
+    "question": "Un requisito che afferma 'Il sistema deve essere conforme alla legge sulla privacy GDPR' è un esempio di:",
+    "options": [
+      "Requisito funzionale, perché descrive una funzione di compliance.",
+      "Requisito non funzionale esterno, perché deriva da una legislazione.",
+      "Requisito del dominio, specifico del settore legale."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Ciclo di vita della valutazione del rischio",
+    "question": "L'analisi del rischio ha lo scopo di:",
+    "options": [
+      "Eliminare completamente tutti i rischi possibili, garantendo un sistema sicuro al 100%.",
+      "Bilanciare le potenziali perdite dovute ad attacchi con i costi necessari per implementare le contromisure di protezione.",
+      "Documentare tutti gli attacchi subiti dal software dopo il suo rilascio per migliorare le versioni future."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Ciclo di vita della valutazione del rischio",
+    "question": "L'identificazione di cosa proteggere (beni), quali sono le vulnerabilità e qual è il rischio associato a un attacco fa parte di quale fase?",
+    "options": [
+      "Valutazione preliminare, dove si definiscono solo i requisiti di alto livello.",
+      "Analisi continua, che si svolge durante tutto lo sviluppo per affinare la comprensione dei rischi.",
+      "Implementazione delle contromisure, dove si scrive il codice per mitigare i rischi identificati."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Abstract Factory",
+    "question": "Qual è lo scopo del pattern Abstract Factory?",
+    "options": [
+      "Fornire un'interfaccia per creare famiglie di oggetti correlati o dipendenti senza specificare le loro classi concrete.",
+      "Delegare la creazione di un oggetto a sottoclassi specifiche, lasciando che decidano quale classe istanziare.",
+      "Garantire che una classe abbia una sola istanza e fornire un punto di accesso globale ad essa."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Pattern Abstract Factory",
+    "question": "Il pattern Abstract Factory è spesso usato quando:",
+    "options": [
+      "Il processo di creazione di un oggetto è molto semplice e lineare.",
+      "Un sistema deve essere configurato con una di più famiglie di prodotti e questa configurazione deve avvenire una sola volta.",
+      "Si vuole aggiungere dinamicamente funzionalità a un oggetto esistente dopo la sua creazione."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Pattern Abstract Factory",
+    "question": "In un'applicazione GUI che supporta diversi look-and-feel (es. Windows, MacOS), si potrebbe usare un'Abstract Factory per creare widget (bottoni, finestre) coerenti con il tema scelto. In questo scenario, `WindowsWidgetFactory` sarebbe:",
+    "options": [
+      "Un AbstractProduct.",
+      "Un Client.",
+      "Una ConcreteFactory."
+    ],
+    "answer": 2
+  }
+]

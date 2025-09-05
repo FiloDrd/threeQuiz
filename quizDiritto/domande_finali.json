@@ -1,0 +1,2094 @@
+[
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Qual è la principale differenza tra un 'regolamento comunitario' e una 'direttiva comunitaria' in termini di applicabilità negli Stati membri?",
+    "options": [
+      "Il regolamento è una disciplina dettagliata direttamente applicabile, la direttiva detta obiettivi e principi da attuare con leggi interne.",
+      "Il regolamento necessita di attuazione tramite legge interna, la direttiva è immediatamente applicabile.",
+      "La direttiva è solo una raccomandazione, il regolamento è vincolante solo se recepito."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'effetto retroattivo di un Decreto Legge non convertito in legge entro 60 giorni comporta che:",
+    "options": [
+      "Gli effetti prodotti fino a quel momento restano validi.",
+      "Il Decreto Legge perde efficacia fin dall'origine, come se non fosse mai esistito.",
+      "Il Decreto Legge perde efficacia solo per il futuro."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Una 'riserva di legge relativa' implica che:",
+    "options": [
+      "La materia può essere disciplinata solo ed esclusivamente dalla legge ordinaria.",
+      "La legge detta i principi fondamentali, mentre la disciplina analitica può essere demandata a regolamenti.",
+      "La materia è riservata alla competenza legislativa delle Regioni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Gli usi e consuetudini sono ammessi come fonti del diritto se:",
+    "options": [
+      "Contrastano con una legge esistente ma sono più recenti.",
+      "Sono approvati con un decreto ministeriale.",
+      "Riguardano materie non regolate da leggi o regolamenti, o se da questi richiamati (e non sono 'contra legem')."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'interpretazione 'estensiva' di una norma giuridica significa che:",
+    "options": [
+      "Alla norma viene attribuito un significato più ampio rispetto a quello letterale, ma sempre entro l'intenzione del legislatore.",
+      "Alla norma viene attribuito un significato più ristretto rispetto a quello letterale.",
+      "La norma viene applicata a casi completamente diversi da quelli previsti."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Nel sistema di 'civil law' (come quello italiano), una precedente sentenza giudiziaria su un caso analogo:",
+    "options": [
+      "È formalmente vincolante per i giudici successivi (principio dello 'stare decisis').",
+      "Non è formalmente vincolante, ma può costituire un precedente autorevole.",
+      "È irrilevante per i casi successivi."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'capacità giuridica' si acquista alla nascita, mentre la 'capacità di agire' si acquista generalmente:",
+    "options": [
+      "Con la maggiore età.",
+      "Al compimento dei 16 anni.",
+      "Con il primo contratto di lavoro."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'responsabilità oggettiva' sorge:",
+    "options": [
+      "Anche in assenza di dolo o colpa, per il solo nesso di causalità tra un'attività e il danno.",
+      "Solo se il danno è causato intenzionalmente.",
+      "Esclusivamente per violazione di obblighi contrattuali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Il 'testo consolidato' di una norma è:",
+    "options": [
+      "Un riassunto commentato dalla dottrina.",
+      "Il testo originariamente pubblicato in Gazzetta Ufficiale.",
+      "Il testo vigente che include tutte le successive modifiche."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Nella valutazione della ricerca elettronica, la 'precisione' si riferisce alla capacità del sistema di fornire:",
+    "options": [
+      "I documenti in ordine cronologico inverso.",
+      "Solo i documenti pertinenti, minimizzando quelli irrilevanti.",
+      "Tutti i documenti esistenti su un argomento."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cosa si intende per 'ordinamento giuridico'?",
+    "options": [
+      "Unicamente la Costituzione di uno Stato.",
+      "L'elenco dei tribunali presenti sul territorio.",
+      "L'insieme delle norme che compongono un dato sistema."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'Gazzetta Ufficiale' serve principalmente per:",
+    "options": [
+      "Pubblicare articoli di opinione giuridica.",
+      "Archiviare le sentenze della Corte di Cassazione.",
+      "Rendere conoscibili le leggi e gli altri atti normativi, determinando la loro entrata in vigore."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Qual è il primo gradino nella gerarchia delle fonti del diritto italiano menzionate nel testo (escludendo le fonti UE)?",
+    "options": [
+      "La Costituzione e le leggi costituzionali.",
+      "Leggi ordinarie dello Stato.",
+      "Regolamenti governativi."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Un Decreto Legislativo è emanato dal Governo:",
+    "options": [
+      "Autonomamente, senza intervento parlamentare.",
+      "Su delega del Parlamento, che fissa principi e criteri direttivi.",
+      "In casi straordinari di necessità e urgenza."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cosa significa che una legge 'non ammette ignoranza'?",
+    "options": [
+      "Che le leggi devono essere scritte in un linguaggio semplice per tutti.",
+      "Che solo i giuristi possono interpretare correttamente le leggi.",
+      "Che l'ignoranza della legge, una volta pubblicata, non giustifica il comportamento contrario ad essa."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'interpretazione 'autentica' di una legge è quella fornita:",
+    "options": [
+      "Dalla dottrina giuridica prevalente.",
+      "Dal giudice nel corso di un processo.",
+      "Dallo stesso legislatore con una legge successiva."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Il 'giudice di secondo grado' (es. Corte d'Appello) ha il compito di:",
+    "options": [
+      "Riesaminare la causa nel merito, potendo confermare o modificare la decisione precedente.",
+      "Verificare solo la legittimità della sentenza di primo grado.",
+      "Emettere sentenze con valore di legge."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Un 'diritto soggettivo' è:",
+    "options": [
+      "Una situazione giuridica di vantaggio tutelata dall'ordinamento.",
+      "Un obbligo imposto dalla legge.",
+      "Una semplice aspettativa non protetta."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'responsabilità contrattuale' sorge a seguito di:",
+    "options": [
+      "Un comportamento socialmente riprovevole.",
+      "Un danno causato a terzi estranei al contratto.",
+      "L'inadempimento di un'obbligazione derivante da un contratto."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'Corte Costituzionale' ha il compito principale di:",
+    "options": [
+      "Interpretare i contratti tra privati.",
+      "Giudicare sulla legittimità costituzionale delle leggi e degli atti aventi forza di legge.",
+      "Risolvere conflitti tra Stati membri dell'Unione Europea."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "I diritti morali d'autore, come il diritto alla paternità dell'opera, sono caratterizzati da:",
+    "options": [
+      "Durata limitata a 20 anni dopo la morte dell'autore.",
+      "Trasferibilità agli eredi e possibilità di rinuncia.",
+      "Inalienabilità, irrinunciabilità e imprescrittibilità."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La durata generale dei diritti patrimoniali d'autore in Italia è:",
+    "options": [
+      "Per tutta la vita dell'autore e per 70 anni dopo la sua morte.",
+      "Fino a quando l'opera è commercialmente disponibile.",
+      "50 anni dalla data di creazione dell'opera."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La Legge 633/41 (LDA) considera i programmi per elaboratore (software) ai fini della tutela come:",
+    "options": [
+      "Opere letterarie.",
+      "Invenzioni industriali brevettabili.",
+      "Segreti commerciali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La tutela del software si estende alle idee e ai principi che stanno alla base del suo funzionamento?",
+    "options": [
+      "No, la tutela copre la forma espressiva del software (codice, materiale preparatorio), non le idee sottostanti.",
+      "Sì, se le idee sono particolarmente originali.",
+      "Sì, ma solo se il software è registrato presso la SIAE."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'principio di esaurimento comunitario' per il diritto di distribuzione di un'opera implica che:",
+    "options": [
+      "Il diritto di distribuzione non si esaurisce mai.",
+      "L'autore perde ogni diritto sull'opera dopo la prima vendita.",
+      "Dopo la prima vendita autorizzata dal titolare all'interno della UE, le copie possono circolare liberamente nella UE."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Cosa NON è generalmente tutelato dalla Legge sul Diritto d'Autore?",
+    "options": [
+      "Composizioni musicali con o senza parole.",
+      "Fotografie con carattere creativo.",
+      "Testi degli atti ufficiali dello Stato e delle Amministrazioni Pubbliche."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "L'esercizio del diritto di 'ritiro dell'opera dal commercio' per gravi ragioni morali da parte dell'autore comporta:",
+    "options": [
+      "Nessun obbligo di indennizzo verso chi ha acquistato i diritti.",
+      "La perdita automatica di tutti i diritti morali.",
+      "L'obbligo di indennizzare coloro che hanno acquistato i diritti di utilizzazione."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La registrazione di un software presso la SIAE è:",
+    "options": [
+      "Facoltativa e serve principalmente come prova dell'esistenza e titolarità alla data del deposito.",
+      "Obbligatoria per ottenere la tutela legale.",
+      "Necessaria per poterlo distribuire commercialmente."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il diritto 'sui generis' del costitutore di una banca dati protegge principalmente:",
+    "options": [
+      "Le singole informazioni contenute nella banca dati, se creative.",
+      "L'originalità creativa della struttura della banca dati.",
+      "L'investimento finanziario, materiale o umano rilevante per la sua realizzazione o presentazione."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Le sanzioni penali per la violazione del diritto d'autore (es. duplicazione abusiva a scopo di profitto) possono comprendere:",
+    "options": [
+      "Anche la reclusione, oltre a sanzioni pecuniarie.",
+      "Esclusivamente sanzioni amministrative pecuniarie.",
+      "Solo l'obbligo di risarcire il danno al titolare dei diritti."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il diritto di 'noleggio' di un'opera (es. software, film) è un diritto patrimoniale esclusivo dell'autore?",
+    "options": [
+      "Sì, e l'autore mantiene il diritto a un'equa remunerazione anche se cede tale diritto.",
+      "No, il noleggio è sempre libero dopo la prima vendita.",
+      "Sì, ma solo per le opere cinematografiche."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Un'opera collettiva (es. un giornale) è protetta:",
+    "options": [
+      "Solo per 10 anni dalla pubblicazione.",
+      "Come opera a sé stante, e i diritti sulle singole parti spettano ai rispettivi autori.",
+      "Solo se tutti i singoli contributi sono originali."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'diritto di inedito' si esaurisce:",
+    "options": [
+      "Mai, l'autore può sempre decidere di non pubblicare.",
+      "Con la prima pubblicazione autorizzata dell'opera.",
+      "Dopo 70 anni dalla morte dell'autore."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La riproduzione di opere per 'uso personale' di fonogrammi e videogrammi senza fini di lucro:",
+    "options": [
+      "Richiede un'autorizzazione specifica della SIAE.",
+      "È sempre vietata.",
+      "È consentita, ma non si applica ai contenuti on demand."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Le 'misure tecnologiche di protezione' (DRM) possono essere rimosse se:",
+    "options": [
+      "Sono considerate troppo complesse dall'utente.",
+      "Ostacolano l'esercizio di eccezioni legali (es. copia privata) e non ci sono altre modalità per usufruirne.",
+      "L'utente possiede una copia originale dell'opera."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "In caso di software creato da un dipendente nell'esercizio delle sue mansioni, a chi spettano di norma i diritti di utilizzazione economica?",
+    "options": [
+      "Al datore di lavoro, salvo patto contrario.",
+      "Al dipendente, che può cederli al datore di lavoro.",
+      "In comunione tra dipendente e datore di lavoro."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "È consentita la decompilazione di un software per ottenere l'interoperabilità con altri programmi?",
+    "options": [
+      "No, mai, costituisce sempre violazione.",
+      "Sì, a determinate condizioni restrittive e solo per le parti indispensabili.",
+      "Solo se il software è obsoleto."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La durata della protezione per le fotografie prive di carattere creativo (semplici fotografie) è di:",
+    "options": [
+      "Non hanno alcuna protezione.",
+      "70 anni dalla morte del fotografo.",
+      "20 anni dalla data di produzione della fotografia."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'diritto di pentimento' è un diritto dell'autore di:",
+    "options": [
+      "Cedere i propri diritti patrimoniali a terzi.",
+      "Ritirare l'opera dal commercio per gravi ragioni morali, indennizzando gli aventi diritto.",
+      "Modificare l'opera dopo la pubblicazione."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il Regolamento AGCOM sulla tutela del diritto d'autore online si applica a:",
+    "options": [
+      "Esclusivamente alla pirateria di software.",
+      "Violazioni del diritto d'autore sulle reti di comunicazione elettronica, offrendo procedure più rapide di quelle giudiziarie.",
+      "Solo violazioni commesse su piattaforme estere."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto è definito dal Codice Civile come:",
+    "options": [
+      "L'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale.",
+      "Una promessa unilaterale con effetti giuridici.",
+      "Qualsiasi accordo verbale tra due persone."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Quale dei seguenti NON è un requisito essenziale per la validità di un contratto?",
+    "options": [
+      "L'accordo delle parti.",
+      "La forma scritta, sempre e comunque.",
+      "La causa lecita."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le condizioni generali di contratto predisposte da una parte sono efficaci nei confronti dell'altra se quest'ultima:",
+    "options": [
+      "Le ha conosciute o avrebbe dovuto conoscerle usando l'ordinaria diligenza.",
+      "Le ha ricevute via posta elettronica certificata.",
+      "Ha espresso un generico consenso verbale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Una clausola che esclude o limita la responsabilità del debitore per dolo o colpa grave è:",
+    "options": [
+      "Sempre nulla.",
+      "Valida se specificamente approvata per iscritto.",
+      "Valida solo nei contratti tra professionisti."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Nel Codice del Consumo, una clausola si considera 'vessatoria' e quindi nulla se, nonostante la buona fede, determina a carico del consumatore:",
+    "options": [
+      "Un piccolo svantaggio economico facilmente compensabile.",
+      "Un significativo squilibrio dei diritti e degli obblighi derivanti dal contratto.",
+      "Qualsiasi obbligo non espressamente richiesto dal consumatore."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Una licenza d'uso di software 'a strappo' (shrink-wrap) si perfeziona tipicamente:",
+    "options": [
+      "Con la firma di un modulo cartaceo allegato alla confezione.",
+      "Per comportamento concludente, come l'apertura della confezione contenente i termini di licenza.",
+      "Con il pagamento del software al rivenditore."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le licenze software 'copyleft' (es. GPL, CC BY-SA) impongono tipicamente l'obbligo di:",
+    "options": [
+      "Distribuire le opere derivate con la stessa licenza o con termini compatibili.",
+      "Pagare una royalty all'autore originale per ogni copia distribuita.",
+      "Mantenere il codice sorgente segreto e non distribuirlo."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto di sviluppo software in cui il prestatore è un'impresa con organizzazione di mezzi e gestione a proprio rischio per realizzare l'opera è tipicamente un:",
+    "options": [
+      "Contratto di consulenza informatica semplice.",
+      "Contratto di lavoro subordinato.",
+      "Contratto di appalto di servizi."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Nel contratto d'opera intellettuale, il professionista (es. consulente IT) ha un'obbligazione principale di:",
+    "options": [
+      "Mezzi, ovvero di svolgere l'attività con la diligenza richiesta dalla natura della prestazione.",
+      "Garantire il raggiungimento di un risultato specifico e predeterminato.",
+      "Fornire gratuitamente assistenza post-contrattuale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La nullità di singole clausole di un contratto determina la nullità dell'intero contratto:",
+    "options": [
+      "Solo se risulta che i contraenti non lo avrebbero concluso senza quella parte del suo contenuto che è colpita dalla nullità.",
+      "Sempre, indipendentemente dalla volontà delle parti.",
+      "Mai, il contratto rimane valido escludendo solo le clausole nulle."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La 'causa' di un contratto è:",
+    "options": [
+      "L'insieme delle prestazioni dovute dalle parti.",
+      "Il motivo individuale che spinge una parte a contrarre.",
+      "La funzione economico-sociale che il contratto intende realizzare."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto si dice 'concluso' nel momento in cui:",
+    "options": [
+      "Le parti iniziano l'esecuzione del contratto.",
+      "L'accettante spedisce la sua accettazione.",
+      "Il proponente riceve notizia dell'accettazione dell'altra parte."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Se l'accettazione non è conforme alla proposta originaria, essa equivale a:",
+    "options": [
+      "Una nuova proposta (controproposta).",
+      "Un'accettazione parziale del contratto.",
+      "Un rifiuto della proposta."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La 'buona fede' contrattuale deve essere osservata:",
+    "options": [
+      "Sia nelle trattative, sia nella formazione, sia nell'esecuzione del contratto.",
+      "Solo durante l'esecuzione del contratto.",
+      "Solo durante le trattative precontrattuali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le clausole inserite in moduli o formulari predisposti da una parte, nel dubbio, si interpretano:",
+    "options": [
+      "Secondo il significato letterale più restrittivo.",
+      "A favore dell'altra parte (contra proferentem).",
+      "A favore della parte che le ha predisposte."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Il contratto è 'annullabile' (e non nullo) se:",
+    "options": [
+      "È contrario a norme imperative.",
+      "Manca uno dei requisiti essenziali come l'oggetto.",
+      "Il consenso di una parte è stato dato per errore, estorto con violenza o carpito con dolo."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La licenza Creative Commons 'CC0' (Pubblico Dominio) permette:",
+    "options": [
+      "Di usare l'opera solo citando l'autore.",
+      "All'autore di rinunciare a tutti i suoi diritti sull'opera, dedicandola al pubblico dominio per quanto legalmente possibile.",
+      "Solo l'uso non commerciale dell'opera."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Nel contratto di appalto, se l'opera presenta vizi e difformità, il committente deve denunciarli all'appaltatore entro:",
+    "options": [
+      "60 giorni dalla scoperta.",
+      "8 giorni dalla scoperta.",
+      "1 anno dalla consegna."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Una 'clausola penale' in un contratto serve a:",
+    "options": [
+      "Consentire a una parte di recedere liberamente dal contratto.",
+      "Escludere la responsabilità per inadempimento.",
+      "Prestabilire l'ammontare del risarcimento dovuto in caso di inadempimento o ritardo."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Il 'recesso' da un contratto ad esecuzione continuata o periodica (es. fornitura di servizi software):",
+    "options": [
+      "Comporta sempre la restituzione di quanto già pagato.",
+      "Non ha effetto per le prestazioni già eseguite o in corso di esecuzione, salvo patto contrario.",
+      "Può essere esercitato solo entro 7 giorni dalla stipula."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "A differenza della proprietà intellettuale (diritto d'autore), i diritti di proprietà industriale (marchi, brevetti) si acquistano generalmente mediante:",
+    "options": [
+      "Brevettazione o registrazione presso gli uffici competenti.",
+      "Semplice creazione dell'opera o del segno.",
+      "Uso continuativo nel tempo che ne dimostri la notorietà."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il 'principio di esaurimento' nella proprietà industriale stabilisce che le facoltà esclusive del titolare si esauriscono quando i prodotti protetti sono:",
+    "options": [
+      "Scaduti i termini di protezione del brevetto o marchio.",
+      "Stati ideati ma non ancora prodotti.",
+      "Stati messi in commercio dal titolare o con il suo consenso in un territorio specifico (es. UE per il marchio comunitario)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Quale dei seguenti elementi NON è un requisito fondamentale per la registrazione di un marchio?",
+    "options": [
+      "Capacità distintiva (idoneità a distinguere i prodotti/servizi di un'impresa).",
+      "Originalità artistica assoluta.",
+      "Liceità (non contrario a legge, ordine pubblico, buon costume)."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Un 'marchio forte' si caratterizza per:",
+    "options": [
+      "Essere costituito da termini generici del prodotto o servizio.",
+      "Avere una notevole capacità distintiva, spesso con nomi di fantasia non attinenti al prodotto.",
+      "Essere registrato da almeno 20 anni."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "La registrazione di un marchio ha una durata di:",
+    "options": [
+      "10 anni, rinnovabili illimitatamente.",
+      "Durata illimitata finché viene utilizzato.",
+      "20 anni non rinnovabili."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Quale dei seguenti NON può costituire oggetto di brevetto per invenzione secondo la normativa europea e italiana?",
+    "options": [
+      "I programmi per elaboratore 'in quanto tali' (cioè l'algoritmo o il codice isolato).",
+      "Un nuovo dispositivo meccanico con caratteristiche innovative.",
+      "Un nuovo procedimento industriale con applicazione pratica."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Un'invenzione, per essere brevettabile, deve possedere il requisito della 'novità'. Ciò significa che:",
+    "options": [
+      "Deve essere completamente diversa da qualsiasi cosa esistente al mondo.",
+      "Deve essere stata sviluppata negli ultimi 5 anni.",
+      "Non deve essere compresa nello 'stato della tecnica' (tutto ciò che è accessibile al pubblico prima del deposito)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il 'diritto di priorità' in materia di brevetti consente a chi deposita una domanda in uno Stato convenzionato di:",
+    "options": [
+      "Avere un periodo (es. 12 mesi) per depositare la stessa domanda in altri Stati, retrodatando gli effetti alla prima data di deposito.",
+      "Ottenere automaticamente il brevetto in tutti gli altri Stati.",
+      "Impedire a chiunque altro di depositare domande simili per 5 anni."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "La durata di un brevetto per invenzione industriale è generalmente di:",
+    "options": [
+      "10 anni dalla concessione, rinnovabili.",
+      "20 anni dalla data di deposito della domanda, non rinnovabili.",
+      "Illimitata, finché vengono pagate le tasse annuali."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Se un'invenzione è realizzata da un dipendente nell'esecuzione del suo contratto di lavoro e l'attività inventiva è prevista e retribuita, i diritti patrimoniali sull'invenzione spettano generalmente:",
+    "options": [
+      "Esclusivamente al dipendente inventore.",
+      "In parti uguali al dipendente e al datore di lavoro.",
+      "Al datore di lavoro, salvo il diritto morale del dipendente di essere riconosciuto autore."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Un marchio 'debole' è un marchio che:",
+    "options": [
+      "Non è stato registrato correttamente.",
+      "Ha scarsa capacità distintiva, essendo legato a caratteristiche del prodotto/servizio.",
+      "È stato registrato da poco tempo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "La 'decadenza' di un marchio può avvenire se:",
+    "options": [
+      "Il marchio diviene idoneo a indurre in inganno il pubblico o contrario alla legge.",
+      "Il titolare non paga la tassa di rinnovo.",
+      "Il marchio non viene utilizzato per 3 anni consecutivi."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il titolare di un marchio registrato ha il diritto di vietare a terzi l'uso di un segno identico per prodotti identici?",
+    "options": [
+      "No, solo se dimostra un rischio di confusione.",
+      "Sì, salvo il consenso del titolare.",
+      "Sì, sempre e incondizionatamente."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Un 'nome a dominio' può essere registrato se è identico o simile a un marchio altrui e può determinare un rischio di confusione?",
+    "options": [
+      "Solo se il nome a dominio è registrato prima del marchio.",
+      "Sì, i nomi a dominio sono indipendenti dai marchi.",
+      "No, tale registrazione può essere revocata e l'uso inibito."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "L''attività inventiva' richiesta per un brevetto implica che l'invenzione:",
+    "options": [
+      "Sia il risultato di un lampo di genio improvviso.",
+      "Debba avere un'immediata e vasta applicazione industriale e commerciale.",
+      "Non deve risultare in modo evidente dallo stato della tecnica per una persona esperta del ramo."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "La 'divulgazione' di un'invenzione prima del deposito della domanda di brevetto:",
+    "options": [
+      "Può compromettere il requisito di novità, salvo alcune eccezioni (es. abuso evidente).",
+      "È sempre irrilevante ai fini della novità.",
+      "È necessaria per dimostrare l'utilità dell'invenzione."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il 'diritto morale' dell'inventore di essere riconosciuto autore dell'invenzione:",
+    "options": [
+      "Scade dopo 10 anni dalla concessione del brevetto.",
+      "Può essere ceduto al datore di lavoro insieme ai diritti patrimoniali.",
+      "È un diritto personale e inalienabile."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Se un'invenzione del dipendente rientra nel campo di attività del datore di lavoro, ma non era prevista una retribuzione specifica per l'attività inventiva, il datore ha:",
+    "options": [
+      "Automaticamente la piena titolarità dell'invenzione senza ulteriori compensi.",
+      "Il diritto di opzione per l'uso o l'acquisto del brevetto, pagando un equo premio.",
+      "Nessun diritto sull'invenzione."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "La nullità di un brevetto può essere dichiarata se:",
+    "options": [
+      "Il titolare del brevetto decide di non produrre più l'invenzione.",
+      "L'invenzione non ha avuto successo commerciale.",
+      "L'invenzione non è descritta in modo sufficientemente chiaro e completo da consentirne l'attuazione."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il titolare di un marchio può concedere una 'licenza d'uso' del marchio:",
+    "options": [
+      "Solo a società controllate.",
+      "Sia in forma esclusiva che non esclusiva, per la totalità o parte dei prodotti/servizi.",
+      "Solo in forma esclusiva."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il GDPR (Regolamento Generale sulla Protezione dei Dati) definisce 'dato personale' come:",
+    "options": [
+      "Qualsiasi informazione riguardante una persona fisica identificata o identificabile.",
+      "Solo dati sensibili come origine razziale o stato di salute.",
+      "Informazioni relative a persone giuridiche (aziende)."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Quale dei seguenti NON è uno dei principi fondamentali per il trattamento dei dati personali stabiliti dal GDPR?",
+    "options": [
+      "Minimizzazione dei dati (adeguati, pertinenti e limitati a quanto necessario).",
+      "Liceità, correttezza e trasparenza.",
+      "Massimizzazione della raccolta per future analisi non specificate."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il consenso al trattamento dei dati personali, per essere valido secondo il GDPR, deve essere:",
+    "options": [
+      "Incluso in una clausola generica nelle condizioni generali di servizio.",
+      "Libero, specifico, informato e inequivocabile (manifestazione di volontà affermativa).",
+      "Presunto se l'interessato non si oppone."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'titolare del trattamento' (data controller) è colui che:",
+    "options": [
+      "Determina le finalità e i mezzi del trattamento dei dati personali.",
+      "Effettua materialmente le operazioni di trattamento per conto di terzi.",
+      "È l'interessato a cui i dati si riferiscono."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "L'obbligo di 'protezione dei dati fin dalla progettazione' (privacy by design) implica che il titolare deve:",
+    "options": [
+      "Effettuare una valutazione d'impatto solo dopo un incidente di sicurezza.",
+      "Nominare un DPO solo per trattamenti su larga scala.",
+      "Implementare misure tecniche e organizzative adeguate sin dall'inizio del trattamento per attuare i principi di protezione."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "In caso di 'data breach' (violazione dei dati personali), il titolare del trattamento deve notificare la violazione all'autorità di controllo (es. Garante Privacy):",
+    "options": [
+      "Solo se la violazione riguarda più di 1000 interessati.",
+      "Senza ingiustificato ritardo e, ove possibile, entro 72 ore, a meno che sia improbabile che la violazione presenti un rischio per i diritti e le libertà.",
+      "Sempre entro 24 ore, indipendentemente dal rischio."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'Diritto all'oblio' (diritto alla cancellazione) previsto dal GDPR consente all'interessato di ottenere la cancellazione dei suoi dati personali quando, ad esempio:",
+    "options": [
+      "Il titolare ha bisogno dei dati per scopi statistici anonimi.",
+      "I dati sono ancora necessari per le finalità per cui sono stati raccolti.",
+      "L'interessato revoca il consenso su cui si basa il trattamento e non sussiste altro fondamento giuridico."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'Responsabile della Protezione dei Dati' (DPO) è obbligatorio nominarlo quando:",
+    "options": [
+      "Il trattamento è effettuato da un'autorità pubblica, o le attività principali richiedono monitoraggio regolare e sistematico su larga scala o trattamento di categorie particolari di dati su larga scala.",
+      "Qualsiasi azienda tratta dati personali, indipendentemente dalla dimensione.",
+      "L'azienda ha più di 50 dipendenti."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il trasferimento di dati personali verso un paese extra-UE è generalmente consentito se:",
+    "options": [
+      "Esiste una 'decisione di adeguatezza' della Commissione Europea per quel paese, o sono state predisposte garanzie adeguate (es. SCC, BCR).",
+      "Il paese terzo ha leggi sulla privacy simili, anche se non formalmente riconosciute dalla UE.",
+      "L'interessato ha dato un consenso generico al momento della raccolta dei dati."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Le sanzioni amministrative pecuniarie previste dal GDPR per le violazioni più gravi possono arrivare fino a:",
+    "options": [
+      "1 milione di euro o l'1% del fatturato mondiale annuo.",
+      "20 milioni di euro o il 4% del fatturato mondiale annuo, se superiore.",
+      "5 milioni di euro o il 2% del fatturato mondiale annuo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Un 'dato anonimo' secondo il GDPR è un dato:",
+    "options": [
+      "Dal quale non è più possibile identificare una persona fisica, neanche con mezzi che potrebbero essere ragionevolmente utilizzati.",
+      "Criptato con una chiave segreta.",
+      "Accessibile solo al titolare del trattamento."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'diritto di accesso' dell'interessato (art. 15 GDPR) include il diritto di ottenere:",
+    "options": [
+      "L'elenco di tutti i dipendenti del titolare che hanno avuto accesso ai dati.",
+      "Solo una conferma se sia o meno in corso un trattamento dei suoi dati.",
+      "Una copia dei dati personali oggetto di trattamento e informazioni sulle finalità, categorie di dati, destinatari, periodo di conservazione."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "Quale tra queste NON è una base giuridica lecita per il trattamento dei dati personali secondo l'art. 6 GDPR?",
+    "options": [
+      "Presunzione di interesse pubblico non specificato.",
+      "Consenso dell'interessato.",
+      "Adempimento di un obbligo legale del titolare."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il trattamento di 'categorie particolari di dati personali' (dati sensibili) è di norma:",
+    "options": [
+      "Libero, purché i dati siano conservati in modo sicuro.",
+      "Vietato, salvo specifiche eccezioni previste dall'art. 9 GDPR (es. consenso esplicito, motivi di interesse pubblico rilevante).",
+      "Sempre consentito se l'interessato è maggiorenne."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "L'informativa privacy (art. 13-14 GDPR) deve essere fornita all'interessato:",
+    "options": [
+      "Entro 6 mesi dalla fine del trattamento.",
+      "Solo su sua esplicita richiesta scritta.",
+      "Al momento della raccolta dei dati (se raccolti direttamente) o entro un termine ragionevole (se raccolti da terzi)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'responsabile del trattamento' (data processor) tratta i dati personali:",
+    "options": [
+      "Per conto proprio, definendo autonomamente finalità e mezzi.",
+      "Solo se è un dipendente del titolare.",
+      "Per conto del titolare del trattamento e secondo le sue istruzioni documentate."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il principio di 'limitazione della conservazione' implica che i dati personali devono essere conservati:",
+    "options": [
+      "In una forma che consenta l'identificazione degli interessati per un arco di tempo non superiore al conseguimento delle finalità.",
+      "Per un periodo illimitato, per scopi di backup.",
+      "Per almeno 10 anni, come i documenti fiscali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'diritto alla portabilità dei dati' (art. 20 GDPR) consente all'interessato di:",
+    "options": [
+      "Cancellare i propri dati da tutti i database del titolare.",
+      "Ricevere in un formato strutturato, di uso comune e leggibile da dispositivo automatico i dati personali che lo riguardano forniti a un titolare e trasmetterli a un altro titolare, se il trattamento si basa sul consenso o su un contratto ed è effettuato con mezzi automatizzati.",
+      "Trasferire i propri dati da un social network all'altro solo se sono foto."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Privacy",
+    "question": "Una 'valutazione d'impatto sulla protezione dei dati' (DPIA) è richiesta quando un tipo di trattamento:",
+    "options": [
+      "Presenta un rischio elevato per i diritti e le libertà delle persone fisiche (es. trattamenti su larga scala di dati sensibili, monitoraggio sistematico).",
+      "Riguarda solo dati di dipendenti.",
+      "Coinvolge meno di 100 interessati."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il Garante per la protezione dei dati personali è:",
+    "options": [
+      "Un'associazione privata di consumatori.",
+      "Un organo dell'Unione Europea con sede a Bruxelles.",
+      "L'autorità di controllo nazionale indipendente incaricata di sorvegliare l'applicazione del GDPR in Italia."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il D.Lgs. 70/2003 definisce 'servizi della società dell'informazione' le attività economiche:",
+    "options": [
+      "Svolte in linea (online), prestate normally dietro retribuzione, a distanza, per via elettronica e a richiesta individuale di un destinatario.",
+      "Svolte esclusivamente tramite negozi fisici.",
+      "Relative alla sola vendita di beni materiali via internet."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Nel commercio elettronico 'diretto', l'ordinazione e la distribuzione del bene/servizio (immateriale) avvengono:",
+    "options": [
+      "Interamente per via elettronica (online).",
+      "L'ordinazione online e la consegna fisica tramite corriere.",
+      "L'ordinazione tramite call center e la consegna digitale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Secondo il D.Lgs. 70/2003, per fornire servizi della società dell'informazione è generalmente richiesta un'autorizzazione preventiva?",
+    "options": [
+      "Sì, è sempre necessaria un'apposita licenza per operare online.",
+      "No, non è necessaria alcuna autorizzazione preventiva specifica per i servizi online in quanto tali, salve le autorizzazioni per l'attività tradizionale sottostante.",
+      "Sì, ma solo per la vendita di prodotti alimentari."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Le informazioni generali obbligatorie che un prestatore di SSI deve fornire includono:",
+    "options": [
+      "Solo il nome commerciale del sito.",
+      "L'elenco dei principali fornitori.",
+      "Nome/denominazione sociale, sede, partita IVA, prezzi e tariffe (incl. imposte e costi di consegna)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Le comunicazioni commerciali non sollecitate inviate per posta elettronica devono:",
+    "options": [
+      "Essere chiaramente identificabili come tali e indicare la possibilità per il destinatario di opporsi a futuri invii.",
+      "Essere inviate solo a indirizzi PEC.",
+      "Contenere un link per il pagamento immediato."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il prestatore di servizi di semplice trasporto ('mere conduit') è responsabile per le informazioni trasmesse se:",
+    "options": [
+      "Utilizza server situati all'estero.",
+      "Non controlla preventivamente il contenuto di ogni trasmissione.",
+      "Dà origine alla trasmissione, seleziona il destinatario o modifica le informazioni trasmesse."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il prestatore di servizi di 'caching' non è responsabile della memorizzazione automatica e temporanea di informazioni se, tra le altre condizioni:",
+    "options": [
+      "Non rispetta le condizioni di accesso alle informazioni e non agisce prontamente per rimuovere o disabilitare l'accesso a informazioni divenute illecite.",
+      "Modifica le informazioni per ottimizzare la trasmissione.",
+      "Conserva le informazioni in cache per più di 30 giorni."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il prestatore di servizi di 'hosting' è esente da responsabilità per le informazioni memorizzate a richiesta di un destinatario, a condizione che:",
+    "options": [
+      "Monitorizzi attivamente tutte le informazioni caricate dagli utenti.",
+      "Non sia effettivamente a conoscenza dell'illiceità dell'attività/informazione e agisca immediatamente per rimuoverla o disabilitarne l'accesso appena ne venga a conoscenza.",
+      "Fornisca i dati dell'utente che ha caricato il contenuto solo su ordine del giudice."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il Codice del Consumo, per i contratti a distanza, prevede che il consumatore, prima della conclusione del contratto, riceva informazioni su:",
+    "options": [
+      "Esclusivamente le condizioni di garanzia legale.",
+      "Solo il prezzo finale del bene/servizio.",
+      "Caratteristiche principali, identità del professionista, prezzo totale, modalità di pagamento, diritto di recesso (se previsto)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il diritto di recesso per i contratti a distanza conclusi da consumatori è generalmente di:",
+    "options": [
+      "7 giorni lavorativi dalla conclusione del contratto per i servizi.",
+      "14 giorni di calendario (dal ricevimento dei beni o dalla conclusione del contratto per i servizi), senza penalità e senza specificarne il motivo.",
+      "30 giorni, ma solo se il prodotto è difettoso."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il 'servizio a distanza' nel contesto del commercio elettronico è un servizio fornito:",
+    "options": [
+      "Esclusivamente tra imprese (B2B).",
+      "Senza la presenza fisica simultanea delle parti.",
+      "Tramite un intermediario fisico."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il D.Lgs. 70/2003 impone al prestatore di SSI di fornire al destinatario, prima dell'inoltro dell'ordine, informazioni su:",
+    "options": [
+      "Le fasi tecniche per la conclusione del contratto e i mezzi per correggere errori di inserimento dati.",
+      "Solo il costo totale dell'ordine.",
+      "Unicamente l'indirizzo email del servizio clienti."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "La ricevuta dell'ordine inviata dal prestatore di SSI al destinatario deve contenere:",
+    "options": [
+      "Un link alla homepage del sito del prestatore.",
+      "Un riepilogo delle condizioni contrattuali applicabili, informazioni sul bene e il prezzo.",
+      "Solo un numero d'ordine."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "I prestatori di servizi di hosting, caching e mere conduit hanno un obbligo generale di sorveglianza sulle informazioni che trasmettono o memorizzano?",
+    "options": [
+      "Sì, ma solo per contenuti potenzialmente lesivi del diritto d'autore.",
+      "Sì, devono controllare attivamente tutti i contenuti.",
+      "No, non hanno un obbligo generale di sorveglianza, ma devono agire su segnalazione delle autorità."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il Codice del Consumo si applica ai contratti a distanza conclusi tra:",
+    "options": [
+      "Due consumatori.",
+      "Un professionista e un consumatore (persona fisica che agisce per scopi estranei alla sua attività).",
+      "Due professionisti."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "L'obbligo per il professionista di indicare chiaramente che l'inoltro dell'ordine implica l'obbligo di pagare ('ordine con obbligo di pagare') è previsto da:",
+    "options": [
+      "Dal D.Lgs. 70/2003 per tutti i contratti online.",
+      "Solo da prassi commerciali internazionali.",
+      "Dal Codice del Consumo per i contratti a distanza."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il diritto di recesso è escluso per quale dei seguenti tipi di contratti a distanza?",
+    "options": [
+      "Fornitura di beni confezionati su misura o chiaramente personalizzati.",
+      "Acquisto di abbigliamento online.",
+      "Sottoscrizione di un abbonamento a una rivista digitale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "In caso di esercizio del diritto di recesso, il consumatore deve restituire i beni entro:",
+    "options": [
+      "7 giorni dal ricevimento dei beni.",
+      "30 giorni dalla comunicazione del recesso.",
+      "14 giorni dalla data in cui ha comunicato al professionista la sua decisione di recedere."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il professionista deve rimborsare tutti i pagamenti ricevuti dal consumatore (incluse spese di consegna standard) in caso di recesso:",
+    "options": [
+      "Solo dopo aver rivenduto i beni restituiti.",
+      "Senza indebito ritardo e comunque entro 14 giorni dal giorno in cui è informato della decisione di recesso.",
+      "Entro 30 giorni dalla ricezione della comunicazione di recesso."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il 'foro competente' per le controversie derivanti da contratti conclusi da consumatori è, di norma, quello:",
+    "options": [
+      "Del luogo di residenza o domicilio del consumatore (competenza inderogabile).",
+      "Della sede legale del professionista.",
+      "Scelto liberamente dalle parti nel contratto."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Un 'documento informatico' è definito come un documento elettronico che:",
+    "options": [
+      "È stato stampato su carta.",
+      "Contiene la rappresentazione informatica di atti, fatti o dati giuridicamente rilevanti.",
+      "È stato inviato tramite email semplice."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Affinché un documento informatico soddisfi il requisito della forma scritta e abbia l'efficacia di scrittura privata, deve generalmente:",
+    "options": [
+      "Esservi apposta una firma digitale o altra firma elettronica qualificata/avanzata, oppure essere formato con identificazione informatica dell'autore che garantisca sicurezza e integrità.",
+      "Essere protetto da password.",
+      "Essere conservato su un server sicuro."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Una 'firma elettronica avanzata' (FEA) deve, tra l'altro, essere:",
+    "options": [
+      "Generata automaticamente dal sistema senza intervento del firmatario.",
+      "Connessa unicamente al firmatario, idonea a identificarlo, creata con mezzi sotto il suo controllo esclusivo e collegata ai dati da consentire l'identificazione di ogni successiva modifica.",
+      "Basata su un certificato qualificato emesso da un prestatore accreditato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Una 'firma elettronica qualificata' (FEQ) si distingue da una FEA perché:",
+    "options": [
+      "Non richiede l'identificazione del firmatario.",
+      "È più semplice da utilizzare.",
+      "È creata mediante un dispositivo per la creazione di una firma qualificata ed è basata su un certificato qualificato per firme elettroniche."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La 'firma digitale' è un particolare tipo di firma elettronica qualificata basata su:",
+    "options": [
+      "Un sistema di crittografia asimmetrica (coppia di chiavi pubblica/privata) e un certificato qualificato.",
+      "Un'analisi biometrica della grafia.",
+      "Un sistema di crittografia simmetrica e un PIN personale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "A una firma elettronica qualificata sono negati gli effetti giuridici e l'ammissibilità come prova in giudizio?",
+    "options": [
+      "No, una FEQ ha effetti giuridici equivalenti a quelli di una firma autografa.",
+      "Dipende dalla discrezionalità del giudice.",
+      "Sì, solo la firma autografa tradizionale ha pieno valore legale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La 'validazione temporale elettronica' (marca temporale) serve a:",
+    "options": [
+      "Certificare l'identità del firmatario.",
+      "Criptare il contenuto del documento.",
+      "Collegare dati in forma elettronica a una particolare ora e data, provando la loro esistenza in quel momento."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Le copie informatiche di documenti analogici (cartacei) hanno piena efficacia probatoria se:",
+    "options": [
+      "La loro conformità all'originale è attestata da un pubblico ufficiale con firma digitale o se non espressamente disconosciuta (per copie per immagine).",
+      "Sono conservate per almeno 10 anni.",
+      "Sono semplicemente scannerizzate e salvate in PDF."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La trasmissione di un documento informatico tramite Posta Elettronica Certificata (PEC) equivale, salvo diversa disposizione di legge, a:",
+    "options": [
+      "La notificazione a mezzo posta.",
+      "Un invio con garanzia di lettura immediata da parte del destinatario.",
+      "Una semplice raccomandata con ricevuta di ritorno."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Un 'certificato qualificato' di firma elettronica deve contenere, tra l'altro:",
+    "options": [
+      "Una copia del documento d'identità del firmatario.",
+      "L'indirizzo email del firmatario e la sua professione.",
+      "L'indicazione che è qualificato, i dati del prestatore di servizi fiduciari, il nome del firmatario e i dati di convalida della firma."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Il 'documento analogico' è definito come:",
+    "options": [
+      "Un documento informatico firmato con firma elettronica semplice.",
+      "La rappresentazione non informatica di atti, fatti o dati (es. documento cartaceo).",
+      "Una versione precedente di un documento informatico."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La data e l'ora di formazione di un documento informatico sono opponibili ai terzi se:",
+    "options": [
+      "Sono dichiarate dal creatore del documento.",
+      "Sono apposte in conformità alle Linee Guida AgID (es. mediante validazione temporale).",
+      "Sono indicate nel nome del file."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Un documento informatico con macroistruzioni o codici eseguibili che possono modificarne il contenuto dopo la firma:",
+    "options": [
+      "NON soddisfa il requisito di immodificabilità del documento ai fini della firma.",
+      "Soddisfa pienamente il requisito di immodificabilità.",
+      "È valido solo se firmato con firma digitale."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Il 'sigillo elettronico qualificato' è l'equivalente della firma elettronica qualificata per:",
+    "options": [
+      "Persone giuridiche.",
+      "Minorenni.",
+      "Pubbliche Amministrazioni."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La revoca di un certificato qualificato di firma ha effetto:",
+    "options": [
+      "Retroattivamente dalla data di emissione del certificato.",
+      "Solo dopo 30 giorni dalla richiesta di revoca.",
+      "Dal momento della sua pubblicazione nella lista dei certificati revocati (CRL)."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Un 'prestatore di servizi fiduciari qualificato' è un soggetto che:",
+    "options": [
+      "Vende dispositivi di firma elettronica.",
+      "È accreditato per emettere certificati qualificati e fornire altri servizi fiduciari qualificati.",
+      "Offre consulenza legale in materia di firme elettroniche."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La conservazione a norma dei documenti informatici mira a garantire nel tempo:",
+    "options": [
+      "L'autenticità, integrità, affidabilità, leggibilità e reperibilità dei documenti.",
+      "Solo l'accessibilità del documento.",
+      "Esclusivamente la protezione da accessi non autorizzati."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La 'firma autenticata' da un notaio o altro pubblico ufficiale su un documento informatico attesta:",
+    "options": [
+      "Il valore legale intrinseco del contenuto del documento.",
+      "La correttezza grammaticale del documento.",
+      "L'identità del firmatario e che la firma è stata apposta in sua presenza."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "I 'duplicati informatici' di un documento informatico (es. copia bit a bit) hanno:",
+    "options": [
+      "Valore solo se firmati nuovamente.",
+      "Lo stesso valore giuridico del documento informatico da cui sono tratti, se prodotti conformemente.",
+      "Valore inferiore rispetto all'originale."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La conservazione delle chiavi private di firma digitale è responsabilità:",
+    "options": [
+      "Dell'Agenzia per l'Italia Digitale (AgID).",
+      "Del prestatore di servizi fiduciari.",
+      "Del titolare della firma, che deve assicurarne la custodia e segretezza."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il reato di 'accesso abusivo a un sistema informatico o telematico' si configura quando taluno:",
+    "options": [
+      "Utilizza un sistema informatico di sua proprietà per scopi illeciti.",
+      "Si introduce abusivamente in un sistema protetto da misure di sicurezza o vi si mantiene contro la volontà di chi ha il diritto di escluderlo.",
+      "Dimentica la password di accesso al proprio computer."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Quale delle seguenti circostanze NON costituisce un'aggravante per il reato di accesso abusivo a un sistema informatico?",
+    "options": [
+      "Se l'accesso avviene da una postazione remota.",
+      "Se dal fatto deriva la distruzione o il danneggiamento del sistema.",
+      "Se il fatto è commesso da un pubblico ufficiale con abuso dei poteri."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La detenzione o diffusione di codici, password o altri mezzi idonei all'accesso abusivo a un sistema informatico è reato se avviene:",
+    "options": [
+      "Al fine di procurare a sé o ad altri un profitto o di arrecare ad altri un danno.",
+      "Solo se i codici sono stati pubblicati su un forum online.",
+      "Per semplice curiosità tecnica."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il reato di 'danneggiamento di informazioni, dati e programmi informatici' (art. 635-bis c.p.) punisce chi:",
+    "options": [
+      "Cancella accidentalmente propri file personali.",
+      "Modifica l'aspetto grafico di un sito web senza autorizzazione.",
+      "Distrugge, deteriora, cancella, altera o sopprime informazioni, dati o programmi informatici altrui."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La 'frode informatica' (art. 640-ter c.p.) si distingue dalla truffa comune perché l'ingiusto profitto con altrui danno è procurato:",
+    "options": [
+      "Mediante minaccia o violenza fisica.",
+      "Alterando il funzionamento di un sistema informatico o telematico o intervenendo senza diritto su dati, informazioni o programmi.",
+      "Sfruttando l'ingenuità di una persona anziana."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "L'intercettazione fraudolenta di comunicazioni relative a un sistema informatico o telematico è punita:",
+    "options": [
+      "Sia l'atto di intercettare, impedire o interrompere, sia la successiva rivelazione del contenuto.",
+      "Solo se si tratta di comunicazioni tra aziende concorrenti.",
+      "Solo se le comunicazioni vengono divulgate al pubblico."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il reato di 'Installazione di apparecchiature atte ad intercettare, impedire od interrompere comunicazioni informatiche o telematiche' punisce chi installa tali apparecchiature al fine di:",
+    "options": [
+      "Effettuare test di sicurezza sul proprio sistema.",
+      "Intercettare, impedire o interrompere comunicazioni altrui.",
+      "Monitorare il traffico di rete per scopi statistici."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La falsificazione di un documento informatico pubblico o privato avente efficacia probatoria è reato se commessa:",
+    "options": [
+      "Per errore materiale durante la digitazione.",
+      "Solo se il documento è firmato digitalmente.",
+      "Al fine di procurare a sé o ad altri un vantaggio o di arrecare ad altri un danno."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il 'danneggiamento di sistemi informatici o telematici di pubblica utilità' è considerato:",
+    "options": [
+      "Un reato con pene aggravate rispetto al danneggiamento di sistemi privati.",
+      "Un reato perseguibile solo a querela della pubblica amministrazione danneggiata.",
+      "Un illecito amministrativo di lieve entità."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Nel reato di 'violenza sulle cose' (art. 392 c.p.), quando si ha violenza se l'oggetto è un programma informatico?",
+    "options": [
+      "Quando il programma viene copiato senza autorizzazione.",
+      "Quando il programma viene alterato, modificato, cancellato, o ne viene impedito o turbato il funzionamento.",
+      "Quando il programma viene utilizzato su un computer non autorizzato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il 'reato di evento' si perfeziona:",
+    "options": [
+      "Solo se l'autore agisce con dolo specifico.",
+      "Con il semplice compimento di una determinata condotta.",
+      "Con il verificarsi di un risultato esteriore causalmente collegato alla condotta."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La diffusione di programmi diretti a danneggiare o interrompere un sistema informatico (es. virus, malware) è:",
+    "options": [
+      "Consentita per scopi di ricerca scientifica senza restrizioni.",
+      "Un reato, indipendentemente dal danno causato, se si agisce allo scopo di danneggiare o interrompere.",
+      "Lelecita solo se causa un danno effettivo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il reato di 'rivelazione di segreti' (art. 621 c.p.) applicato a documenti informatici punisce chi:",
+    "options": [
+      "Essendo venuto abusivamente a cognizione del contenuto di un documento informatico segreto, lo rivela senza giusta causa o lo impiega a proprio o altrui profitto.",
+      "Accede legittimamente a un documento e ne fa una copia per uso personale.",
+      "Cancella per errore un documento informatico segreto."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Perché si configuri il reato di 'truffa' (art. 640 c.p.), è necessario che l'autore:",
+    "options": [
+      "Con artifizi o raggiri, induca taluno in errore, procurando a sé o ad altri un ingiusto profitto con altrui danno.",
+      "Utilizzi violenza o minaccia.",
+      "Si limiti ad approfittare di un errore altrui."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il danneggiamento di sistemi informatici o telematici (art. 635-quater c.p.) si distingue dal danneggiamento di informazioni (art. 635-bis c.p.) perché il primo riguarda:",
+    "options": [
+      "Solo i dati memorizzati su supporti esterni.",
+      "Esclusivamente il software di base del sistema operativo.",
+      "L'hardware e l'infrastruttura del sistema."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "L'aggravante dell'abuso della 'qualità di operatore del sistema' nei reati informatici si applica a:",
+    "options": [
+      "Chi ha accesso al sistema per ragioni di servizio o professionali e ne abusa.",
+      "Qualsiasi utente esperto del sistema.",
+      "Solo agli amministratori di rete."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Il reato di 'violazione, sottrazione e soppressione di corrispondenza' (art. 616 c.p.) si applica anche alla corrispondenza informatica o telematica?",
+    "options": [
+      "Sì, la norma è stata estesa espressamente a tali forme di comunicazione.",
+      "No, si applica solo alla posta cartacea tradizionale.",
+      "Solo se la corrispondenza contiene segreti industriali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Per la punibilità di molti reati informatici contro il patrimonio (es. frode informatica) è generalmente richiesto il 'dolo specifico' di:",
+    "options": [
+      "Testare le proprie abilità informatiche.",
+      "Procurare a sé o ad altri un ingiusto profitto.",
+      "Danneggiare il sistema informatico."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La 'querela della persona offesa' è:",
+    "options": [
+      "L'atto con cui il Pubblico Ministero inizia le indagini.",
+      "Una semplice segnalazione anonima.",
+      "Una condizione di procedibilità per alcuni reati, senza la quale l'azione penale non può essere iniziata."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "È considerato reato diffondere programmi informatici aventi per scopo precipuo o principale quello di danneggiare un sistema informatico?",
+    "options": [
+      "Solo se i programmi sono di origine straniera.",
+      "Sì, la diffusione stessa può costituire reato (es. art. 615-quinquies c.p.).",
+      "No, solo l'uso effettivo di tali programmi è punito."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Una legge ordinaria entra in vigore dopo la 'vacatio legis'. Questo periodo, se non diversamente specificato, serve a:",
+    "options": [
+      "Permettere alla Corte Costituzionale di verificarne la legittimità prima dell'applicazione.",
+      "Consentire ai cittadini e agli operatori del diritto di prendere conoscenza della nuova normativa prima che produca effetti.",
+      "Dare tempo al Governo di emanare i regolamenti attuativi indispensabili per la sua operatività."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'interpretazione analogica ('analogia legis') si applica quando una controversia non ha una precisa disposizione di legge. Il presupposto fondamentale per la sua applicazione è:",
+    "options": [
+      "L'assoluta identità tra il caso non regolato e un caso simile espressamente disciplinato.",
+      "La mancanza di qualsiasi principio generale dell'ordinamento applicabile al caso.",
+      "L'esistenza di una 'eadem ratio' (medesima ragione giustificatrice) tra il caso non regolato e quello disciplinato da una norma per un caso simile."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La differenza principale tra un Decreto Legge e un Decreto Legislativo risiede nel fatto che:",
+    "options": [
+      "Il Decreto Legge è adottato dal Governo in casi di necessità e urgenza e deve essere convertito in legge, mentre il Decreto Legislativo è emanato dal Governo su legge delega del Parlamento.",
+      "Il Decreto Legge è emanato dal Parlamento su delega del Governo, mentre il Decreto Legislativo è un atto autonomo del Governo.",
+      "Il Decreto Legge non necessita di pubblicazione in Gazzetta Ufficiale, a differenza del Decreto Legislativo."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La tutela del diritto d'autore su un software (programma per elaboratore) si estende specificamente a:",
+    "options": [
+      "L'interfaccia grafica utente (GUI) solo se registrata come disegno o modello industriale.",
+      "La sua 'forma espressiva' originale, includendo codice sorgente, codice oggetto e materiale preparatorio, ma non le idee e i principi alla base.",
+      "L'algoritmo matematico che il software implementa, se sufficientemente innovativo."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'principio di esaurimento' del diritto di distribuzione di una copia di un'opera protetta (es. un libro o un CD software) implica che, dopo la prima vendita autorizzata dal titolare dei diritti all'interno dello Spazio Economico Europeo (SEE):",
+    "options": [
+      "Il titolare perde il diritto di creare nuove copie o opere derivate da quella specifica copia venduta.",
+      "Il titolare perde il diritto di controllare ulteriori noleggi o prestiti di quella specifica copia all'interno del SEE.",
+      "Il titolare perde il diritto di controllare ulteriori atti di rivendita di quella specifica copia all'interno del SEE."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La 'copia privata' di fonogrammi e videogrammi per uso personale e senza fini di lucro è generalmente consentita, ma su tale attività:",
+    "options": [
+      "Grava un compenso (prelievo SIAE) corrisposto al momento dell'acquisto di apparecchi e supporti idonei alla registrazione.",
+      "Non grava alcun tipo di prelievo o compenso, essendo un'eccezione piena.",
+      "È consentita solo se l'opera originale è già di dominio pubblico."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "In un contratto di appalto per lo sviluppo di software 'su misura', se non diversamente pattuito, la proprietà intellettuale del software sviluppato:",
+    "options": [
+      "Si trasferisce al committente con l'accettazione dell'opera, salvo che l'appaltatore si riservi specifici diritti morali.",
+      "Rimane sempre in capo all'appaltatore (sviluppatore), che concede al committente una licenza d'uso perpetua.",
+      "Viene ripartita al 50% tra committente e appaltatore, salvo diversi accordi."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La differenza fondamentale tra un contratto di licenza d'uso software 'proprietario' e una licenza 'open source' (come la GPL) risiede principalmente:",
+    "options": [
+      "Nel supporto tecnico, garantito solo per le licenze proprietarie.",
+      "Nel costo della licenza, essendo le open source sempre gratuite e le proprietarie sempre a pagamento.",
+      "Nella disponibilità del codice sorgente e nelle libertà concesse all'utente di modificare e ridistribuire il software e le sue derivazioni."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le 'clausole vessatorie' in un contratto concluso tra un professionista e un consumatore, ai sensi del Codice del Consumo, sono nulle se:",
+    "options": [
+      "Sono scritte con un carattere tipografico inferiore a 10 punti.",
+      "Nonostante una specifica trattativa individuale, determinano un significativo squilibrio a danno del consumatore per alcune tipologie di clausole (lista nera).",
+      "Il consumatore non le ha lette attentamente prima della firma."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Un marchio può decadere per 'volgarizzazione' quando:",
+    "options": [
+      "Il marchio non viene rinnovato alla scadenza dei 10 anni.",
+      "Il marchio, a seguito dell'attività o inattività del titolare, è divenuto nel commercio la denominazione generica del prodotto o servizio per cui era registrato.",
+      "Il marchio viene utilizzato in modo offensivo o contrario al buon costume."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Il requisito dell''attività inventiva' (o 'non ovvietà') per la brevettabilità di un'invenzione implica che l'invenzione:",
+    "options": [
+      "Debba avere un'immediata e vasta applicazione industriale e commerciale.",
+      "Debba rappresentare una scoperta scientifica fondamentale e completamente nuova.",
+      "Non deve risultare in modo evidente dallo stato della tecnica per una persona del mestiere dotata di normali conoscenze nel settore."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Proprietà industriale",
+    "question": "Le 'rivendicazioni' (claims) in una domanda di brevetto servono a:",
+    "options": [
+      "Definire specificamente l'ambito della protezione richiesta per l'invenzione, delimitando ciò che i terzi non possono fare senza consenso.",
+      "Descrivere dettagliatamente il funzionamento dell'invenzione e i suoi vantaggi.",
+      "Elencare le precedenti invenzioni simili esistenti nello stato della tecnica."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il principio di 'minimizzazione dei dati' nel GDPR (art. 5) impone che i dati personali raccolti debbano essere:",
+    "options": [
+      "Adeguati, pertinenti e limitati a quanto strettamente necessario rispetto alle finalità dichiarate per le quali sono trattati.",
+      "Il più possibile dettagliati per consentire una profilazione accurata dell'interessato.",
+      "Conservati in forma criptata per un periodo massimo di 5 anni."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Privacy",
+    "question": "Una 'decisione basata unicamente sul trattamento automatizzato, compresa la profilazione', che produce effetti giuridici o incide significativamente sull'interessato, è permessa dal GDPR:",
+    "options": [
+      "Mai, in quanto viola il diritto dell'interessato a un intervento umano.",
+      "Sempre, purché l'algoritmo utilizzato sia trasparente e non discriminatorio.",
+      "Solo se necessaria per la conclusione o esecuzione di un contratto, autorizzata dal diritto dell'Unione/Stato membro o basata sul consenso esplicito dell'interessato, con adeguate garanzie."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Privacy",
+    "question": "Il 'diritto di limitazione del trattamento' (art. 18 GDPR) consente all'interessato di ottenere che i suoi dati, pur conservati, non siano ulteriormente trattati (salvo specifiche eccezioni) quando:",
+    "options": [
+      "Il titolare ha subito un data breach e deve sospendere temporaneamente tutti i trattamenti.",
+      "L'interessato contesta l'esattezza dei dati (per il periodo necessario alla verifica), il trattamento è illecito ma si oppone alla cancellazione, o i dati sono necessari per l'accertamento di un diritto in giudizio.",
+      "L'interessato desidera semplicemente che i suoi dati non vengano più usati per marketing diretto."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "La responsabilità del prestatore di servizi di 'hosting' per contenuti illeciti caricati da terzi è esclusa se il prestatore, una volta venuto a conoscenza dell'illiceità:",
+    "options": [
+      "Agisce immediatamente per rimuovere le informazioni o per disabilitarne l'accesso, e non era effettivamente a conoscenza dell'illiceità prima della segnalazione.",
+      "Informa l'utente che ha caricato il contenuto, lasciando a lui la decisione sulla rimozione.",
+      "Applica un filtro automatico che blocca solo i contenuti palesemente illegali."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Nel caso di contratti conclusi con strumenti elettronici (D.Lgs. 70/2003), l'ordine e la ricevuta si considerano pervenuti quando:",
+    "options": [
+      "Il destinatario apre e legge effettivamente il messaggio di conferma.",
+      "Le parti cui sono indirizzati hanno la possibilità di accedervi (es. arrivo nella casella di posta elettronica designata).",
+      "Il server del prestatore registra l'invio dell'ordine da parte del destinatario."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Commercio elettronico",
+    "question": "Il diritto di recesso del consumatore nei contratti a distanza è escluso, tra gli altri, per la fornitura di 'contenuto digitale mediante un supporto non materiale' (es. download di un software o film) se:",
+    "options": [
+      "Il prezzo del contenuto digitale è inferiore a 50 euro.",
+      "Il download è iniziato immediatamente dopo il pagamento, senza alcun consenso specifico.",
+      "L'esecuzione è iniziata con l'accordo espresso del consumatore e con la sua accettazione del fatto che in tal caso avrebbe perso il diritto di recesso."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "L'efficacia probatoria di 'scrittura privata' è attribuita a un documento informatico sottoscritto con Firma Elettronica Avanzata (FEA) se:",
+    "options": [
+      "Il giudice, valutate le caratteristiche di sicurezza, integrità e riconducibilità, la ritiene idonea caso per caso.",
+      "La FEA è basata su un certificato qualificato, rendendola equivalente a una FEQ.",
+      "Il documento informatico è semplicemente conservato a norma."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "Una 'Firma Elettronica Qualificata' (FEQ) basata su un certificato qualificato rilasciato in uno Stato membro dell'UE è riconosciuta come tale:",
+    "options": [
+      "Solo se il prestatore di servizi fiduciari ha una sede anche negli altri Stati membri.",
+      "In tutti gli altri Stati membri dell'UE senza ulteriori formalità.",
+      "Solo nello Stato membro di emissione e previa traduzione giurata del certificato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Firme elettroniche e documenti informatici",
+    "question": "La 'validazione temporale elettronica qualificata' (marca temporale qualificata) fornisce una presunzione legale relativa:",
+    "options": [
+      "Alla conformità del contenuto del documento alla legge.",
+      "All'identità del soggetto che ha apposto la marca al documento.",
+      "Alla data e ora certe di esistenza del documento a cui è associata e all'integrità del documento da quel momento."
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "Nel reato di accesso abusivo a sistema informatico, l'aggravante relativa al 'danneggiamento del sistema' si configura anche se il danneggiamento è:",
+    "options": [
+      "Un effetto collaterale non voluto ma prevedibile dell'accesso abusivo.",
+      "Minimo e facilmente riparabile dal proprietario del sistema.",
+      "Causato da un virus contratto durante l'accesso, non direttamente dall'agente."
+    ],
+    "answer": 0
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La detenzione di 'software specificamente progettato o adattato per commettere reati informatici' (es. keylogger, trojan per frodi) è punibile:",
+    "options": [
+      "Solo se il software è stato acquistato illegalmente.",
+      "Di per sé, se si dimostra il fine di commettere specifici reati informatici previsti dalla norma (es. art. 615-quinquies c.p.).",
+      "Solo se il software viene effettivamente utilizzato per commettere un reato."
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Reati informatici",
+    "question": "La differenza tra 'danneggiamento di sistemi informatici' (art. 635-quater c.p.) e 'interruzione illecita di comunicazioni informatiche' (art. 617-quater c.p.) sta nel fatto che:",
+    "options": [
+      "Il primo è sempre doloso, il secondo può essere anche colposo.",
+      "Il primo riguarda l'hardware, il secondo il software.",
+      "Il primo mira a rendere inservibile il sistema o a ostacolarne gravemente il funzionamento, il secondo a impedire o interrompere il flusso delle comunicazioni."
+    ],
+    "answer": 2
+  },
+    {
+  "topic": "Concetti giuridici di base",
+  "question": "Una legge ordinaria entra in vigore dopo la 'vacatio legis'. Questo periodo, se non diversamente specificato, serve a:",
+  "options": [
+    "Permettere alla Corte Costituzionale di verificarne la legittimità prima dell'applicazione.",
+    "Consentire ai cittadini e agli operatori del diritto di prendere conoscenza della nuova normativa prima che produca effetti.",
+    "Dare tempo al Governo di emanare i regolamenti attuativi indispensabili per la sua operatività."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Concetti giuridici di base",
+  "question": "L'interpretazione analogica ('analogia legis') si applica quando una controversia non ha una precisa disposizione di legge. Il presupposto fondamentale per la sua applicazione è:",
+  "options": [
+    "L'assoluta identità tra il caso non regolato e un caso simile espressamente disciplinato.",
+    "L'esistenza di una 'eadem ratio' (medesima ragione giustificatrice) tra il caso non regolato e quello disciplinato da una norma per un caso simile.",
+    "La mancanza di qualsiasi principio generale dell'ordinamento applicabile al caso."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Concetti giuridici di base",
+  "question": "La differenza principale tra un Decreto Legge e un Decreto Legislativo risiede nel fatto che:",
+  "options": [
+    "Il Decreto Legge è emanato dal Parlamento su delega del Governo, mentre il Decreto Legislativo è un atto autonomo del Governo.",
+    "Il Decreto Legge è adottato dal Governo in casi di necessità e urgenza e deve essere convertito in legge, mentre il Decreto Legislativo è emanato dal Governo su legge delega del Parlamento.",
+    "Il Decreto Legge non necessita di pubblicazione in Gazzetta Ufficiale, a differenza del Decreto Legislativo."
+  ],
+  "answer": 1
+},
+
+{
+  "topic": "Diritto d'autore",
+  "question": "La tutela del diritto d'autore su un software (programma per elaboratore) si estende specificamente a:",
+  "options": [
+    "L'algoritmo matematico che il software implementa, se sufficientemente innovativo.",
+    "La sua 'forma espressiva' originale, includendo codice sorgente, codice oggetto e materiale preparatorio, ma non le idee e i principi alla base.",
+    "L'interfaccia grafica utente (GUI) solo se registrata come disegno o modello industriale."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Diritto d'autore",
+  "question": "Il 'principio di esaurimento' del diritto di distribuzione di una copia di un'opera protetta (es. un libro o un CD software) implica che, dopo la prima vendita autorizzata dal titolare dei diritti all'interno dello Spazio Economico Europeo (SEE):",
+  "options": [
+    "Il titolare perde il diritto di controllare ulteriori noleggi o prestiti di quella specifica copia all'interno del SEE.",
+    "Il titolare perde il diritto di controllare ulteriori atti di rivendita di quella specifica copia all'interno del SEE.",
+    "Il titolare perde il diritto di creare nuove copie o opere derivate da quella specifica copia venduta."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Diritto d'autore",
+  "question": "La 'copia privata' di fonogrammi e videogrammi per uso personale e senza fini di lucro è generalmente consentita, ma su tale attività:",
+  "options": [
+    "Non grava alcun tipo di prelievo o compenso, essendo un'eccezione piena.",
+    "Grava un compenso (prelievo SIAE) corrisposto al momento dell'acquisto di apparecchi e supporti idonei alla registrazione.",
+    "È consentita solo se l'opera originale è già di dominio pubblico."
+  ],
+  "answer": 1
+},
+
+{
+  "topic": "Contratti a oggetti informatico",
+  "question": "In un contratto di appalto per lo sviluppo di software 'su misura', se non diversamente pattuito, la proprietà intellettuale del software sviluppato:",
+  "options": [
+    "Rimane sempre in capo all'appaltatore (sviluppatore), che concede al committente una licenza d'uso perpetua.",
+    "Si trasferisce al committente con l'accettazione dell'opera, salvo che l'appaltatore si riservi specifici diritti morali.",
+    "Viene ripartita al 50% tra committente e appaltatore, salvo diversi accordi."
+  ],
+  "answer": 1 
+},
+{
+  "topic": "Contratti a oggetti informatico",
+  "question": "La differenza fondamentale tra un contratto di licenza d'uso software 'proprietario' e una licenza 'open source' (come la GPL) risiede principalmente:",
+  "options": [
+    "Nel costo della licenza, essendo le open source sempre gratuite e le proprietarie sempre a pagamento.",
+    "Nella disponibilità del codice sorgente e nelle libertà concesse all'utente di modificare e ridistribuire il software e le sue derivazioni.",
+    "Nel supporto tecnico, garantito solo per le licenze proprietarie."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Contratti a oggetti informatico",
+  "question": "Le 'clausole vessatorie' in un contratto concluso tra un professionista e un consumatore, ai sensi del Codice del Consumo, sono nulle se:",
+  "options": [
+    "Il consumatore non le ha lette attentamente prima della firma.",
+    "Nonostante una specifica trattativa individuale, determinano un significativo squilibrio a danno del consumatore per alcune tipologie di clausole (lista nera).",
+    "Sono scritte con un carattere tipografico inferiore a 10 punti."
+  ],
+  "answer": 1  
+},
+
+{
+  "topic": "Proprietà industriale",
+  "question": "Un marchio può decadere per 'volgarizzazione' quando:",
+  "options": [
+    "Il marchio viene utilizzato in modo offensivo o contrario al buon costume.",
+    "Il marchio, a seguito dell'attività o inattività del titolare, è divenuto nel commercio la denominazione generica del prodotto o servizio per cui era registrato.",
+    "Il marchio non viene rinnovato alla scadenza dei 10 anni."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Proprietà industriale",
+  "question": "Il requisito dell''attività inventiva' (o 'non ovvietà') per la brevettabilità di un'invenzione implica che l'invenzione:",
+  "options": [
+    "Debba rappresentare una scoperta scientifica fondamentale e completamente nuova.",
+    "Non deve risultare in modo evidente dallo stato della tecnica per una persona del mestiere dotata di normali conoscenze nel settore.",
+    "Debba avere un'immediata e vasta applicazione industriale e commerciale."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Proprietà industriale",
+  "question": "Le 'rivendicazioni' (claims) in una domanda di brevetto servono a:",
+  "options": [
+    "Descrivere dettagliatamente il funzionamento dell'invenzione e i suoi vantaggi.",
+    "Definire specificamente l'ambito della protezione richiesta per l'invenzione, delimitando ciò che i terzi non possono fare senza consenso.",
+    "Elencare le precedenti invenzioni simili esistenti nello stato della tecnica."
+  ],
+  "answer": 1
+},
+
+
+{
+  "topic": "Privacy",
+  "question": "Il principio di 'minimizzazione dei dati' nel GDPR (art. 5) impone che i dati personali raccolti debbano essere:",
+  "options": [
+    "Il più possibile dettagliati per consentire una profilazione accurata dell'interessato.",
+    "Adeguati, pertinenti e limitati a quanto strettamente necessario rispetto alle finalità dichiarate per le quali sono trattati.",
+    "Conservati in forma criptata per un periodo massimo di 5 anni."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Privacy",
+  "question": "Una 'decisione basata unicamente sul trattamento automatizzato, compresa la profilazione', che produce effetti giuridici o incide significativamente sull'interessato, è permessa dal GDPR:",
+  "options": [
+    "Sempre, purché l'algoritmo utilizzato sia trasparente e non discriminatorio.",
+    "Solo se necessaria per la conclusione o esecuzione di un contratto, autorizzata dal diritto dell'Unione/Stato membro o basata sul consenso esplicito dell'interessato, con adeguate garanzie.",
+    "Mai, in quanto viola il diritto dell'interessato a un intervento umano."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Privacy",
+  "question": "Il 'diritto di limitazione del trattamento' (art. 18 GDPR) consente all'interessato di ottenere che i suoi dati, pur conservati, non siano ulteriormente trattati (salvo specifiche eccezioni) quando:",
+  "options": [
+    "L'interessato desidera semplicemente che i suoi dati non vengano più usati per marketing diretto.",
+    "L'interessato contesta l'esattezza dei dati (per il periodo necessario alla verifica), il trattamento è illecito ma si oppone alla cancellazione, o i dati sono necessari per l'accertamento di un diritto in giudizio.",
+    "Il titolare ha subito un data breach e deve sospendere temporaneamente tutti i trattamenti."
+  ],
+  "answer": 1
+},
+
+
+{
+  "topic": "Commercio elettronico",
+  "question": "La responsabilità del prestatore di servizi di 'hosting' per contenuti illeciti caricati da terzi è esclusa se il prestatore, una volta venuto a conoscenza dell'illiceità:",
+  "options": [
+    "Informa l'utente che ha caricato il contenuto, lasciando a lui la decisione sulla rimozione.",
+    "Agisce immediatamente per rimuovere le informazioni o per disabilitarne l'accesso, e non era effettivamente a conoscenza dell'illiceità prima della segnalazione.",
+    "Applica un filtro automatico che blocca solo i contenuti palesemente illegali."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Commercio elettronico",
+  "question": "Nel caso di contratti conclusi con strumenti elettronici (D.Lgs. 70/2003), l'ordine e la ricevuta si considerano pervenuti quando:",
+  "options": [
+    "Il server del prestatore registra l'invio dell'ordine da parte del destinatario.",
+    "Le parti cui sono indirizzati hanno la possibilità di accedervi (es. arrivo nella casella di posta elettronica designata).",
+    "Il destinatario apre e legge effettivamente il messaggio di conferma."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Commercio elettronico",
+  "question": "Il diritto di recesso del consumatore nei contratti a distanza è escluso, tra gli altri, per la fornitura di 'contenuto digitale mediante un supporto non materiale' (es. download di un software o film) se:",
+  "options": [
+    "Il download è iniziato immediatamente dopo il pagamento, senza alcun consenso specifico.",
+    "L'esecuzione è iniziata con l'accordo espresso del consumatore e con la sua accettazione del fatto che in tal caso avrebbe perso il diritto di recesso.",
+    "Il prezzo del contenuto digitale è inferiore a 50 euro."
+  ],
+  "answer": 1
+},
+
+
+
+{
+  "topic": "Firme elettroniche e documenti informatici",
+  "question": "L'efficacia probatoria di 'scrittura privata' è attribuita a un documento informatico sottoscritto con Firma Elettronica Avanzata (FEA) se:",
+  "options": [
+    "La FEA è basata su un certificato qualificato, rendendola equivalente a una FEQ.",
+    "Il giudice, valutate le caratteristiche di sicurezza, integrità e riconducibilità, la ritiene idonea caso per caso.",
+    "Il documento informatico è semplicemente conservato a norma."
+  ],
+  "answer": 1 
+},
+{
+  "topic": "Firme elettroniche e documenti informatici",
+  "question": "Una 'Firma Elettronica Qualificata' (FEQ) basata su un certificato qualificato rilasciato in uno Stato membro dell'UE è riconosciuta come tale:",
+  "options": [
+    "Solo nello Stato membro di emissione e previa traduzione giurata del certificato.",
+    "In tutti gli altri Stati membri dell'UE senza ulteriori formalità.",
+    "Solo se il prestatore di servizi fiduciari ha una sede anche negli altri Stati membri."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Firme elettroniche e documenti informatici",
+  "question": "La 'validazione temporale elettronica qualificata' (marca temporale qualificata) fornisce una presunzione legale relativa:",
+  "options": [
+    "All'identità del soggetto che ha apposto la marca al documento.",
+    "Alla data e ora certe di esistenza del documento a cui è associata e all'integrità del documento da quel momento.",
+    "Alla conformità del contenuto del documento alla legge."
+  ],
+  "answer": 1
+},
+
+
+{
+  "topic": "Reati informatici",
+  "question": "Nel reato di accesso abusivo a sistema informatico, l'aggravante relativa al 'danneggiamento del sistema' si configura anche se il danneggiamento è:",
+  "options": [
+    "Un effetto collaterale non voluto ma prevedibile dell'accesso abusivo.",
+    "Minimo e facilmente riparabile dal proprietario del sistema.",
+    "Causato da un virus contratto durante l'accesso, non direttamente dall'agente."
+  ],
+  "answer": 0
+},
+{
+  "topic": "Reati informatici",
+  "question": "La detenzione di 'software specificamente progettato o adattato per commettere reati informatici' (es. keylogger, trojan per frodi) è punibile:",
+  "options": [
+    "Solo se il software viene effettivamente utilizzato per commettere un reato.",
+    "Di per sé, se si dimostra il fine di commettere specifici reati informatici previsti dalla norma (es. art. 615-quinquies c.p.).",
+    "Solo se il software è stato acquistato illegalmente."
+  ],
+  "answer": 1
+},
+{
+  "topic": "Reati informatici",
+  "question": "La differenza tra 'danneggiamento di sistemi informatici' (art. 635-quater c.p.) e 'interruzione illecita di comunicazioni informatiche' (art. 617-quater c.p.) sta nel fatto che:",
+  "options": [
+    "Il primo riguarda l'hardware, il secondo il software.",
+    "Il primo mira a rendere inservibile il sistema o a ostacolarne gravemente il funzionamento, il secondo a impedire o interrompere il flusso delle comunicazioni.",
+    "Il primo è sempre doloso, il secondo può essere anche colposo."
+  ],
+  "answer": 1
+}
+]

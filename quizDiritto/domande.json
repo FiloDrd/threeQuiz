@@ -1,0 +1,683 @@
+[
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cos'è il diritto secondo il documento?",
+    "options": [
+      "Un insieme di opinioni filosofiche",
+      "Un sistema di regole usate per disciplinare il vivere sociale e risolvere conflitti",
+      "Un manuale di buone maniere"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La norma giuridica è:",
+    "options": [
+      "Un consiglio specifico per una situazione",
+      "L'unità elementare del sistema del diritto, un comando generale ed astratto",
+      "Una sentenza emessa da un giudice"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cosa si intende per 'istituto giuridico'?",
+    "options": [
+      "Un edificio dove si studia legge",
+      "Una singola norma giuridica",
+      "Un insieme di norme coordinate per assolvere una funzione unitaria"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Qual è la gerarchia corretta (decrescente) delle fonti del diritto menzionate?",
+    "options": [
+      "Costituzione, Leggi ordinarie, Regolamenti UE",
+      "Trattati UE/Regolamenti/Direttive, Costituzione, Leggi ordinarie",
+      "Leggi regionali, Costituzione, Usi e consuetudini"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Le direttive comunitarie:",
+    "options": [
+      "Sono direttamente applicabili in ogni dettaglio negli Stati membri",
+      "Dettano obiettivi e principi, e gli Stati membri devono attuarle con leggi interne",
+      "Sono decisioni specifiche rivolte a singoli cittadini europei"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Un Decreto Legge, per non perdere efficacia, deve essere convertito in legge dal Parlamento entro:",
+    "options": [
+      "30 giorni",
+      "60 giorni",
+      "90 giorni"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cosa significa 'riserva di legge assoluta'?",
+    "options": [
+      "La materia può essere regolata anche da regolamenti governativi",
+      "La materia deve essere regolata integralmente dalla legge",
+      "La materia è riservata esclusivamente alle leggi regionali"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Quando entrano in vigore leggi e regolamenti se non è specificata una data?",
+    "options": [
+      "Immediatamente dopo la pubblicazione",
+      "15 giorni dopo la pubblicazione in Gazzetta Ufficiale",
+      "30 giorni dopo l'approvazione parlamentare"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'abrogazione tacita di una legge avviene quando:",
+    "options": [
+      "Un referendum popolare la cancella esplicitamente",
+      "Una legge successiva regola la stessa materia in modo incompatibile con la precedente",
+      "La Corte Costituzionale dichiara la legge illegittima"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'interpretazione teleologica di una legge si basa su:",
+    "options": [
+      "Il significato letterale delle parole",
+      "L'intenzione del legislatore",
+      "Casi simili o materie analoghe"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "L'interpretazione analogica NON è valida per:",
+    "options": [
+      "Norme civili",
+      "Norme penali e norme eccezionali",
+      "Norme amministrative"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Una sentenza è un comando:",
+    "options": [
+      "Generale ed astratto",
+      "Individuale e concreto",
+      "Individuale ed astratto"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Il giudizio di legittimità (Corte di Cassazione) verifica:",
+    "options": [
+      "Il merito della causa e i fatti",
+      "La corretta applicazione del diritto nei precedenti gradi di giudizio",
+      "Nuove prove non presentate prima"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La capacità giuridica si acquista:",
+    "options": [
+      "Alla maggiore età",
+      "Alla nascita",
+      "Al compimento dei 16 anni"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La capacità di agire si acquista di norma:",
+    "options": [
+      "Alla nascita",
+      "Alla maggiore età",
+      "Con il primo contratto di lavoro"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Un'obbligazione può derivare da:",
+    "options": [
+      "Solo da un contratto",
+      "Solo da un fatto illecito",
+      "Da un contratto o da un fatto illecito"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La responsabilità extracontrattuale deriva da:",
+    "options": [
+      "Violazione di una clausola contrattuale",
+      "Un fatto illecito",
+      "Un accordo tra le parti"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Il 'testo consolidato' di una norma è:",
+    "options": [
+      "Il testo pubblicato per la prima volta in Gazzetta Ufficiale",
+      "Il testo vigente, che include tutte le modifiche",
+      "Un riassunto della norma a scopo divulgativo"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'massima' di una sentenza è:",
+    "options": [
+      "Il testo integrale della decisione del giudice",
+      "Un breve riassunto dei principi fondamentali tratti dalla sentenza",
+      "L'opinione personale del giudice sulla questione"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La 'dottrina' nel contesto giuridico si riferisce a:",
+    "options": [
+      "Le sentenze dei giudici",
+      "Le leggi emanate dal Parlamento",
+      "Pubblicazioni scritte dagli studiosi del diritto"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cosa sono gli 'usi e consuetudini' come fonti del diritto?",
+    "options": [
+      "Leggi scritte approvate dal Parlamento",
+      "Comportamenti ripetuti, uniformi e costanti con la convinzione che siano norme giuridicamente vincolanti",
+      "Opinioni espresse da giuristi famosi"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "La Costituzione italiana è definita 'rigida' perché:",
+    "options": [
+      "Non può mai essere modificata",
+      "Occorre un procedimento speciale per modificarla",
+      "Le sue norme sono molto severe"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Concetti giuridici di base",
+    "question": "Cosa succede se una legge di grado inferiore contrasta una di grado superiore?",
+    "options": [
+      "La legge di grado superiore viene automaticamente abrogata",
+      "La legge di grado inferiore è considerata illegittima",
+      "Si applica la legge più recente"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il diritto d'autore, secondo il Codice Civile, protegge le opere dell'ingegno di carattere creativo:",
+    "options": [
+      "Solo se registrate presso un ente apposito",
+      "Qualunque ne sia il modo o la forma di espressione, purché create",
+      "Solo se hanno un valore commerciale elevato"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "I diritti morali d'autore:",
+    "options": [
+      "Sono trasferibili e hanno una scadenza",
+      "Sono inalienabili, irrinunciabili e imprescrittibili",
+      "Durano 70 anni dopo la morte dell'autore"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il diritto patrimoniale d'autore dura, in generale:",
+    "options": [
+      "20 anni dalla creazione",
+      "Per tutta la vita dell'autore e per 70 anni dopo la sua morte",
+      "Fino a quando l'opera è commercialmente sfruttata"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La Legge 633/41 (LDA) tutela i programmi per elaboratore (software) come:",
+    "options": [
+      "Invenzioni industriali",
+      "Opere letterarie",
+      "Disegni e modelli"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La tutela del software si estende a:",
+    "options": [
+      "Le idee e i principi alla base del software",
+      "La forma espressiva del software (codice sorgente, eseguibile, materiale preparatorio), purché originale",
+      "L'algoritmo matematico implementato"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il titolare dei diritti esclusivi di utilizzazione economica sul software creato dal dipendente, nello svolgimento delle sue mansioni, è di norma:",
+    "options": [
+      "Il dipendente stesso",
+      "Il datore di lavoro, salvo patto contrario",
+      "Lo Stato"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "È consentito effettuare una copia di backup di un software a chi ha diritto d'uso?",
+    "options": [
+      "No, mai",
+      "Sì, se necessaria per l'uso e non può essere vietato dal contratto",
+      "Solo previa autorizzazione scritta della SIAE"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La registrazione di un software presso la SIAE:",
+    "options": [
+      "È obbligatoria per ottenere la tutela del diritto d'autore",
+      "È facoltativa e fornisce una prova dell'esistenza e titolarità alla data del deposito",
+      "Conferisce automaticamente il brevetto sul software"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'principio di esaurimento comunitario' nel diritto d'autore significa che:",
+    "options": [
+      "L'autore perde tutti i diritti dopo la prima vendita",
+      "Il diritto di distribuire un'opera si esaurisce nella Comunità Europea dopo la prima vendita autorizzata dal titolare",
+      "L'opera non può più essere modificata dopo la sua pubblicazione"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Le 'opere collettive' (es. enciclopedia) sono protette?",
+    "options": [
+      "No, solo le singole parti contribuenti",
+      "Sì, come opere originali, indipendentemente dai diritti sulle singole parti",
+      "Solo se tutti i contributori sono d'accordo"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "In un'opera in comunione, se non diversamente pattuito, il diritto spetta ai coautori:",
+    "options": [
+      "In parti proporzionali al contributo",
+      "In parti di valore uguale",
+      "Principalmente a chi ha avuto l'idea originale"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Quale di questi NON è un diritto morale dell'autore?",
+    "options": [
+      "Diritto di rivendicare la paternità dell'opera",
+      "Diritto all'integrità dell'opera",
+      "Diritto di ottenere un compenso economico per la distribuzione"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Le 'eccezioni' al diritto d'autore (es. riproduzione per uso personale, citazione) sono:",
+    "options": [
+      "Casi in cui l'utilizzazione è libera, nei limiti tassativi previsti dalla legge",
+      "Permessi generali di usare qualsiasi opera come si vuole",
+      "Accordi privati tra autore e utilizzatore"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Cosa NON è tutelato dalla LDA (Legge Diritto d'Autore)?",
+    "options": [
+      "Opere letterarie e musicali",
+      "Testi degli atti ufficiali dello Stato e delle Amministrazioni pubbliche",
+      "Programmi per elaboratore"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il trasferimento dei diritti di utilizzazione economica deve essere:",
+    "options": [
+      "Comunicato verbalmente",
+      "Provato per iscritto",
+      "Registrato obbligatoriamente alla SIAE"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Un autore può ritirare l'opera dal commercio per gravi ragioni morali?",
+    "options": [
+      "No, una volta pubblicata non può più ritirarla",
+      "Sì, ma ha l'obbligo di indennizzare coloro che hanno acquistato i diritti",
+      "Sì, senza alcuna conseguenza economica"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'diritto di seguito' si applica a:",
+    "options": [
+      "Tutte le opere dell'ingegno",
+      "Opere d'arte originali e manoscritti, in caso di vendite successive alla prima",
+      "Solo al software open source"
+    ],
+    "answer": 1 
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La tutela delle banche dati 'originali' (creative nella scelta o disposizione) è garantita da:",
+    "options": [
+      "Solo dal brevetto",
+      "Dal diritto d'autore come creazione intellettuale",
+      "Non sono tutelate"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il 'diritto sui generis' del costitutore di una banca dati (non originale) protegge:",
+    "options": [
+      "La creatività della banca dati",
+      "L'investimento rilevante per la sua costituzione, verifica o presentazione",
+      "Le idee contenute nella banca dati"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "La durata del diritto sui generis del costitutore di una banca dati è di:",
+    "options": [
+      "70 anni dopo la morte del costitutore",
+      "15 anni dal completamento o dalla prima messa a disposizione al pubblico",
+      "20 anni dalla registrazione"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Le 'misure tecnologiche di protezione' (DRM) possono essere rimosse dai titolari dei diritti?",
+    "options": [
+      "No, una volta applicate sono permanenti",
+      "Sì, se ostacolano utilizzi leciti o su richiesta delle autorità per fini di sicurezza pubblica",
+      "Solo se il software è open source"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "Il Regolamento AGCOM per la tutela del diritto d'autore online prevede procedure per:",
+    "options": [
+      "Solo la registrazione delle opere",
+      "La rimozione o disabilitazione di contenuti illeciti, più rapide di quelle giudiziarie",
+      "L'assegnazione di brevetti per software"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Diritto d'autore",
+    "question": "In caso di violazione del diritto d'autore, il titolare può richiedere in sede civile:",
+    "options": [
+      "Solo una sanzione penale",
+      "Risarcimento del danno e distruzione/rimozione dello stato di fatto",
+      "Unicamente un avvertimento formale"
+    ],
+    "answer": 1
+  },
+
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto, secondo il Codice Civile, è:",
+    "options": [
+      "Una promessa unilaterale",
+      "L'accordo di due o più parti per costituire, regolare o estinguere un rapporto giuridico patrimoniale",
+      "Una dichiarazione di intenti non vincolante"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "I contratti 'atipici' sono quelli:",
+    "options": [
+      "Vietati dalla legge",
+      "Non specificamente previsti e regolati dalla legge, ma diretti a realizzare interessi meritevoli di tutela",
+      "Che non richiedono forma scritta"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Quale NON è un requisito di validità del contratto?",
+    "options": [
+      "Accordo delle parti",
+      "Causa lecita",
+      "Notorietà del proponente"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La 'causa' del contratto è:",
+    "options": [
+      "Il motivo personale che spinge una parte a contrarre",
+      "La funzione economico-sociale del contratto",
+      "L'oggetto materiale del contratto"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto è concluso quando:",
+    "options": [
+      "Il proponente invia la proposta",
+      "L'accettante spedisce l'accettazione",
+      "Il proponente ha conoscenza dell'accettazione dell'altra parte"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le condizioni generali di contratto predisposte da uno dei contraenti sono efficaci se l'altro contraente:",
+    "options": [
+      "Le ha sottoscritte specificamente",
+      "Le ha conosciute o avrebbe dovuto conoscerle con ordinaria diligenza",
+      "Ha ricevuto una copia via email"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le clausole di esonero da responsabilità per dolo o colpa grave sono:",
+    "options": [
+      "Sempre valide",
+      "Nulle",
+      "Valide solo se approvate per iscritto"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Nel Codice del Consumo, una clausola si presume 'vessatoria' quando, malgrado la buona fede:",
+    "options": [
+      "È scritta in piccolo",
+      "Determina a carico del consumatore un significativo squilibrio dei diritti e degli obblighi",
+      "Non è stata letta dal consumatore"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le clausole vessatorie sono nulle se NON sono state oggetto di:",
+    "options": [
+      "Pubblicità adeguata",
+      "Trattativa individuale specifica",
+      "Approvazione da parte di un'associazione di consumatori"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto di licenza d'uso di software comporta che il licenziante:",
+    "options": [
+      "Cede la proprietà del software al licenziatario",
+      "Mantiene tutti i diritti di utilizzazione economica e concede al licenziatario il diritto di utilizzare il programma nei limiti previsti",
+      "Deve fornire aggiornamenti gratuiti a vita"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La 'licenza a strappo' (shrink-wrap) si considera conclusa:",
+    "options": [
+      "Al momento del pagamento del software",
+      "Con l'apertura della confezione del software, per comportamento concludente",
+      "Dopo aver letto e firmato un modulo cartaceo"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Le licenze 'copyleft' (come alcune Creative Commons SA):",
+    "options": [
+      "Vietano qualsiasi modifica o distribuzione dell'opera",
+      "Permettono l'uso libero senza condizioni",
+      "Obbligano la distribuzione di opere derivate alle stesse condizioni della licenza originale"
+    ],
+    "answer": 2
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La licenza Creative Commons 'Attribuzione - Non commerciale - Non opere derivate' (BY-NC-ND) permette di:",
+    "options": [
+      "Modificare l'opera e usarla commercialmente",
+      "Condividere l'opera così com'è per scopi non commerciali, attribuendola all'autore",
+      "Creare opere derivate e venderle"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Un contratto di sviluppo software, se l'esecutore è un imprenditore con organizzazione di mezzi, si configura come:",
+    "options": [
+      "Contratto di licenza d'uso",
+      "Contratto di appalto di servizi",
+      "Contratto di prestazione d'opera intellettuale"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Nel contratto d'opera intellettuale, il professionista ha un'obbligazione di:",
+    "options": [
+      "Risultato certo",
+      "Mezzi (diligenza professionale), non di risultato garantito",
+      "Sola consulenza"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Nel contratto di appalto, la proprietà dell'opera (es. software su misura) si trasferisce al committente:",
+    "options": [
+      "Al momento della stipula del contratto",
+      "Con la consegna e l'accettazione dell'opera",
+      "Solo dopo 1 anno dalla consegna"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Se l'opera appaltata presenta vizi, il committente deve denunciarli entro:",
+    "options": [
+      "8 giorni dalla scoperta",
+      "60 giorni dalla scoperta",
+      "1 anno dalla consegna"
+    ],
+    "answer": 1 
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La 'clausola di riservatezza' in un contratto di sviluppo software serve a:",
+    "options": [
+      "Garantire la pubblicità del codice sorgente",
+      "Vietare la comunicazione a terzi di informazioni riservate apprese durante il rapporto",
+      "Stabilire il prezzo del software"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "La 'nullità parziale' di un contratto (nullità di singole clausole) importa la nullità dell'intero contratto se:",
+    "options": [
+      "Le clausole nulle sono più di una",
+      "Risulta che i contraenti non lo avrebbero concluso senza quella parte colpita da nullità",
+      "La parte interessata lo richiede"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Qual è la differenza principale tra contratto di appalto e contratto d'opera intellettuale per sviluppo software?",
+    "options": [
+      "L'appalto riguarda solo hardware, l'opera intellettuale solo software",
+      "L'appalto implica un'organizzazione di mezzi da parte dell'appaltatore (impresa), l'opera intellettuale è svolta da un professionista senza tale organizzazione",
+      "L'appalto è sempre gratuito, l'opera intellettuale è sempre a pagamento"
+    ],
+    "answer": 1
+  },
+   {
+    "topic": "Contratti a oggetti informatico",
+    "question": "Cosa si intende per 'buona fede' nelle trattative e nell'esecuzione del contratto?",
+    "options": [
+      "Che le parti devono essere amiche",
+      "Un principio di correttezza e lealtà che le parti devono osservare",
+      "Che il contratto deve essere scritto in modo semplice"
+    ],
+    "answer": 1
+  },
+  {
+    "topic": "Contratti a oggetti informatico",
+    "question": "L'annullabilità del contratto può essere causata da:",
+    "options": [
+      "Contrarietà a norme imperative",
+      "Incapacità di una parte di contrattare o consenso viziato (errore, violenza, dolo)",
+      "Mancanza della forma scritta quando non richiesta dalla legge"
+    ],
+    "answer": 1
+  }
+]
